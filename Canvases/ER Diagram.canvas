@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"512f937d2a4dc46b","type":"group","x":-3480,"y":-60,"width":910,"height":565,"label":"Entity Relationship"},
+		{"id":"ed85da278ffaa1a1","type":"text","text":"ID","x":-3460,"y":-15,"width":190,"height":50},
+		{"id":"28c277009abc861c","type":"text","text":"Student","x":-3365,"y":145,"width":250,"height":60},
+		{"id":"997a62dd532192e2","type":"text","text":"Name","x":-3240,"y":-15,"width":170,"height":50},
+		{"id":"d2e4eab4184d0a5a","type":"text","text":"CourseID","x":-3210,"y":265,"width":190,"height":50},
+		{"id":"f8bbc56b2d241e9a","type":"text","text":"Course","x":-3115,"y":425,"width":250,"height":60},
+		{"id":"088f56d9a8305546","type":"text","text":"Title","x":-2990,"y":265,"width":170,"height":50},
+		{"id":"3f66a607cf198a18","type":"text","text":"ID","x":-2980,"y":-40,"width":190,"height":50},
+		{"id":"9744ef2e60651a0f","type":"text","text":"Name","x":-2760,"y":-40,"width":170,"height":50},
+		{"id":"7b38b688c0f9bfd0","type":"text","text":"Instructor","x":-2905,"y":145,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"e643b776fcf74e4b","fromNode":"28c277009abc861c","fromSide":"top","toNode":"ed85da278ffaa1a1","toSide":"bottom"},
+		{"id":"79297d8fd0b60271","fromNode":"28c277009abc861c","fromSide":"top","toNode":"997a62dd532192e2","toSide":"bottom"},
+		{"id":"de7d4812c100a347","fromNode":"7b38b688c0f9bfd0","fromSide":"top","toNode":"3f66a607cf198a18","toSide":"bottom"},
+		{"id":"c9f35f044ee4abb6","fromNode":"7b38b688c0f9bfd0","fromSide":"top","toNode":"9744ef2e60651a0f","toSide":"bottom"},
+		{"id":"3603bfb5b25abafc","fromNode":"f8bbc56b2d241e9a","fromSide":"top","toNode":"d2e4eab4184d0a5a","toSide":"bottom"},
+		{"id":"9dd5e1ea0a638b35","fromNode":"f8bbc56b2d241e9a","fromSide":"top","toNode":"088f56d9a8305546","toSide":"bottom"}
+	]
+}
