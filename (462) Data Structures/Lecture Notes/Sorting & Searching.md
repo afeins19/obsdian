@@ -41,7 +41,6 @@ _Worst-Case:_ O(Log(N))
 	orders values by  repetitively inserting into a min/max value into a sorted subset of the list  
 
 - each time we select the next element, we  must compare  it to the elements previously sorted in the list
-
 ### Time Complexity 
 _Best-Case_:  **O(N)**  - since the list  is  sorted, the element will not be compared against previously sorted elements 
 
