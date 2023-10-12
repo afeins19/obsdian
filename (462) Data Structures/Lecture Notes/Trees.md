@@ -23,7 +23,6 @@ trees can be classified in a few ways. The criterion we use is the maximum numbe
 
 _Binary Tree_: Trees which have at most 2 children
 
-
 ### Balanced Tree
 a tree is balanced if all the leaves of a tree are on the same level or within 1 level 
 
@@ -56,5 +55,33 @@ _post order_: traverse the sub-trees from left to right  and then visit the root
 - Left side -> Right  Side ->  Root 
 
 *Note: for traversals we always consider 3 nodes at a time*
+
+
+# Binary Search Trees
+
+## Adding elements
+
+1. new elements are added as leaf nodes
+2. start at rooth
+3. follow path dictated by existing elements (compare to each element in tree)
+4. continue to a node with no child 
+
+## Removing Elements
+
+**Cases**:
+- node to remove is a leaf node 
+	- trivial removal
+- node to remove has one child
+	- replace the node with its child
+- node to remove has 2 children 
+	- choose the node which will not violate the bst rule
+
+## Software Architecture
+- Node class to represent node
+	- data attribute 
+	- left child attribute
+	- right child attribute 
+	- set Node to default 
+
 
 

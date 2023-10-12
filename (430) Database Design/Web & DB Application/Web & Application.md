@@ -1,0 +1,66 @@
+Here we learn to create an application to allow users to structure and create queries to our database
+
+![[Screen Shot 2023-10-12 at 3.17.45 PM.png]]
+# Process 
+1. data from ui is sent to php
+2. php creates the sql query and send to the db
+3. php will receive the db response with the data it returned 
+4. php will then pass it to the UI
+
+*note: the backed php layer is the most important one here to focus on*
+
+# Setting up 
+
+1. create a directory to hold the php file 
+2. create a new file in a text editor 
+3. click explorer on XAMPP
+4. inside the XAMPP find htdocs
+5. create the cmpsc430 folder
+
+# Creating a connection to our DB 
+within the cmpsc430  folder, create a file with the following code
+```php
+<?php
+$servername = "localhost";  //php uses  '$' to denote variables
+$username = "root"; 
+$password = ""; //when database was created, we left the password field empty
+
+$dbname = "universitydb"; 
+
+//create database connection --  order is important: (server, username,password,dbname)
+$conn = new mysqli($servername, $username, $password, $dbname); 
+
+//check connection 
+if($conn -> connect_error){
+	die("Connection Failed: ".$conn->conect_error) //concatenate with the connection error 
+}
+
+else{
+	echo "Successfully Connected to the database!";
+}
+
+//Do your  db tasks here...
+
+//example: inserting data into database 
+
+//sql insertion 
+$sql = "insert into department values('social science', 'woodland', 95000)";
+
+//call to perform insertion (inform user of validity of insertion)
+if($conn->query($sql)==TRUE){
+	echo "<br/>"; //newline  
+	echo "insertion successful"; 
+}
+
+else{
+	echo "Error accessing the database: "$conn->error; 
+}
+
+
+//AFTER COMPLETION OF TASKS, TERMINATE THE CONNECETION
+$conn->close(); 
+?>
+```
+
+
+
