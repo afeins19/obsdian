@@ -61,6 +61,48 @@ else{
 $conn->close(); 
 ?>
 ```
+# Example
+say we want to increase the budget of the math department by 5% 
+```php
+$sql="UPDATE department SET budget = budget * 1.05 WHERE dept_name = 'math'"
+
+//running
+if($conn->query($sql)==TRUE){
+	echo "<br/>"; //newline
+	echo "Sucess"
+}
+
+else {
+	echo "<br/>";
+	echo "Error accessing the DB: ".$conn->error; }
+```
+
+# Extracting Information From THE DB
+```php
+//show all rows from the department table
+$sql="SELECT * FROM department"
+
+//running (result now holds all the rows from the department table)
+$result = $conn -> query($sql);
+
+//Number of rows is an attribute of result
+echo "<br/>Total rows: $result->num_rows<br/>"; 
+
+//displaying rows individually
+if($result->num_rows){
+	//Display
+	//output the data of each row using a loop
+	while($row = $result -> fetch_assoc()) { 
+		echo "Dep name: ".$row["dept_name"]." Building: ".$row["building"]." Budget: ".$row["budget"].<br/>;
+	}
+
+else{
+	echo "zero results";
+}
+
+```
+
+
 
 
 
