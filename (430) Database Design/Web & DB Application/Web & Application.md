@@ -101,8 +101,46 @@ else{
 }
 
 ```
+# Backend 
+- processes information 
+- recieve values
+- connect to db 
+- run query to write values 
+
+![[Screen Shot 2023-10-19 at 3.17.58 PM.png]]
+
+# Our DB Application
+## Frontend POST format
+welcome html index
+```html
+<html>
+	<body>
+		<form  action = "welcome.php" method = "post">
+		department name: <input type = "text" name = "dept_name"<br>
+		budget: <input type = "number" name = "budget"><br> 
+		<input type = "submit"> 
+		</form> 
+	</body>
+</html> 
+```
 
 
 
+## PHP (Backend)
 
+### Getting data from the html input 
+```php
+value1 = $_POST["dept_name"]; 
+value2 = $_POST["building"];
+value3 = $_POST["budget"]; 
+```
+*note that we have  not inserted anything into the db yet, we must now perform an insertion*
+
+###  Database Insertion 
+in php, we must specify the insertion
+```php
+$sql = "insert into deparment values ('$value1', '$value2', '$value3')"
+
+$conn = new mysqli($)
+```
 

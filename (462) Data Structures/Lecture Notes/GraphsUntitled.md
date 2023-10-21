@@ -2,6 +2,8 @@
 
 Graphs allow us to represent more connections between nodes and will show where one can travel from any given node 
 
+*note:  graphs do not have a root node*
+
 _Graph_: set of points that are joined by lines
 - G = {V, E} 
 
@@ -17,7 +19,6 @@ _Disconnected_: some vertices do not have edges
 _Complete_: all edges connect to each other
 
 ![[Screen Shot 2023-10-05 at 9.26.10 AM.png]]
-
 # Directed Graphs
 - edges are ordered pairs (show direction of travel)
 
@@ -47,3 +48,8 @@ a graph has strong connectivity if every 2 vertices are reachable from each othe
 *note: if we remove edge (d,e) we wont be able to reach e thus making it weak*
 
 ![[Screen Shot 2023-10-05 at 9.38.49 AM.png]]
+
+## Subgraphs
+A sub graph H of G is:
+- itself a graph
+- its edges and vertices are subsets of those G
