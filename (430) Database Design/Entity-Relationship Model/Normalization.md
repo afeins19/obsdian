@@ -118,3 +118,51 @@ unf -> 1nf (set a true pk)
 ![[Screen Shot 2023-11-28 at 3.56.40 PM.png]]
 
 # EXAM DEC 7th (NO CLASS 5th )
+
+# Normalization Practice 
+
+## Question 1 
+- lease table 
+- placeNo uniquely identifies each room in all flats and is used when leasing a room to a student 
+
+![[Screen Shot 2023-11-30 at 3.11.43 PM.png]]
+1. find the functional dependencies 
+2. find the primary key for the table 
+3. is this table 3NF? if not, explain
+
+1. Functional Dependencie:
+flatNo -> flatAddress
+bannerId -> fName, lName 
+placeNo -> flatNo 
+leaseNo -> All other Attributes (primary key) 
+
+2. primary key 
+leaseNo -> All other attributes (definition of primary key relation) 
+
+3. NF rating:
+Atleast 1NF? yes, primary key exists 
+Atleast 2NF? yes, no partial dependencies 
+Atleast 3NF? No, There exist multiple transitive dependencies so this is not 3NF 
+
+## Converting the Above table into 3NF 
+1. remove transitive dependencies:
+create new individual tables for all transitive relationships: 
+- bannerId -> fName, lName = studentTable: (bannerId, fName, lName) 
+- placeNo -> flatNo, flatAddress = placeTable: (placeNo, flatNo, flatAddress)
+**NOTE: placeTable must be further decomposed as we have the relationship flatNo-> flatAddress**s
+- flatTable: (flatNo, flatAddress)
+
+remove the following collumns from the table
+- fName, lName
+- flantNo, flatAddress
+
+
+# Exam 2: 
+(no classes next week)
+- December 7th (Entire Day to solve, submit by midnight)
+
+## Topics
+- Normalization 
+- ER Model (Explanation and Diagram) 
+- Fact - Finding Techniques (advantages vs disadvantages) 
+- DB Development Life Cycle 
