@@ -139,6 +139,16 @@ def dfs(self, start_node):
     self.print_paths(paths=[visited])
 ```
 DFS works in a fairly similar way to BFS, except with one crucial difference. DFS uses a stack to order the nodes to be visited next. When a node's neighbors are added to the stack, they are visited immediatly. This ensures that we traverse the depth through a path of nodes before moving on to the neighbor of the root. 
+
+## Time Complexities 
+Terms: 
+- V = vertices
+- E = edges 
+
+Both BFS and DFS have equivalent time complexities. This makes sense as we are visiting an equal number of nodes for each type of traversal. The time complexity of these traversal algorithms is 
+$$O(V+E)$$
+ as they scale with respect to the number of vertices and edges to be visited 
+
 ## Part 2
 
 ### Graph Representation (Part 2)
@@ -234,6 +244,11 @@ def mst_kruskal(self):
     return mst
 ```
 Kruskals algorithm involves viewing the graph as a whole and breaking it down. We start by removing all paths which are self loops. We then remove redundant paths (paths from node a to node b where a cheaper path already exists). After this, we order the paths from least to greatest and then begin adding nodes from this ordering, only adding nodes if they have not already been added. 
+
+### Time Complexity 
+$$O(E log V)$$
+This is due to us needing to sort each edge in a linear order. 
+
 ### Prims Algorithm 
 
 #### Helper Functions 
@@ -304,6 +319,11 @@ def mst_prims(self):
 ```
 prims works by selecting a starting node and then visiting that nodes' neighbors. When a neighbor is visited. We add its neighbors to the frontier and then treat the collection of nodes as a single "node". We then add each of this "nodes" neighbors to the frontier (neighbors of the outer most nodes of our graph that have been visited so far). 
 
+### Time Complexity 
+$$O((E+V)logE)$$
+
+this is achievable with a min-heap. Unfortunately, my implementation does not use a prioritization technique so it may visit more nodes than needed. My Algorithm seems to be running at O(VE) as i may end up needing to check all vertices. 
+
 ### Dijkstras Algorithm
 ```python 
 def mst_djikstras(self, start_node=None):  
@@ -346,6 +366,10 @@ def mst_djikstras(self, start_node=None):
 ```
 Dijkstras Algorithm is designed to find the shortest path between all nodes in a graph. It works by visiting each node and seeing if there exists a shorter path to this node from the node that its visiting, if so it updates the path cost required to reach that node and continues until all nodes have been visited. 
 
+### Time Complexity 
+Djikstras Algorithm has a time complexity of:
+$$O((V + E) * log(V))$$
+This is achievable by implementing a priority queue that selects for the lowest path costs. For each node and edge combination, we will be choosing the one one with the lowest path cost reducing the possible other vertices to visit by half hence the log(v)
 # Testing
 
 ### Part 1
