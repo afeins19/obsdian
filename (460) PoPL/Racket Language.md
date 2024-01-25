@@ -76,5 +76,5 @@ we can do symbolic programming in racket. To define a symbol we first do a tick 
 	s-exp 
 ### Example of S-Expression 
 ```Haskell 
-`(+ ,(number->s-exp (+ 1 2)) 3)
+`(+ ,(number -> s-exp (+ 1 2)) 3)
 ```

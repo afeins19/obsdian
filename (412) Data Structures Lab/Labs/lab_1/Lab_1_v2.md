@@ -79,6 +79,7 @@ for i in range(3):
     end=time.time()
 
     list_retrieval_times.append(getDuration(start, end))
+    
     start = time.time()
     exists = r in test_dict  # performs a retrival and stores existance of the object in the list as a boolean
     end = time.time()

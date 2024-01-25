@@ -82,3 +82,4 @@ suppose that A-Z is an unstable pair: each prefers each other to partners in a g
 -> A-Z is stable 
 
 as these are the only 2 cases, it must be that A-Z must be stable 
+

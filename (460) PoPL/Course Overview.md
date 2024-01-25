@@ -28,3 +28,10 @@
 15. Lazy Evaluations  
 16. Final Exam Comprehensive exam  
 covers all content in course
+
+# General Tips
+
+### Functions 
+- whats the dimension?
+- whats the output?
+- whats the base case?

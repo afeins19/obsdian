@@ -14,7 +14,7 @@
 # Device Controllers 
 	 an abstraction of a hardware device, it acts as an interface between the cpu and the hardware (although they may sometimes may be built-in to the cpu)
 
- - Each hardware device usually has a set of registers to important information such as state
+ - Each hardware device usually has a set of registers to hold important information such as state
  - internal device controllers have a local buffer (a small temporary storage area used to hold data while its being moved or processed) 
 - CPU moves data from/to main memory to/from local buffers 
 - Device controllers can inform the cpu that it has finished some process by way of an **Interrupt**
@@ -53,7 +53,6 @@ a hardware or software signal that demands **immediate attention by an OS**
 - disk controller determines the logical interaction between the device and the computer
 ### SSDs
 - faster and non-volatile 
-
 
 # Caching 
 	copying information into a faster storage system; main memory can be viewed as a cahce for secondary storage. The system checks the next fastest layer of memory for data and if it is absent goes to the next fastest and so on.

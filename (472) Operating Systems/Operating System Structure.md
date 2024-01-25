@@ -81,7 +81,6 @@ execute system call in kernel mode
 - **deciding** which process (or parts thereof) and data to move into and out of memory 
 - **allocating** and deallocating memory space as needed 
 
-
 # Storage Management 
 	the operating system provides a uniform, logical view of information storage 
 - abstracts physical properties to a logical storage unit - **file** 
@@ -127,6 +126,56 @@ systems generally first distinguish among users, to determine who can do what
 - Viruses 
 - Identity Theft 
 
+# Operating System Services 
+### File System manipulation 
+	programs need to read and write files and directories, create and delete them, search them, list file information, and manage permissions. 
+### Communication
+	processes may exchange information on the same computer or between computers on a network. The OS facilitates this. 
+### Error Detection
+	the OS needs to be constantly as aware as possible about possible errors
+- may occur in the cpu and memory hardware, i/o devices, or user programs
+- for each type of error, os should take an appropriate action to ensure correct and consistent computing
+- debugging facilities can greatly enhance the user's and programmer's abilities to efficiently use the system
+### Resource allocation
+	when multiple users or multiple jobs are running concurrently, resrouces must be allocated to each of them 
+- many types of resources - cpu cycles, memory etc.
+### Accounting 
+	keeps track of which users use how much and what computer resources 
+### Protection 
+	protection involves ensuring that all access to system resources is controlled 
+### Security
+	protects the system from outsiders, requires user authentication, extends to defending external i/o devices from invalid access attempts 
 
+# Interfaces 
+
+## Command Line Interface (CLI)
+- getting the user to input a command that will directly be executed 
+- it reads commands from the user or from a file of commands and executes them. Usually turns commands into one or more system calls 
+
+### Shell 
+	a command interpreter given through the terminal. It is both an interpreter and a programming language 
+- provides the user with an interface to the kernel
+- named a shell because it is the outermost layer around the operating system
+- assigned by os after logging through terminal (using shell over the terminal)
+	- sometimes, terminal and shell are used interchangeably 
+	- terminal is a text-based interface
+	- shell is a command-line interpreter 
+
+## Graphical User Interface (GUI)
+	user-friendly desktop metaphor interface which allows users to interact using a mouse, keyboard, and a monitor. icons represent files, programs, and actions. various mouse buttons over objects in the interface cause various actions. 
+
+### Touch Screen
+	mouse is not possible to be used or desired. Actions and selection based on gestures. Virtual keyboard is used too. 
+
+## Design Trade-offs 
+- simplicity vs. feature-richness
+- consistency vs. customization
+	- degree of customization 
+- visual appeal vs. performance
+- accessibility vs. simplicity 
+	- accessibility features like screen readers and voice commands 
+- discoverability vs. efficiency
+	- making features easily discoverable to newcomers 
+- security vs. convenience 
 
 

@@ -210,3 +210,15 @@ printResults("Deletion", list_remove_times, dict_remove_times)
 (1) What do you understand from this exercise? Explain in detail: 
 	I learned that the list and dictionary data structures share different properties. Printing and retrieval take much less time for a list than a dictionary.  This is due a list being linearly linked and involves searching through the entire list (in the worst case). 
 	Insertion and deletion however favor dictionaries as they are not linked and only require a key to lookup the corresponding item. Adding to or deleting from a list involves modifying the index of each subsequent entry. 
+```python 
+testdict={}
+testlist=[]
+
+for i in range(1000):
+	testdict[i]=i
+
+testlist = list(testdict.keys())
+
+# generating indecies to test
+idx = random.sample(testlist, 3) 
+```

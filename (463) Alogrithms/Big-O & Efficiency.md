@@ -55,9 +55,9 @@ for i in range(n):
 | 1 | 2c | 1 |
 | 2 | 3c | 2 |
 | n | nc | n-1 |
-$$ T = c + 2c + 3c + 4c + ... +nc = c(1+2+3+...+n) = c((n(n+1))/2$$
+$$ T = c + 2c + 3c + 4c + ... +nc = c(1+2+3+...+n) = c \frac{(n(n+1)}{2}$$
 we then can reduce this to 
-$$ T = c((n^2/2) + (n/2))$$
+$$ T = c(\frac{n^2}{2} + \frac{n}{2})$$
 $$O(c((n^2/2) + (n/2)) = O(n^2)$$
 
 ### Conditional Statements 
@@ -120,7 +120,49 @@ this is much better than O(n) which grows much faster than log(n)
 	binary search involves traversing a sorted list of elements. Start at the middle. If the target element is less than current value, disregard right half of list. If item is greater than current value, disregard the left have of the list. Continue until item is found. 
 
 Binary search has a time complexity of 
-$$ T(n) = T(n/2) + c = T(n/(2^2) + c + c = T(n/2^k) + kc $$
+$$ T(n) = T(\frac{n}{2}) + c = T(\frac{n}{2^2} + c + c) = T(n/2^k) + kc $$
 - k = log_2(n) so the term T(n/2^k) = T(n/n) = T(1)
 $$T(n) = T(1) + c(log_2(n)) = 1 + c(log_2(n)) => O(log_2(n)) $$
 ### TODO: Research growth rate of tower of hanoi (look at powerpoints from today's slides)
+
+# Fibonacci Numbers 
+$$0,1,1,2,3,5,8,13 \\...$$
+
+recall the recursive approach to finding these 
+```python 
+def fib(index):
+	if index == 0: # base case 
+		return 0
+	if index == 1: # base case 
+		return 1
+	else:
+		return fib(index-1) + fib(index-2)
+```
+
+### Time Complexity with recursion 
+	if we let just use the above function, we end up with 2 operations for first index, 4 for the second, 8 for the third and so on which leaves us with an exponential time complexity:
+
+$$O(n) = 2^n$$
+this value diverges the quickest of all time complexities. 
+
+# Asymptotic Analysis
+	a mathematical definition of Big-O notation 
+
+_Asymptote_: a line that continually approaches a given curve but does not meet it at any finite distance 
+![[Screen Shot 2024-01-18 at 12.20.41 PM.png]]
+
+### Upper Bound 
+	worst case. This is what Big-O is. 
+
+![[Screen Shot 2024-01-18 at 12.24.56 PM.png]]![[Screen Shot 2024-01-18 at 12.25.05 PM.png]]
+- if we find a number c and n_0 such that
+- $$T(n)\le c \times f(n) \:\:\: \forall n \ge n_0 $$
+### Lower bound 
+	we also have a definition for the lower bound (best case scenario for our algorithms)
+	
+![[Screen Shot 2024-01-18 at 12.38.46 PM.png]]
+### Exact Bound  
+	we can find a range where T(n) is bounded between 2 functions 
+
+![[Screen Shot 2024-01-18 at 12.39.43 PM.png]]
+
