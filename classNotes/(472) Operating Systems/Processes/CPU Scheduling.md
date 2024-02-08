@@ -1,9 +1,9 @@
 # CPU Burst
 the amount of time the process uses the processor before it is no longer ready. For maximum cpu utilization and efficiency, we use multiprogramming. 
-- varrries from process to process
+- varries from process to process
 - long bursts - process is cpu bound (array work)
 - short bursts - process i/o bound (vi)
-- running processs is moved to the ready state when its time allocation expires 
+- running process is moved to the ready state when its time allocation expires 
 
 Histogram of CPU burst times 
 ![[Screen Shot 2024-02-07 at 10.28.53 AM.png]]
