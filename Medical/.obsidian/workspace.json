@@ -11,8 +11,12 @@
             "id": "5f8d6a64969e5cc0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Therapy/My Values.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9ed3a85c211ebf8f",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Therapy/My Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Therapy/My Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Therapy/My Values.md"
+              }
             }
           }
         ]
@@ -139,5 +148,8 @@
     }
   },
   "active": "5f8d6a64969e5cc0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Therapy/My Values.md",
+    "Attachments"
+  ]
 }
