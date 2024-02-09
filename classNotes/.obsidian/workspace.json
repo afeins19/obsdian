@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d9e1183633b53743",
+        "id": "88199ad263c34124",
         "type": "tabs",
         "children": [
           {
-            "id": "eae5a2d1be484d6c",
+            "id": "a3835c1bab2a004b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md"
+                "file": "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md"
               }
             }
           }
@@ -146,8 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "879aec6a0230d1e4",
+  "active": "a3835c1bab2a004b",
   "lastOpenFiles": [
+    "Attachments/Screen Shot 2024-02-09 at 1.47.33 PM.png",
+    "Attachments/Screen Shot 2024-02-08 at 12.15.05 PM.png",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/K-Nearest",
+    "(472) Operating Systems/Processes/CPU Scheduling.md",
+    "Attachments/Screen Shot 2024-02-09 at 10.43.06 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.42.28 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.38.27 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.38.16 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.29.01 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.27.37 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.20.46 AM.png",
+    "(472) Operating Systems/Processes/Threads & Concurrency.md",
+    "(463) Alogrithms/Algoritms/Sorting Algorithms/Quicksort.md",
+    "Attachments/Screen Shot 2024-02-08 at 12.27.37 PM.png",
+    "Attachments/Screen Shot 2024-02-08 at 12.17.12 PM.png",
+    "(463) Alogrithms/Algoritms/Sorting Algorithms",
+    "(463) Alogrithms/Algoritms/Sorting Algorithms/Merge Sort.md",
+    "(445) Machine Learning/Course Overview.md",
+    "(445) Machine Learning/What is Machine Learning.md",
+    "(413) Algorithms Lab/KM Pattern Matching Algorithm.md",
     "academicPlan/COURSES.md",
     "academicPlan/Last Semester Requirements.md",
     "academicPlan"
