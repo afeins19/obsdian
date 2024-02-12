@@ -44,8 +44,8 @@ optimizer for any machine learning model. Takes in models and parameters. The sk
 
 **estimator**: object
 - assumed to implement the scikit-learn estimator interface
-- either estimator needs to provide a score function or some scoring function must be passed it
+- either estimator needs to provide a score function or some scoring function must be passed in 
 
 **param_grid**: dict or list of dicts
-- names as keys and lists of paramter settings to try as values or a list of such dictionaries 
+- names as keys and lists of parameter settings to try as values or a list of such dictionaries 
 
