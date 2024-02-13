@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Therapy/My Values.md",
+                "file": "Symptoms/Symptoms.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9ed3a85c211ebf8f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Therapy/My Values.md",
+                "file": "Symptoms/Symptoms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Therapy/My Values.md",
+                "file": "Symptoms/Symptoms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Therapy/My Values.md"
+                "file": "Symptoms/Symptoms.md"
               }
             }
           }
@@ -149,6 +148,10 @@
   },
   "active": "5f8d6a64969e5cc0",
   "lastOpenFiles": [
+    "Symptoms/Medications.md",
+    "Symptoms/Symptoms.md",
+    "Psychiatrists.md",
+    "Symptoms",
     "Therapy/My Values.md",
     "Attachments"
   ]
