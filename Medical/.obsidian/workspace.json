@@ -11,9 +11,11 @@
             "id": "5f8d6a64969e5cc0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "psychiatrist/Symptoms/symptoms.pdf"
+                "file": "psychiatrist/Symptoms/Symptoms.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "psychiatrist/Symptoms/symptoms.pdf",
+                "file": "psychiatrist/Symptoms/Symptoms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "psychiatrist/Symptoms/symptoms.pdf",
+                "file": "psychiatrist/Symptoms/Symptoms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "psychiatrist/Symptoms/symptoms.pdf"
+                "file": "psychiatrist/Symptoms/Symptoms.md"
               }
             }
           }
@@ -144,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f8d6a64969e5cc0",
+  "active": "1419cd08b4feefbb",
   "lastOpenFiles": [
-    "psychiatrist/Symptoms/medications.pdf",
-    "psychiatrist/Medications.md",
-    "psychiatrist/Symptoms/Symptoms.md",
+    "psychiatrist/Medications",
+    "psychiatrist/Medications/medications.pdf",
     "psychiatrist/Symptoms/symptoms.pdf",
+    "psychiatrist/Medications/Medications.md",
+    "psychiatrist/Symptoms/Symptoms.md",
     "Symptoms/Symptoms.md",
     "Psychiatrists.md",
     "Symptoms/Medications.md",
