@@ -52,11 +52,11 @@ note that **dispatch latency** is a huge factor to consider. Processes with many
 depending on the criteria, this either becomes a maximization and minimization problem. (max util and throughput, min everything else).
 - cpu utilization
 - throughput - number of processes that are completed per time unit
-- turnaround time - amount of time to execute a particular process
+- turnaround time - amount of time from arrival of a particular process to completion 
 - waiting time - amount of time a process has been waiting in the ready queue 
 - response time = amount of time it takes from when a request was submitted until the first response is produced 
 
-# FCFC  (FIFO) Scheduling 
+# FCFS  (FIFO) Scheduling 
 
 Long burst process arrives first -> average waiting time is quite high 
 ![[Screen Shot 2024-02-07 at 10.52.12 AM.png]]
@@ -78,3 +78,56 @@ tries to solve the problem of the convoy effect. It tries to Associate each proc
 ### Estimating Process Time 
 ![[Screen Shot 2024-02-07 at 11.01.05 AM.png]]
 
+# Round Robin Scheduling (RR)
+a cpu scheduling algorithm where each process is assigned a **fixed time slot in a cyclic way**. 
+no processs waits more than $q(n-1)$ time units. *n processes in the queue. q is called the quantum or the amount of time allocated to each process*.
+- small unit of CPU time (usually 10-100 milliseconds)
+- **Timer interrupts every quantum** to schedule next process
+- **q must be large with respect to context switch**
+
+### Performance of Round Robin
+- large q -> fifo
+- small q -> many context switches 
+
+![[Screen Shot 2024-02-09 at 10.20.46 AM.png]]
+
+# Priority Scheduling 
+a scheduling algorithm where each process is assigned a priority number. The CPU is then allocated to the process with the highest priority. By convention, the lowest integer means the highest priority. Processes can be scheduled either:
+- preemptively - CPU limits resources (time) to the current process 
+- non-preemptively - process remains in CPU until the job is done 
+
+### Starvation Problem 
+low priority processes may never execute since higher priority processes might always be added to the queue. The solution to this is **Aging** - as time goes on, increase the priority of each process. 
+
+![[Screen Shot 2024-02-09 at 10.27.37 AM.png]]
+
+# Combining Priority and Round Robin Scheduling 
+the idea here is that we use a priority queue to schedule processes and when we have some processes with equal priorities, use round robin on them. 
+
+![[Screen Shot 2024-02-09 at 10.29.01 AM.png]]
+
+# Thread Scheduling 
+recall the difference between user-level and levels threads. User-level threads are NOT managed by the Kernel. Many to one and Many to Many models are used to schedule user-level threads on the LWP. 
+- user level threads have a **process contention scope (PCS)** since scheduling competition is within a given process 
+- the **programmer** specifies the user-level thread priorities and is not modified by the thread library 
+- Kenell level threads are scheduled onto availablle cpu space and is called **system contention scope (SCS)** which is the competition among all threads in the system. 
+	- all threads in the system compete for the cpu
+![[Screen Shot 2024-02-09 at 10.38.16 AM.png]]
+![[Screen Shot 2024-02-09 at 10.38.27 AM.png]]
+
+# Applying Thread Scheduling 
+as the programmer, we can apply process scheduling to either user or kernel level scopes. With POSIX, we can use
+```c
+PTHREAD_SCOP_PROCESS
+PTHREAD_SCOPE_SYSTEM
+```
+for either PCS or SCS scheduling. Note that these are mere *suggestions* to the OS. The main policy that the OS is running is given final decision. Note that we may have a complex relationship of process types within our system. ![[Screen Shot 2024-02-09 at 10.42.28 AM.png]]
+- many to one 
+- one to one 
+- PCS and SCS threads within the same process 
+
+### Getting PThread Scope for some process 
+![[Screen Shot 2024-02-09 at 10.43.06 AM.png]]
+
+### pthread_join
+a function that waits for child process to finish before the parent process moves on.

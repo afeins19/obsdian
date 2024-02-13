@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "8b17677d6d43b8af",
+    "id": "11c0516f1b981bd3",
     "type": "split",
     "children": [
       {
-        "id": "d9e1183633b53743",
+        "id": "783ae426434cdd3d",
         "type": "tabs",
         "children": [
           {
-            "id": "eae5a2d1be484d6c",
+            "id": "4bc51f1c93c3a721",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b942e583b98b47f7",
+    "id": "4b5e3a27c862f81e",
     "type": "split",
     "children": [
       {
-        "id": "6a8da745c4e93dc8",
+        "id": "87c8da9876a89958",
         "type": "tabs",
         "children": [
           {
-            "id": "879aec6a0230d1e4",
+            "id": "39c9bb79782a075c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "8e0af27e6148c311",
+            "id": "0f441c86d1eb9876",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "9bcf391926756e09",
+            "id": "c1220cae7136b725",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "b1e5666589850e68",
+    "id": "004b8529c7faf751",
     "type": "split",
     "children": [
       {
-        "id": "1c186778a5b33f7e",
+        "id": "08e65413c0f9748d",
         "type": "tabs",
         "children": [
           {
-            "id": "00366102ca40e543",
+            "id": "898047311cdf1048",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +98,19 @@
             }
           },
           {
-            "id": "5b5202ce16dddf2f",
+            "id": "8cc28090e1c89cd7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md",
+                "file": "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e19363661ba97374",
+            "id": "aaec44e52655d7c8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +121,12 @@
             }
           },
           {
-            "id": "43b793ef45dfd8bb",
+            "id": "b69d1479e579b602",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/CPU Scheduling.md"
+                "file": "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md"
               }
             }
           }
@@ -146,10 +147,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eae5a2d1be484d6c",
+  "active": "4bc51f1c93c3a721",
   "lastOpenFiles": [
-    "academicPlan/COURSES.md",
-    "academicPlan/Last Semester Requirements.md",
-    "academicPlan"
+    "(445) Machine Learning/Data Visualization/Plotting Libraries.md",
+    "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
+    "(445) Machine Learning/Naive Bayes",
+    "(445) Machine Learning/Data Visualization/Data Visualization.md",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/Data Visualization",
+    "README.md",
+    "(472) Operating Systems/Processes/Multicore Process Scheduling.md",
+    "Attachments/Screen Shot 2024-02-12 at 10.55.19 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.52.00 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.50.40 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.47.08 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.40.48 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.39.54 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.38.38 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.22.48 AM.png",
+    "Attachments/Screen Shot 2024-02-12 at 10.19.58 AM.png",
+    "(472) Operating Systems/Processes/Multicore Processing.md"
   ]
 }
