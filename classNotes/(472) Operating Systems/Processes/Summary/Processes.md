@@ -17,4 +17,10 @@ a process may exist in the following states
 - terminated - the process has finished executing 
 
 # Threads 
-the smallest discrete computation unit to the OS. A process can be divided into multiple threads 
+the smallest discrete computation unit to the OS. A process can be divided into multiple threads. Sometimes these threads are called **Light Weight Processes (LWPs)** have their own program counters, execution sequence, register set and stack.  
+
+# User level threads
+threads which are scheduled and managed by user libraries, the kernel however does not directly manage or schedule these threads
+
+# kernel level threads 
+the kernel directly manages and schedules kernel level threads and they are visible to the kernel directly 
