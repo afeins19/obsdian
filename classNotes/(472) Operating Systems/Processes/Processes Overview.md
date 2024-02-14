@@ -1,10 +1,10 @@
-recalll that a **process** is a program in execution. This execution must progress in sequential fashion (the term job and process are interchangable)
+recall that a **process** is a program in execution. This execution must progress in sequential fashion (the term job and process are interchangeable)
 
 # Parts of a process
 - Text section: the program  code
-- CPU context: cpi state information such as program counter and register
+- CPU context: cpu state information such as program counter and register
 - Stack: temporary data
-	- function parameters, return addresses, locall variables
+	- function parameters, return addresses, local variables
 - Data section: global variables
 - Heap: memory dynamically allocated during run time
 
@@ -57,11 +57,11 @@ each thread is designated a Thread Control Block (TCB)
 ### Queueing diagram represents queues, resources, and flows
 ![[Screen Shot 2024-01-24 at 10.45.21 AM.png]]
 
-### Short Term Scheuler
+### Short Term Scheduler
 selects process to be executed next 
 - invoked frequently and must be fast 
 
-### Long term scheeuler 
-sellects which processses should be brought into the ready queue
+### Long term scheduler 
+selects which processes should be brought into the ready queue
 - invoked infrequently
-- long-term scheduler controlls the degree of multiprogramming 
+- long-term scheduler controls the degree of multiprogramming 
