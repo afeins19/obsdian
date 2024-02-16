@@ -1,3 +1,8 @@
+# Dr. Michelle Kraske
+psychologist specialized in treating anhedonia - **Book to read**
+# Dr. Zavodnik
+Philadelphia - excellent medication management and long term expertise 
+
 # Rittenhouse Psychiatric 
 have included our rates below. Please keep in mind that we do not accept any health insurance. You may be eligible for reimbursement for fees paid if your insurance plan has out of network behavioral benefits. Included are procedure codes for the appointments should you want to reach out to your insurance company regarding such. If you do contact your insurance company be sure to ask about **“out of network” behavioral benefits** and the process for you to submit your receipt for reimbursement. Additionally, if you are scheduling a telehealth appointment, please confirm with your insurer that they provide reimbursement for these visits. If they ask, the modifier for telehealth visit -95. If you would like a more in depth explanation of “out of network” behavioral benefits, follow this link for a quick video from Dr. Christopher Pagnani [https://www.youtube.com/watch?v=W1Wrbdp40kc](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.youtube.com_watch-3Fv-3DW1Wrbdp40kc&d=DwMFAg&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=f-6ehhSuSEu8JJNUj9Iby-2E7cm69ZLzAYEC3LFh1F0&m=C38HprbqvDGw-9wD1LV5BkwSg4X_N-49nBYPB2_skTQ&s=XA4LSsTyiL2Dh3Qjp_NsDbZnI6zOq_Nft1Cl9oagqJs&e= "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.youtube.com_watch-3Fv-3DW1Wrbdp40kc&d=DwMFAg&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=f-6ehhSuSEu8JJNUj9Iby-2E7cm69ZLzAYEC3LFh1F0&m=C38HprbqvDGw-9wD1LV5BkwSg4X_N-49nBYPB2_skTQ&s=XA4LSsTyiL2Dh3Qjp_NsDbZnI6zOq_Nft1Cl9oagqJs&e=") 
 

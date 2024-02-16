@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "196dc9d5c0dee6d1",
+    "id": "a9858120a7803e29",
     "type": "split",
     "children": [
       {
-        "id": "0b330359640b0ac4",
+        "id": "05702516e5b09663",
         "type": "tabs",
         "children": [
           {
-            "id": "5f8d6a64969e5cc0",
+            "id": "838ac951db9b0735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "psychiatrist/Medications/medications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c278c8c6f8bf0cc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attachments/CBT.md",
+                "file": "green_learning.jl.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b8590ffdb051d93d",
+    "id": "5f88b296065b54a0",
     "type": "split",
     "children": [
       {
-        "id": "e3a8f160f7007141",
+        "id": "aeaa94a3621a5a0d",
         "type": "tabs",
         "children": [
           {
-            "id": "1419cd08b4feefbb",
+            "id": "2504af9a2cee71fe",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "e9bc74ea52951bf6",
+            "id": "1525134897f53d42",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "4e9c4cd95e120ef4",
+            "id": "7307ed8a29995b94",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +69,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
-    "id": "9ed3a85c211ebf8f",
+    "id": "6021faa0ac8fb39a",
     "type": "split",
     "children": [
       {
-        "id": "1d9c67480ec058c7",
+        "id": "9e6c0d6971b762e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8dd6c8247acb403a",
+            "id": "2783471debec358f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/CBT.md",
+                "file": "green_learning.jl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +98,19 @@
             }
           },
           {
-            "id": "bf01d6a493fc873c",
+            "id": "b2e3997593a5ffd7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/CBT.md",
+                "file": "green_learning.jl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c880f3c3d697168e",
+            "id": "150d46f56cdae5cd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +121,12 @@
             }
           },
           {
-            "id": "ceb1ca0fbbdf069a",
+            "id": "2e2e4b7313962aa6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/CBT.md"
+                "file": "green_learning.jl.md"
               }
             }
           }
@@ -159,25 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c278c8c6f8bf0cc0",
+  "active": "838ac951db9b0735",
   "lastOpenFiles": [
-    "psychiatrist/Medications/medications.md",
-    "Attachments/CBT.md",
-    "psychiatrist/Medications/medications.pdf",
-    "Psychiatrists & Psychologists.md",
-    "Therapy/My Values.md",
-    "Therapy/My Values.pdf",
-    "psychiatrist/Meetings/meeting_1-2_13_2014.md",
-    "psychiatrist/Symptoms/symptoms.md",
-    "psychiatrist/Meetings/Untitled.md",
-    "psychiatrist/Meetings",
-    "psychiatrist/Medications",
-    "psychiatrist/Symptoms/symptoms.pdf",
-    "Symptoms/Symptoms.md",
-    "Symptoms/Medications.md",
-    "psychiatrist/Symptoms",
-    "psychiatrist",
-    "Symptoms",
-    "Attachments"
+    "Welcome.md",
+    "green_learning.jl.md",
+    "scripts"
   ]
 }

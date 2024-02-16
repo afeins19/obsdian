@@ -146,43 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "fb4f210aaa1408b1",
-    "type": "floating",
-    "children": [
-      {
-        "id": "86f9e56b3dc31f49",
-        "type": "window",
-        "children": [
-          {
-            "id": "6f529afcbc6a4508",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "79b437474b422f90",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "(472) Operating Systems/Processes/Summary/Processes.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 960,
-        "y": 0,
-        "width": 960,
-        "height": 1032,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "f50873ffc394c059",
   "lastOpenFiles": [
     "(472) Operating Systems/Processes/Summary/Processes.md",
