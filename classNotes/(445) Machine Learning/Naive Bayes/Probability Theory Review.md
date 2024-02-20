@@ -31,3 +31,25 @@ the probability of some event occurring given some piece of evidence. P(A|B).
 # Law of Total Probability 
 if A_i is mutually exclusive then the probability over all partitions A_i comprise the entire sample space and sum to 1. We then calculate the probability of B occurring in each probability given A_i, we then sum those. 
 $$P(B) = \sum_{i=1}^nP(B|A_i)P(A_i)$$
+
+# Bayes Rule
+![[Screen Shot 2024-02-16 at 1.34.32 PM.png]]
+- since we dont know P(W), we can instead use total probability to find alll scenarios for wet in the sample space
+
+$$P(R|W)=\frac{P(WR)}{P(W|R)P(R)+P(W|\neg R)P(\neg R)}$$
+
+# Posterior Probability
+![[Screen Shot 2024-02-16 at 1.38.16 PM.png]]
+- we combine likelihood of some event occurring given the probability of the prior event occurring that it depends on 
+
+# Maximum Aposteriori Estimation (MAP)
+This states that the best hypothesis for some space H given observed training data D is given by
+
+$$H_{MAP} = argmax_hP(H|D) = argmax_H\frac{P(D|H)P(H)}{P(D)} = argmax_HP(D|H)P(H)$$
+
+note that we drop the denominator P(D). We do this because for each element $H_i$ it is already given that D occurred so D is constant for all  elements in H. 
+
+### Equal Priori Probability 
+![[Screen Shot 2024-02-16 at 1.58.18 PM.png]]
+with the condition that all sub events in H are the same, the priori probability is equal to the maximum likelyhood hypothesis 
+
