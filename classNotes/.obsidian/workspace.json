@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6418a27691c23020",
+        "id": "aaac0c1e8aaead5e",
         "type": "tabs",
         "children": [
           {
-            "id": "52b0f8951d05d71d",
+            "id": "90a31743c0faf9da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(470) Compilers/Chapter1/Chapter 1 Summary.md",
+                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(470) Compilers/Chapter1/Chapter 1 Summary.md",
+                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(470) Compilers/Chapter1/Chapter 1 Summary.md",
+                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(470) Compilers/Chapter1/Chapter 1 Summary.md"
+                "file": "(472) Operating Systems/Processes/Process Synchronization.md"
               }
             }
           },
@@ -156,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52b0f8951d05d71d",
+  "active": "90a31743c0faf9da",
   "lastOpenFiles": [
+    "(470) Compilers/Chapter1/Chapter 1 Summary.md",
     "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
     "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
     "Attachments/Screen Shot 2024-02-19 at 1.50.12 PM.png",

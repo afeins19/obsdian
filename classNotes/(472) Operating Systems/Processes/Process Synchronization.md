@@ -130,3 +130,67 @@ a **liveness failure** can occur and results in an indefinite wait time such as:
 - priority inversion 
 
 this can occur when two processes depend on signals on each other to run. But since both processes are waiting, no signal will be sent from either process resulting in deadlock. 
+
+# Limitations of Software Based Synchronization
+there are some inherent limitations of software based synchronization solutions. 
+- developing and correctly implementing synchronization mechanism may require **careful coding programming practices and thorough testing**
+- software based solutions can lead to **deadlocks** when threads or processes are unable to proceed due to cyclic dependencies 
+- **performance overhead** - the software for synchronization itself takes computational resources to run
+
+# Hardware Support for Synchronization 
+
+## Memory Barriers 
+a synchronization primitive used in concurrent programming to enforce **specific ordering constraints on memory operations**. 
+- needed for IPC with shared memory 
+- applicable to concurrent threads within the same process
+
+it is a **fence** that separates two sets of operations. ensuring that the ordering constraints are respected. All operations already through the fence are executed first. Once those are done, more operations are allowed past the fence. 
+
+This depends on the on the CPU architecture. For example, intel and amd support guarantee that two consecutive load and write operations will occur in the order in which they were issued. 
+
+**Psuedocode:**
+```c
+// process a
+flag = False;
+
+while(!flag){
+	memorybarrier();
+}
+
+print(x); 
+//----------------------------
+
+// process b
+x = 100;
+memorybarrier();
+flag = True; 
+
+x = 100 -> flag=true -> print(100)
+```
+say these are 2 distinct processes, since process a is going to be printing a value at the memory location x. We need process B to execute first so process A will print something valid (or not error). 
+
+## Hardware Instructions
+CPUs that have internal hardware implementations corresponding to specific instructions in their instruction set architecture (ISA). 
+- the ISA defines the **set of instructions such as arithmetic, logical, data, movement, and control flow instructions** 
+
+### test_and_set()
+it atomically sets a memory location to a specific value and returns its previous value. (this essentially functions like a mutex). 
+```c
+boolean test_and_set (boolean *target){
+	boolean rv *target;
+	*target = TRUE;
+	return rv;
+}
+```
+then we can call this function from 2 processes. These 2 processes will share a boolean variable.
+
+
+### compare_and_swap() 
+```c
+int compare_and_swap(int *value, int expected, inte new_value){
+	
+}
+```
+
+### Atomic Variables 
+a tool to provide atomic operations on basic data types such as integers and booleans 
