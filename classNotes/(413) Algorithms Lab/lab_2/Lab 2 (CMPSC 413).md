@@ -419,7 +419,7 @@ print("\n")
 |------------|----------------|---------------|
 | ID         | Selection      | 5.40e-08      |
 | First Name | Selection      | 5.00e-08      |
-| Last Name  | Selection      | 5.00e-08      |
+| Last Name  | Merge      | 1.46e-07      |
 
 ## Sorting Sorted Data
 within the StudentDb() code are all the sorting and searching algorithms used. Below is the application of these algorithms. Each Algorithm only makes a copy of the data before returning a sorted list of dictionary values representing the student. This is not a problem for sorting an unsorted dictionary of students, but was a problem for sorting a sorted dictionary. This was solved below with a forloop that saved instances of StudentDb() in the following way: 

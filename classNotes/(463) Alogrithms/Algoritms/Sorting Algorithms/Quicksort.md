@@ -20,8 +20,12 @@ $$2*T(\frac{n}{2}) + \Theta(n)$$
 
 where $\Theta(n)$ is the average case time complexity which is $O(nlog_2n)$
 
+###  Expectation value of selecting an index 
+$$E = \sum_{i=0}^{n}\frac{1}{n}\times i = \frac{n(n+1)}{2n} = (n+1)/2$$
+so on average we pivot equally the left and rgiht sides as n->$\infty$    
+
+
 #  Time Complexity 
 $$T(n) = T(n_1) + T(n_2) + ... $$
 where we essentially have $O(n)$ over n elements 
-
 
