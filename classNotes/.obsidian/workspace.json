@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
+                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
+                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
+                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md"
+                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md"
               }
             }
           }
@@ -150,9 +150,13 @@
   },
   "active": "d25b7a2fa3d94679",
   "lastOpenFiles": [
+    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
+    "(472) Operating Systems/Homework/Intro To Computer Organization.md",
+    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
+    "(472) Operating Systems/Homework/Intro To Computer Organization.pdf",
+    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
     "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.pdf",
     "(460) PoPL/lectures/Function  Binding.md",
-    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
     "(413) Algorithms Lab/lab_3",
     "(413) Algorithms Lab/Untitled.canvas",
     "(460) PoPL/lectures/Currying.md",
@@ -182,14 +186,10 @@
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Linear Regression.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Decision Trees.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445",
-    "EMAIL_TO_J_YANG",
-    "New folder",
     "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
     "(445) Machine Learning/Data Visualization/Plotting Libraries.md",
     "(445) Machine Learning/Data Visualization/Data Visualization.md",
     "(445) Machine Learning/Data Processing/Data Collection.md",
-    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
-    "(445) Machine Learning/Course Overview.md",
     "Attachments/Screen Shot 2024-02-12 at 10.55.19 AM.png",
     "Attachments/Screen Shot 2024-02-12 at 10.52.00 AM.png",
     "Attachments/Screen Shot 2024-02-12 at 10.50.40 AM.png",

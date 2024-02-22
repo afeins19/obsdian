@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "05702516e5b09663",
+        "id": "53c9cf369ab13923",
         "type": "tabs",
         "children": [
           {
-            "id": "838ac951db9b0735",
+            "id": "1f487107bb6468e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "green_learning.jl.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 211.5
   },
   "right": {
     "id": "6021faa0ac8fb39a",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "green_learning.jl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "green_learning.jl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "green_learning.jl.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "838ac951db9b0735",
+  "active": "1f487107bb6468e1",
   "lastOpenFiles": [
-    "Welcome.md",
     "green_learning.jl.md",
+    "Welcome.md",
     "scripts"
   ]
 }
