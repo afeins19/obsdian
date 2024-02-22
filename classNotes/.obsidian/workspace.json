@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d39f3fd59478c94",
+        "id": "d532458171fa4238",
         "type": "tabs",
         "children": [
           {
-            "id": "d25b7a2fa3d94679",
+            "id": "0f4f3d51e480f76d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
+                "file": "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
+                "file": "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
+                "file": "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md"
+                "file": "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md"
               }
             }
           }
@@ -148,11 +148,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d25b7a2fa3d94679",
+  "active": "0f4f3d51e480f76d",
   "lastOpenFiles": [
+    "(472) Operating Systems/Homework/Same Student Data (Redo).pdf",
+    "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).md",
+    "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
+    "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).pdf",
+    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
     "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
     "(472) Operating Systems/Homework/Intro To Computer Organization.md",
-    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
     "(472) Operating Systems/Homework/Intro To Computer Organization.pdf",
     "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
     "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.pdf",
@@ -184,12 +188,8 @@
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Logistic Regression.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Linear Regression.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Decision Trees.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445",
     "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
     "(445) Machine Learning/Data Visualization/Plotting Libraries.md",
-    "(445) Machine Learning/Data Visualization/Data Visualization.md",
-    "(445) Machine Learning/Data Processing/Data Collection.md",
     "Attachments/Screen Shot 2024-02-12 at 10.55.19 AM.png",
     "Attachments/Screen Shot 2024-02-12 at 10.52.00 AM.png",
     "Attachments/Screen Shot 2024-02-12 at 10.50.40 AM.png",

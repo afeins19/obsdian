@@ -461,6 +461,7 @@ print(f"\nAlgorithm performance over sorts by parameter times { sorted_student_d
 | ID         | Bubble         | 4.90e-08      |
 | First Name | Bubble         | 4.90e-08      |
 | Last Name  | Bubble         | 4.80e-08      |
+
 ## Output of first run 
 ```
 C:\Users\aaron\AppData\Local\Programs\Python\Python39\python.exe C:\Users\aaron\Projects\classWork\CMPSC413\lab2\student_db_manager.py 
