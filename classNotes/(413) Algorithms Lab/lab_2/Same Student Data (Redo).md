@@ -45,12 +45,10 @@ below is a table showing the CPU times for sorting the same student data:
 | id       | 4.90e-08 | 5.00e-08  | 6.10e-08  | 8.50e-08 |
 | f_name   | 1.87e-07 | 1.94e-07  | 4.99e-08  | 7.70e-08 |
 | l_name   | 4.60e-08 | 4.70e-08  | 5.00e-08  | 7.90e-08 |
-
 ### Fastest Times
 - id: bubble
 - f_name: bubble
 - l_name: bubble
-
 
 # Conclusion
 for the same student data, it makes sense that bubble sort would perform much quicker than the other sorting algorithms. This is because the while loop in bubble sort essentially is never entered and is basically turned into a conditional check. For the case of sorted student data, bubble sort has time complexity of $O(n)$. 

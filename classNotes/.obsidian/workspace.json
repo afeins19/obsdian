@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0f535c0737f64db9",
+        "id": "8aaff7964aded550",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4c57cc9b2c4368",
+            "id": "27704103d3c2d79d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf"
+                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
+                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
+                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf"
+                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md"
               }
             }
           },
@@ -154,13 +156,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9c4c57cc9b2c4368",
+  "active": "27704103d3c2d79d",
   "lastOpenFiles": [
+    "(463) Alogrithms/Trees.md",
+    "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+    "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).md",
+    "(463) Alogrithms/Graphs/Graphs REview.md",
+    "(463) Alogrithms/Graphs",
+    "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
+    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
     "(460) PoPL/lectures/Macros.md",
     "(472) Operating Systems/Homework/Same Student Data (Redo).pdf",
-    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
     "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
-    "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472/Threads & Concurrency.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472/Multicore Processing.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Logistic Regression.pdf",
@@ -168,7 +175,6 @@
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Decision Trees.pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445",
-    "EMAIL_TO_J_YANG",
     "2024-02-16.md",
     "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
     "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
@@ -198,9 +204,6 @@
     "Attachments/Screen Shot 2024-02-16 at 1.38.16 PM.png",
     "(463) Alogrithms/Master Method.md",
     "(463) Alogrithms/Algoritms/Sorting Algorithms/Quicksort.md",
-    "(463) Alogrithms/Algoritms/Counting Inversions/Overview.md",
-    "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).md",
-    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
