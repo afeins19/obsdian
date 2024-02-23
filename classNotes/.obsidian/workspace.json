@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "004b8529c7faf751",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/Bounded Buffer Problem.md"
+                "file": "(472) Operating Systems/Processes/Deadlocks.md"
               }
             }
           },
@@ -158,8 +159,14 @@
   },
   "active": "27704103d3c2d79d",
   "lastOpenFiles": [
-    "(463) Alogrithms/Trees.md",
+    "Attachments/Screen Shot 2024-02-23 at 10.50.43 AM.png",
+    "Attachments/Screen Shot 2024-02-23 at 10.45.11 AM.png",
+    "Attachments/Screen Shot 2024-02-23 at 10.44.43 AM.png",
+    "Attachments/Screen Shot 2024-02-23 at 10.43.43 AM.png",
+    "Attachments/Screen Shot 2024-02-23 at 10.39.51 AM.png",
     "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+    "(472) Operating Systems/Processes/Deadlocks.md",
+    "(463) Alogrithms/Trees.md",
     "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).md",
     "(463) Alogrithms/Graphs/Graphs REview.md",
     "(463) Alogrithms/Graphs",
@@ -187,8 +194,6 @@
     "Attachments/Screen Shot 2024-02-19 at 1.29.56 PM.png",
     "Attachments/Screen Shot 2024-02-19 at 10.42.13 AM.png",
     "Attachments/Screen Shot 2024-02-19 at 10.31.42 AM.png",
-    "Attachments/Screen Shot 2024-02-19 at 10.27.47 AM.png",
-    "Attachments/Screen Shot 2024-02-19 at 10.19.37 AM.png",
     "(472) Operating Systems/Processes/Process Operations.md",
     "(472) Operating Systems/Processes/POSIX Real-Time Scheduling.md",
     "(472) Operating Systems/Processes/Multicore Process Scheduling.md",
@@ -200,10 +205,6 @@
     "(470) Compilers/Structure of a Compiler.md",
     "(460) PoPL/Plait Language/Plait.md",
     "(460) PoPL/Plait Language/Plait Language.md",
-    "Attachments/Screen Shot 2024-02-16 at 1.58.18 PM.png",
-    "Attachments/Screen Shot 2024-02-16 at 1.38.16 PM.png",
-    "(463) Alogrithms/Master Method.md",
-    "(463) Alogrithms/Algoritms/Sorting Algorithms/Quicksort.md",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
