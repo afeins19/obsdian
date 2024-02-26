@@ -4,7 +4,6 @@ These notes discuss the creation, management, and deletion of processes.
 - Creation 
 - Termination
 - communication 
-
 # Process Creation 
 parent processes create child processes, which in turn are the parent processes of child processes started by them. This forms a tree  
 ![[Screen Shot 2024-01-27 at 1.33.06 PM.png]]
@@ -27,7 +26,7 @@ again, the execution order of a parent and its child processes is also context d
 there are two main ways in which the address space of a child process can be managed. 
 
 ##### Complete duplication 
-- duplicating the entire processes even the program counter (**note that this is not copy the code itself**)
+- duplicating the entire processes even the program counter (**note that this does not copy the code itself**)
 - the only difference in this case is between the child and parent process is their PIDs (child is given a unique PID)
 - after making a copy, the PID of child process is returned in the parent, and **0 is returned in the child** -> that is how we distinguish between parent and child 
 

@@ -13,7 +13,7 @@
 - **multiple threads per core**
 
 ### Memory Stall
-occurs when the CPU finishes a processor and has to wait for data to be loaded from memory, due it the CPUs faster speed
+occurs when the CPU finishes a processor and has to wait for data to be loaded from memory, due the CPUs faster speed
 - multi threaded cores take advantage of this by switching to another thread quickly to work on it while the retrieval happens 
 ![[Screen Shot 2024-02-12 at 10.22.48 AM.png]]
 
@@ -79,9 +79,8 @@ for any real-time scheduling to work, the scheduler must support **preemptive** 
 processes that require the cpu at constant intervals. given a processing time t, deadline d and period p: 
 ![[Screen Shot 2024-02-12 at 10.47.08 AM.png]]
 
-
 ## Rate Monotonic Scheduling 
-- a priority is assigned based on the inverse of tis period 
+- a priority is assigned based on the inverse of its period 
 - shorter periods = higher priority and visa-versa 
 ![[Screen Shot 2024-02-12 at 10.50.40 AM.png]]
 
@@ -100,5 +99,5 @@ priorities are assigned according to deadlines. Note that there is overhead as w
 # Proportional Share Scheduling 
 a scheduling algorithm to allocate CPU time among competing processes based on their proportional share of system resources 
 - equal wheight is given to every process -> 1/N cpu time to each process where N is the number of processes to be run
-- **Dynamic adjustment **- adjusts the allocation of CPU time based on changes in the system load or the arrival of new processes
+- **Dynamic adjustment** - adjusts the allocation of CPU time based on changes in the system load or the arrival of new processes
 - **Fairness** - provides fairness in cpu allocation by ensuring that processes receive CPU time in proportion to their weights 

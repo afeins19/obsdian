@@ -17,8 +17,8 @@ if process *p* and *q* wish to communicate, they need to
 
 **design tasks**:
 - how are links established?
-- can a link be associated with more than two processes?
-- how many links can there be between every pair ofcommunicating processes?
+- can a link be associated with more than two processes? 
+- how many links can there be between every pair of communicating processes?
 - what is the capacity of a link?
 - is there a maximum message size? 
 - is the link unidirectional or bidirectional?
@@ -33,19 +33,19 @@ if process *p* and *q* wish to communicate, they need to
 	- useful when processes need to exchange data simultaneously 
 
 - **blocking send, non-blocking receive**
-	- receiving process may continue executing other tasks and periodically check for incoming data but may not block while wait for data to arrive
-	- suitable when the sender must ensure that data is sent but alllows the receiver to perform other tasks in parallel (responsive receiver)
+	- receiving process may continue executing other tasks and periodically check for incoming data but may not block while waiting for data to arrive 
+	- suitable when the sender must ensure that data is sent but allows the receiver to perform other tasks in parallel (responsive receiver)
 ![[Screen Shot 2024-01-29 at 10.46.50 AM.png]]
 
 ### Buffering for messages
 messages exchanged by communicating processes reside in a temporary queue which is implemented in one of three ways:
 1. zero capacity - no messages are queued on a link (sender must wait for receiver (called rendezvous))
-2. bounded capacity - finite length of n messages until sender must wait if link is fulll
+2. bounded capacity - finite length of n messages until sender must wait if link is full
 3. unbouded capacity - infinite length of messages, sender never waits
 ### POSIX
 portable operating system interface 
-- api that defines the cli shells and utility interfaces for software compatability in unix 
-- set of formal descriptions that provide a standard for the design of operating systems, especially ones which are compatible with unix
+- api that defines the cli shells and utility interfaces for software compatibility in unix 
+- set of formal descriptions that provide a standard for the design of operating systems, especially ones which are compatible with unix 
 
 ![[Screen Shot 2024-01-29 at 10.49.54 AM.png]]
 *memory maps are important...look into 'em*
@@ -74,7 +74,7 @@ messages are directed and received from **mailboxes**
 ### mailbox operations
 primitive operations are send(B, message) or sending a message to mailbox B or receive(B, message)
 - create a new mailbox
-- send and recieve message through the mailbox
+- send and receive message through the mailbox
 - destroy a mailbox
 ### properties of indirect communication link (logical rather than actual link)
 - link established only if processes share a common mailbox
@@ -87,7 +87,7 @@ primitive operations are send(B, message) or sending a message to mailbox B or r
 shared memory allows two or more processes to share a region of memory. **This has higher perfromance but requires careful synchronization**
 - processes can be directly read from and write to the shared memory
 - the kernel provides mechanisms for processes to **attach to and detach from the shared memory segment**
-- synchronization mechanisms like **semaphores or mutexes are requried** 
+- synchronization mechanisms like **semaphores or mutexes are required** 
 
 ### Shared Memory Protocol
 An **unbounded-buffer** places no practical limit on the size of the buffer. An**bounded buffer** assumes that there is a **fixed buffer size**
@@ -103,7 +103,7 @@ without proper synchronization, buffers may have the following issues
 
 ### Implementation of a bounded buffer 
 
-**Basic Implementation **
+**Basic Implementation**
 ```c
 
 #define BUFFER_SIZE 10
@@ -126,7 +126,6 @@ while (true) {
 	 ;/* do nothing */  
 		buffer[next_in] = next_produced;  
 		next_in = (next_in + 1) % BUFFER_SIZE;  
-	
 }
 ```
 - the condition ((next_in +1) % buffer_size) == next_out determines whether or not the circular buffer is full after the next write 
@@ -135,8 +134,8 @@ while (true) {
 ```c
 item next_consumed;  
 while (true) {  
-	while (next_in == next_out)  
-	; /* do nothing */  
+	while (next_in == next_out); 
+	/* do nothing */  
 	next_consumed = buffer[next_out];  
 	next_out = (next_out + 1) % BUFFER_SIZE;  
 /* consume the item in next consumed */  

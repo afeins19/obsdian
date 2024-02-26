@@ -46,11 +46,11 @@ where...
 
 ![[Screen Shot 2024-01-17 at 2.06.28 PM.png]]
 
-### Finding the value of Beta_0 
+### Finding the value of $\beta_0$ 
 
 ![[Screen Shot 2024-01-17 at 2.08.46 PM.png]]
 - note that this value depends on some average values from the data set 
-### Finding Beta_1
+### Finding $\beta_1$  
 ![[Screen Shot 2024-01-17 at 2.10.50 PM.png]]
 - in the bottom part, we  meaningfully represent this information to be useful for our model 
 - note that the sum((x1-x_hat)(y-y_hat)) is the covariance between x and y 

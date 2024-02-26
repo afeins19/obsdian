@@ -24,3 +24,4 @@ a combination of hash encoding and one-hot encoding. Binary encoding usually wor
 
 # Target Encoding 
 a technique for assigning a numerical value to each category based on the relationship between the category and the target variable. Simplly representing categorical data with some representative number such as the average of some attributes. This is typically used for callssification tasks
+

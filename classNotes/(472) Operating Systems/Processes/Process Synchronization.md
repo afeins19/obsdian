@@ -40,11 +40,11 @@ consider a system of n processes $\{p_0, p_1, ... p_{n-1}\}$. Each process has a
 - **when one process is in a critical section no other may be in its critical section** 
 
 One must design a protocol that the process can use to synchronize their activities so as to cooperatively share data 
-- ex: Mutuall Exclusion 
+- ex: Mutual Exclusion 
 ### General Solution Idea
 1. **Mutual Exclusion** - if $P_i$ is executing in its critical section, then no other processes can be executing their critical sections
 2. **Progress** - if no process is executing in its critical section and there exists some process that wishes to enter their critical section, then the selection of the process that will enter the critical section next cannot be postponed indefinitely 
-3. **Bounded Waiting** - without bounded waiting, a process might be indefinitely delayed from accessing a shared resource, leading to unfairness and potentiall deadlocks 
+3. **Bounded Waiting** - without bounded waiting, a process might be indefinitely delayed from accessing a shared resource, leading to unfairness and potentially deadlocks 
 ![[Screen Shot 2024-02-16 at 10.25.11 AM.png]]
 - we define entry and exit sections
 
