@@ -1,6 +1,6 @@
 # Contents
 - Regression 
-- How to otain lline of est fit
+- How to obtain line of best fit
 - Multiple Linear Regression
 - Python tools and libraries 
 

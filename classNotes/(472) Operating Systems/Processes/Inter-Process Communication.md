@@ -41,7 +41,7 @@ if process *p* and *q* wish to communicate, they need to
 messages exchanged by communicating processes reside in a temporary queue which is implemented in one of three ways:
 1. zero capacity - no messages are queued on a link (sender must wait for receiver (called rendezvous))
 2. bounded capacity - finite length of n messages until sender must wait if link is full
-3. unbouded capacity - infinite length of messages, sender never waits
+3. unbounded capacity - infinite length of messages, sender never waits
 ### POSIX
 portable operating system interface 
 - api that defines the cli shells and utility interfaces for software compatibility in unix 

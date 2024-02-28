@@ -25,7 +25,7 @@ computer system is described as a network of servers, each with a queue of proce
 ![[Screen Shot 2024-02-14 at 10.21.41 AM.png]]
 
 
-##### Littels Formula
+##### Littles Formula
 based on littles law - in a steady state, processes leaving the queue must equal processes arriving into the queue
 - L = average queue length
 - W = average waiting time in queue
@@ -33,7 +33,7 @@ based on littles law - in a steady state, processes leaving the queue must equal
 
 based on littles law and the steady state assumption we get:
 $$L = \lambda \times W$$
-this is valid for any schedulign algorithm and arrival distribution 
+this is valid for any scheduling algorithm and arrival distribution 
 
 # Simulations
 - tries to address queueing modells limitations

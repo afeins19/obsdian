@@ -132,3 +132,7 @@ For example, we may have a moderate dimension of size 100, each with a binary in
 - or use **projections** 
 ![[Screen Shot 2024-02-25 at 12.31.13 PM.png]]
 we can select the black line in the middle as the new axis for which to denote the boundary for classification between the area and perimeter classes. 
+
+
+
+

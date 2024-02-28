@@ -32,4 +32,7 @@ Exp | boxE [arg : Exp]
 			(set-box! n (+ 1 (unbox n)))
 			(unbox n))))
 ```
+closure over the counter of n , n is a pointer to that location and n was mutated. 
 
+# Aliasing 
+we can use the trace tool on aliased values to follow it through mutations 

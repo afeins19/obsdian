@@ -9,7 +9,7 @@ Histogram of CPU burst times
 ![[Screen Shot 2024-02-07 at 10.28.53 AM.png]]
 
 # I/O Burst
-the amount of time a process waits for input-output before needing CPI time
+the amount of time a process waits for input-output before needing CPU time
 - after the i/o burst, the process goes into the ready queue for the next cpu 
 
 # CPU Scheduler 
@@ -130,4 +130,4 @@ for either PCS or SCS scheduling. Note that these are mere *suggestions* to the 
 ![[Screen Shot 2024-02-09 at 10.43.06 AM.png]]
 
 ### pthread_join
-a function that waits for child process to finish before the parent process moves on.
+a function that waits for child thread to finish before the parent process moves on.

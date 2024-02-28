@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2696242b7fb46a55",
+        "id": "e3f299a17cbc612e",
         "type": "tabs",
         "children": [
           {
-            "id": "5de827328b5695e5",
+            "id": "a4a0c3647312142d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "004b8529c7faf751",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/Process Synchronization.md",
+                "file": "(472) Operating Systems/Processes/Deadlocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/Process Synchronization.md"
+                "file": "(472) Operating Systems/Processes/Deadlocks.md"
               }
             }
           },
@@ -157,54 +156,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5de827328b5695e5",
+  "active": "39c9bb79782a075c",
   "lastOpenFiles": [
-    "(472) Operating Systems/Processes/POSIX Real-Time Scheduling.md",
-    "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
-    "(472) Operating Systems/Processes/Deadlocks.md",
-    "(472) Operating Systems/Processes/Process Operations.md",
+    "(472) Operating Systems/Boot-up & System Architecture.md",
+    "(472) Operating Systems/What Operating Systems Do.md",
     "(472) Operating Systems/Processes/Inter-Process Communication.md",
-    "(472) Operating Systems/Processes/Threads & Concurrency.md",
-    "(472) Operating Systems/Processes/Multicore Process Scheduling.md",
-    "(472) Operating Systems/Processes/Processes Overview.md",
     "(472) Operating Systems/Processes/Process Synchronization.md",
-    "(472) Operating Systems/Processes/Pipes & Sockets.md",
-    "(445) Machine Learning/Linear Regression/Linear Regression.md",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.pdf",
-    "Attachments/Screen Shot 2024-02-25 at 12.31.13 PM.png",
-    "Attachments/Screen Shot 2024-02-24 at 7.36.58 PM.png",
-    "Attachments/Screen Shot 2024-02-24 at 6.01.03 PM.png",
-    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
-    "(470) Compilers/homework/Binary to Decimal Program.md",
-    "(460) PoPL/lectures/Box.md",
-    "(470) Compilers/homework",
-    "(460) PoPL/Plait Language/Plait.md",
-    "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
-    "(445) Machine Learning/Data Visualization/Plotting Libraries.md",
-    "(445) Machine Learning/Data Visualization/Data Visualization.md",
-    "Attachments/Screen Shot 2024-02-23 at 10.50.43 AM.png",
+    "(472) Operating Systems/Processes/Threads & Concurrency.md",
+    "(472) Operating Systems/Processes/Processes Overview.md",
+    "(472) Operating Systems/Processes/Multicore Processing.md",
+    "(472) Operating Systems/Processes/Deadlocks.md",
+    "(472) Operating Systems/Processes/CPU Scheduling.md",
+    "(472) Operating Systems/Processes/POSIX Real-Time Scheduling.md",
+    "(472) Operating Systems/Processes/Process Operations.md",
+    "(472) Operating Systems/Homework/Intro To Computer Organization.pdf",
+    "(463) Alogrithms/Algoritms/Graphs & Trees/Graph Search.md",
+    "Attachments/Screen Shot 2024-02-27 at 1.02.24 PM.png",
+    "(463) Alogrithms/Algoritms/Graphs & Trees/Trees.md",
+    "(463) Alogrithms/Algoritms/Graphs & Trees",
     "Attachments/Screen Shot 2024-02-23 at 10.45.11 AM.png",
-    "Attachments/Screen Shot 2024-02-23 at 10.44.43 AM.png",
-    "Attachments/Screen Shot 2024-02-23 at 10.43.43 AM.png",
-    "Attachments/Screen Shot 2024-02-23 at 10.39.51 AM.png",
-    "(463) Alogrithms/Trees.md",
-    "(413) Algorithms Lab/lab_2/Lab 2 (CMPSC 413).md",
-    "(463) Alogrithms/Graphs/Graphs REview.md",
-    "(463) Alogrithms/Graphs",
-    "(413) Algorithms Lab/lab_2/Same Student Data (Redo).md",
-    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
-    "(460) PoPL/lectures/Macros.md",
-    "(472) Operating Systems/Homework/Same Student Data (Redo).pdf",
+    "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
+    "(472) Operating Systems/Processes/Multicore Process Scheduling.md",
     "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
+    "(445) Machine Learning/PCA/Principle Component Analysis.md",
+    "(445) Machine Learning/Feature Engineering/Principle Component Analysis.pdf",
+    "(460) PoPL/lectures/Box.md",
+    "(460) PoPL/lectures/Homework 2 Notes.md",
+    "Attachments/Screen Shot 2024-02-26 at 2.09.11 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 2.08.52 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 2.08.25 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 2.08.01 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 2.04.49 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 2.04.24 PM.png",
+    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
+    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
+    "(445) Machine Learning/Feature Engineering/Feature Selection.pdf",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/PCA",
+    "Attachments/Screen Shot 2024-02-26 at 1.35.46 PM.png",
+    "Attachments/Screen Shot 2024-02-26 at 1.35.31 PM.png",
+    "(445) Machine Learning/Decision Trees.md",
+    "(445) Machine Learning/Linear Regression/Linear Regression.md",
+    "(472) Operating Systems/Processes/Pipes & Sockets.md",
+    "(445) Machine Learning/Logistic Regression.md",
+    "(470) Compilers/homework",
+    "(463) Alogrithms/Graphs",
+    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.pdf",
+    "(472) Operating Systems/Homework/Same Student Data (Redo).pdf",
     "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472/Threads & Concurrency.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC472/Multicore Processing.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Logistic Regression.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Linear Regression.pdf",
-    "EMAIL_TO_J_YANG/missed_class_notes_CMPSC445/Decision Trees.pdf",
-    "2024-02-16.md",
-    "Attachments/Screen Shot 2024-02-19 at 1.50.12 PM.png",
-    "Attachments/Screen Shot 2024-02-19 at 1.39.14 PM.png",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }

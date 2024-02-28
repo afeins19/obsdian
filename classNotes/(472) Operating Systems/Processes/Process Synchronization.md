@@ -117,7 +117,7 @@ we define a struct with 2 variables
 - wakeup - remove one process in the waiting queue and **place it in the ready queue** 
 
 ### Implementation 
-![[Screen Shot 2024-02-19 at 10.42.13 AM.png]]say a process calls wait (meaning it wants to run itself) when S<0. This means that there is now a queue of items, this process is then added to the waiting queue and the process is blocked until it is selected. When a process is finished, it calls signal, which increments S.
+![[Screen Shot 2024-02-19 at 10.42.13 AM.png]]say a process calls wait (meaning it wants to run itself) when S<0. This means that there is now a queue of items, this process is then added to the waiting queue and the process is blocked until it is selected. When a process is finished, it calls signal, which increments S. 
 
 Whenever wait is called, we decrement s by 1, so when its back up to zero, we know a process has freed up enough space for at least one process to run. 
 
@@ -146,7 +146,7 @@ a synchronization primitive used in concurrent programming to enforce **specific
 
 it is a **fence** that separates two sets of operations. ensuring that the ordering constraints are respected. All operations already through the fence are executed first. Once those are done, more operations are allowed past the fence. 
 
-This depends on the on the CPU architecture. For example, intel and amd support guarantee that two consecutive load and write operations will occur in the order in which they were issued. 
+This depends on the on the CPU architecture. For example, intel and and support guarantee that two consecutive load and write operations will occur in the order in which they were issued. 
 
 **Psuedocode:**
 ```c
@@ -182,13 +182,43 @@ boolean test_and_set (boolean *target){
 	return rv;
 }
 ```
+
+Example of test_and_set() 
+```c 
+#include <stdatomic.h>
+
+atomic_flag lock = ATOMIC_FLAG_INIT;
+
+void acquire_lock() {
+    while (atomic_flag_test_and_set(&lock)) {
+        // spin-wait (busy wait)
+    }
+}
+
+void release_lock() {
+    atomic_flag_clear(&lock);
+}
+
+```
 then we can call this function from 2 processes. These 2 processes will share a boolean variable.
 
 
 ### compare_and_swap() 
 ```c
-int compare_and_swap(int *value, int expected, inte new_value){
-	
+int compare_and_swap(int *value, int expected, int new_value){
+	// note that this is NOT The real implementation, these operations must be done atomically to ensure that only one thread may execute them. 
+
+	// 1. read the current value passed in 
+	// 2. comapre the current vallue with expected (old) val
+	// 3. If the current val (value) == expected, swap the memory location of *value to the new_vaklue 
+	// 4, return a boolean indicating success or failure 
+
+	if(*value == expected){
+		*value = new_value;
+		return true;
+	}
+
+	return false;
 }
 ```
 
