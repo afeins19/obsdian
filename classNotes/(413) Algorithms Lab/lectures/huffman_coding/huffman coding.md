@@ -1,0 +1,1 @@
+taking a message, encoding the frequency of each chars occurance. Construct a binary tree starting from the child nodes. 

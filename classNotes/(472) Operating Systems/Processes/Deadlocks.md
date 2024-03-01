@@ -109,3 +109,55 @@ used for resource allocation decisions. Upon resource request, the system must d
 
 if $P_i$ doesn't have all the resources it needs, then $P_i$ can wait until all $P_j$ have finished. if $P_j$ is finished, $P_i$ can obtain needed resources. 
 
+### Resource Allocation Graph Scheme
+- a **claim edge** P_i -> R_j indicates that process P_i may request R_j (given by a dashed line)
+- a claim edge converts to a request edges when a process request a resource 
+- when a resource is released by a process, the assignment edge converts back to a claim edge 
+
+# Bankers Algorithm 
+a resource allocation and deadlock avoidance scheme to decide whether or not to approve a request for a resource to an individual process or not in systems with multiple instances of resource types
+- multiple instances 
+- each process must provide an **a priori claim of maximum use** 
+- when a process requests a resource, it may have to wait 
+- when a process gets all its resources it must return them in a finite amount of time 
+- composed of a **safety algorithm** for the existence of a sequence and a resource** request algorithm** for checking strict conditions for resource allocation 
+### Safety Algorithm 
+- runs periodically or as needed by the operating system to check the current system state for safety 
+- proactively assess whether the current allocation of resources allows for the existence of a safe sequence of processes
+
+**Algorithm**:
+1. let work and finish be vectors of length m and n with work[j] = available[j] and finish[i] = false for all i,j
+2. find a process i such that both:
+	1. finish[i] = false 
+	2. need[i,j] <= work[i,j] for all 0<=j<=m. if no such i exists to satisfy this condition, go to step 4 
+	3. conceptually execute process i and finish[i] = true and release its resources (since resource occupied by process i is now available so work[j] = work[j] + allocation[i,j] for all 0<=j<=m)
+	4. if Finish[i] == true for all i, then the system is in a safe state 
+### Resource Request Algorithm 
+- run in response to a specific resource request made by a process
+- first check safety for potential allocation with a safety algorithm 
+- second, allocate the resource if it keeps the safe state of the system 
+
+### Implementation of Bankers Algorithm 
+**Data Structures:**
+- n = number of processs 
+- m = number of resource types 
+- available = vector of length  m
+	- i.e. available[j] = k -> instances of resource type R_j
+- Max = an n x m matrix that represents max resource usage by each process 
+	- Max[i,j] = k -> process P_1 may request at most k instances of resource R_j
+- Allocation = n x m matrix representing the current resource assignment 
+	- allocation[i,j] =k -> P_i may need more instances of R_j to complete its task 
+	- Need = Max - Allocation 
+
+**Saftey Algorithm**
+we can find the status of a being in a safe state or not by simulating the allocation of resources to preocesses in a way that ensures that all processes can eventually complete their execution without getting stuck in a deadlock. 
+- the algorithm tries to find a sequence of allocations that avoids resource contention and ensures system safety 
+- **it does not try full search**
+- it usually tries a nested for loop
+
+```python 
+for _ in range(num_processses):
+	# iterate over starting process 
+	for i in range(num_processes):
+		# iterate over possible resource allocations 
+```
