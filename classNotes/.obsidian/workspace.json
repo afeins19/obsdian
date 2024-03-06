@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md"
+                "file": "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md"
               }
             }
           },
@@ -159,6 +159,10 @@
   },
   "active": "0ebc2cc7e2106bb3",
   "lastOpenFiles": [
+    "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.pdf",
+    "(472) Operating Systems/Processes/Deadlocks.md",
+    "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
+    "(413) Algorithms Lab/lab_4",
     "(413) Algorithms Lab/lectures/huffman_coding/huffman coding.md",
     "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
     "(413) Algorithms Lab/lectures/huffman_coding",
@@ -177,7 +181,6 @@
     "Attachments/Screen Shot 2024-02-28 at 1.52.21 PM.png",
     "Attachments/Screen Shot 2024-02-28 at 1.37.39 PM.png",
     "Attachments/Screen Shot 2024-02-28 at 1.36.30 PM.png",
-    "(472) Operating Systems/Processes/Deadlocks.md",
     "(445) Machine Learning/Support Vector Machines (SVM)",
     "(472) Operating Systems/Boot-up & System Architecture.md",
     "(472) Operating Systems/What Operating Systems Do.md",
@@ -200,11 +203,8 @@
     "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
     "(445) Machine Learning/Feature Engineering/Principle Component Analysis.pdf",
     "(460) PoPL/lectures/Box.md",
-    "(460) PoPL/lectures/Homework 2 Notes.md",
     "Attachments/Screen Shot 2024-02-26 at 2.09.11 PM.png",
     "Attachments/Screen Shot 2024-02-26 at 2.08.52 PM.png",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
-    "(445) Machine Learning/PCA",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
