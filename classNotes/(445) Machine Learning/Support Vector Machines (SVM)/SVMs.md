@@ -36,3 +36,50 @@ We want a hyperplane which provides the maximum margin, the max sized hyperplane
 ![[Screen Shot 2024-02-28 at 1.58.22 PM.png]]
 
 ![[Screen Shot 2024-02-28 at 1.59.38 PM.png]]
+
+### Properties of SVM Hyperplanes 
+- there will be at least one support vector for each class
+- SVMs optimize by finding hyperplanes with maximum margins between them
+
+### How an SVM classifier works 
+- SVMs is optimized by finding hyperplanes with maximum margins between them 
+- the decision function is really specified by a small subset of training points 
+- done by a trivial quadratic algorithm
+
+![[Screen Shot 2024-03-11 at 1.38.24 PM.png]]
+
+### Margin Maximization 
+we want a classifier (linear separator) with as big a margin as possible 
+![[Screen Shot 2024-03-11 at 1.45.45 PM.png]]
+note that the distance from a point ($x_0, y_0$) is to a line $Ax+By+c=0$ is 
+$$\frac{|Ax_0 + By_0 + c|}{\sqrt{A^2+B^2}}$$
+
+### Defining the Constraint of maximal margins 
+- integrating condition on $H_1$  and $H_2$  
+![[Screen Shot 2024-03-11 at 1.47.00 PM.png]]
+
+this is a quadratic programming problem for maximizing the margin:
+- Min f(w) with g(w) = 0 or $Min(\frac{||w||^2}{2})$ 
+- we can solve this constraint problem using the lagrangian multiplier method 
+- the solution is a quadratic which describes the surface of a parabaloid (3d parabola) with just a **single global minimum**  
+![[Screen Shot 2024-03-11 at 1.50.58 PM.png]]
+
+when x_i is not a support vector, a_i will be 0, since we have to solve the equation for a large set of points, the optimization equation automatically filters all points that are not linear combinations of the support vectors.
+
+![[Screen Shot 2024-03-11 at 1.59.04 PM.png]]
+
+# Non-Linear SVMs 
+sometimes, training data is not linearly separable 
+![[Screen Shot 2024-03-11 at 2.02.09 PM.png]]
+
+this is not a trivial task but we can get an idea for it by seeing the transformation into a higher dimensional mapping 
+
+![[Screen Shot 2024-03-11 at 2.04.02 PM.png]]
+by mapping from $R^1$ to $R^2$, we can now separate these 2 classes. 
+### Kernel Trick 
+![[Screen Shot 2024-03-11 at 2.08.58 PM.png]]
+these allow us to measure the similarity between 2 elements in the transformed space. 
+
+below are some of the functions we used to define point affinity in the transformed space. Note these functions are agnostic to the actual transformation but are applicable. 
+![[Screen Shot 2024-03-11 at 2.12.35 PM.png]]
+

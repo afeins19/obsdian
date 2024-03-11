@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(460) PoPL/lectures/Update-store!.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "004b8529c7faf751",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(460) PoPL/lectures/Update-store!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md",
+                "file": "(460) PoPL/lectures/Update-store!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Processes/Deadlocks.md"
+                "file": "(460) PoPL/lectures/Update-store!.md"
               }
             }
           },
@@ -159,6 +158,36 @@
   },
   "active": "0ebc2cc7e2106bb3",
   "lastOpenFiles": [
+    "(460) PoPL/lectures/Function  Binding.md",
+    "(460) PoPL/Racket Language.md",
+    "(460) PoPL/lectures/Update-store!.md",
+    "(460) PoPL/lectures/Local Scope.md",
+    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
+    "Attachments/Screen Shot 2024-03-11 at 2.12.35 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 2.08.58 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 2.04.02 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 2.02.09 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 1.59.04 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 1.50.58 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 1.47.00 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 1.45.45 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 1.38.24 PM.png",
+    "(472) Operating Systems/Main Memory/Overview.md",
+    "Attachments/Screen Shot 2024-03-11 at 10.59.24 AM.png",
+    "README.md",
+    "2024-02-16.md",
+    "[.md",
+    "(472) Operating Systems/Processes/Deadlocks.md",
+    "(472) Operating Systems/Main Memory",
+    "(460) PoPL/lectures/Box.md",
+    "INTERNSHIPS/Consider Applying.md",
+    "academicPlan/Last Semester Requirements.md",
+    "INTERNSHIPS",
+    "academicPlan/COURSES.md",
+    "(470) Compilers/homework/software_testing/Software Testing Plan.md",
+    "(470) Compilers/homework/software_testing",
+    "(460) PoPL/lectures/Begin.md",
+    "(460) PoPL/Plait Language/Plait.md",
     "(413) Algorithms Lab/lectures/huffman_coding/huffman coding.md",
     "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
     "(413) Algorithms Lab/lectures/huffman_coding",
@@ -170,41 +199,11 @@
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
     "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
-    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
-    "Attachments/Screen Shot 2024-02-28 at 1.59.38 PM.png",
-    "Attachments/Screen Shot 2024-02-28 at 1.58.22 PM.png",
-    "Attachments/Screen Shot 2024-02-28 at 1.52.37 PM.png",
-    "Attachments/Screen Shot 2024-02-28 at 1.52.21 PM.png",
-    "Attachments/Screen Shot 2024-02-28 at 1.37.39 PM.png",
-    "Attachments/Screen Shot 2024-02-28 at 1.36.30 PM.png",
-    "(472) Operating Systems/Processes/Deadlocks.md",
     "(445) Machine Learning/Support Vector Machines (SVM)",
     "(472) Operating Systems/Boot-up & System Architecture.md",
     "(472) Operating Systems/What Operating Systems Do.md",
     "(472) Operating Systems/Processes/Inter-Process Communication.md",
-    "(472) Operating Systems/Processes/Process Synchronization.md",
-    "(472) Operating Systems/Processes/Threads & Concurrency.md",
-    "(472) Operating Systems/Processes/Processes Overview.md",
-    "(472) Operating Systems/Processes/Multicore Processing.md",
-    "(472) Operating Systems/Processes/CPU Scheduling.md",
-    "(472) Operating Systems/Processes/POSIX Real-Time Scheduling.md",
-    "(472) Operating Systems/Processes/Process Operations.md",
     "(472) Operating Systems/Homework/Intro To Computer Organization.pdf",
-    "(463) Alogrithms/Algoritms/Graphs & Trees/Graph Search.md",
-    "Attachments/Screen Shot 2024-02-27 at 1.02.24 PM.png",
-    "(463) Alogrithms/Algoritms/Graphs & Trees/Trees.md",
-    "(463) Alogrithms/Algoritms/Graphs & Trees",
-    "Attachments/Screen Shot 2024-02-23 at 10.45.11 AM.png",
-    "(472) Operating Systems/Processes/Bounded Buffer Problem.md",
-    "(472) Operating Systems/Processes/Multicore Process Scheduling.md",
-    "(472) Operating Systems/Homework/HW7 - CPU Scheduling Agorithms.md",
-    "(445) Machine Learning/Feature Engineering/Principle Component Analysis.pdf",
-    "(460) PoPL/lectures/Box.md",
-    "(460) PoPL/lectures/Homework 2 Notes.md",
-    "Attachments/Screen Shot 2024-02-26 at 2.09.11 PM.png",
-    "Attachments/Screen Shot 2024-02-26 at 2.08.52 PM.png",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
-    "(445) Machine Learning/PCA",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
