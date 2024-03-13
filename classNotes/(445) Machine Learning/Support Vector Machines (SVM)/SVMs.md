@@ -83,3 +83,33 @@ these allow us to measure the similarity between 2 elements in the transformed s
 below are some of the functions we used to define point affinity in the transformed space. Note these functions are agnostic to the actual transformation but are applicable. 
 ![[Screen Shot 2024-03-11 at 2.12.35 PM.png]]
 
+### Kernel Functions 
+how do we test accuracy? say that a script takes a single image file and predicts if there is a bird in the image or not. Say we use 15000 images for validation and our model has a correct answer 95% of the time. How accurate is this model? even if it answered incorrectly for images with birds, this test data would conclude that our model is 95% accurate. We need a new way to classify accuracy: 
+
+- true positives 
+- true negatives 
+- false positive
+- false negative 
+
+### Defining Performance Measures
+- precision : true positive/ all positive guesses 
+- recall: true positive/total birds
+- accuracy: (true positive + true negative) / (total number of tests)
+- F1 score: $2*\frac{precision * recall}{prcesision + recall}$ - the harmonic mean of these measures 
+
+say precision is 0.5 and recall is 0.1. Average is 0.3 but our F1 score would be 2((0.5*0.1)/0.6) = 0.1888 
+
+### SVM Implementation
+- support vector classification (SVR for regression)
+- the multi-class support is handled according to a one-vs-one scheme 
+
+```
+sklearn.svm.SVC(*,C=1.0,kernel='rbf',degree=3,gamma='scale',coef0=0.0)
+```
+- c: regularization parameter
+- kernel:{linear, poly, rbf, sigmoid, precomputed} 
+- degree: int, defaut = 3, degree of the polynomial kernel function 
+- gamma: scale or auto
+
+
+

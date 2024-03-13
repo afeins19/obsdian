@@ -26,6 +26,7 @@
 		  (update-store! bx-sto bx-l val-v)) ;; new addition! 
 ```
 
+
 lets type-case over this 
 ```scheme
 typecase (listof Storage) val-sto

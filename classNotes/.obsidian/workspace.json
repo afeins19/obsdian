@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e35baff6c784a731",
+        "id": "76fed5e09b31137e",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebc2cc7e2106bb3",
+            "id": "aa835378ddc550cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(460) PoPL/lectures/Update-store!.md",
+                "file": "(445) Machine Learning/K-means/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.5
   },
   "right": {
     "id": "004b8529c7faf751",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(460) PoPL/lectures/Update-store!.md",
+                "file": "(445) Machine Learning/K-means/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(460) PoPL/lectures/Update-store!.md",
+                "file": "(445) Machine Learning/K-means/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(460) PoPL/lectures/Update-store!.md"
+                "file": "(445) Machine Learning/K-means/Overview.md"
               }
             }
           },
@@ -156,13 +156,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ebc2cc7e2106bb3",
+  "active": "aa835378ddc550cc",
   "lastOpenFiles": [
+    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
+    "(445) Machine Learning/K-means/Overview.md",
+    "(445) Machine Learning/K-means/Untitled",
+    "(445) Machine Learning/K-means",
+    "(472) Operating Systems/Main Memory/Overview.md",
+    "Attachments/Screen Shot 2024-03-13 at 10.53.08 AM.png",
+    "Attachments/Screen Shot 2024-03-13 at 10.40.02 AM.png",
+    "(460) PoPL/lectures/Update-store!.md",
     "(460) PoPL/lectures/Function  Binding.md",
     "(460) PoPL/Racket Language.md",
-    "(460) PoPL/lectures/Update-store!.md",
     "(460) PoPL/lectures/Local Scope.md",
-    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
     "Attachments/Screen Shot 2024-03-11 at 2.12.35 PM.png",
     "Attachments/Screen Shot 2024-03-11 at 2.08.58 PM.png",
     "Attachments/Screen Shot 2024-03-11 at 2.04.02 PM.png",
@@ -171,9 +177,6 @@
     "Attachments/Screen Shot 2024-03-11 at 1.50.58 PM.png",
     "Attachments/Screen Shot 2024-03-11 at 1.47.00 PM.png",
     "Attachments/Screen Shot 2024-03-11 at 1.45.45 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 1.38.24 PM.png",
-    "(472) Operating Systems/Main Memory/Overview.md",
-    "Attachments/Screen Shot 2024-03-11 at 10.59.24 AM.png",
     "README.md",
     "2024-02-16.md",
     "[.md",
@@ -199,11 +202,8 @@
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
     "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
-    "(445) Machine Learning/Support Vector Machines (SVM)",
     "(472) Operating Systems/Boot-up & System Architecture.md",
     "(472) Operating Systems/What Operating Systems Do.md",
-    "(472) Operating Systems/Processes/Inter-Process Communication.md",
-    "(472) Operating Systems/Homework/Intro To Computer Organization.pdf",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
