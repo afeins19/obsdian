@@ -3,7 +3,6 @@
 - GA - 6.00 credits 
 - GS - 3.00 credits (can be inter-domain)
 - CMPSC 488 - 3.00 credits
-- **tell nate to have you register for acura** - 2 units would count for additional cmpsc courses 
 
 ## some choices next semester
 - cmpsc 446
@@ -30,3 +29,7 @@ courses needed to graduate in Fall 2024:
 3 units of US (can be an inter-domain), 3 units of inter-domain, 6 units of GA (3 units can be an inter-domain), 3 units of GS (can be an inter-domain), CMPSC 488, 3 units of additional course.
 
 To follow-up on this note, please contact Vinayak Elangovan at vue9@psu.edu.
+
+
+# Possible Courses
+- [ ] 

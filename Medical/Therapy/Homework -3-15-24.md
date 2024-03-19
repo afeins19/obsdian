@@ -1,0 +1,4 @@
+- [x] Get adhd toolkit
+- [ ] live your values (and review them daily)
+- [ ] try taking prozac at night 
+- [ ] next appt. tuesday - 3/19 @ 2pm
