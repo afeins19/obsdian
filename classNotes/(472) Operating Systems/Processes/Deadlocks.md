@@ -149,8 +149,8 @@ a resource allocation and deadlock avoidance scheme to decide whether or not to 
 	- allocation[i,j] =k -> P_i may need more instances of R_j to complete its task 
 	- Need = Max - Allocation 
 
-**Saftey Algorithm**
-we can find the status of a being in a safe state or not by simulating the allocation of resources to preocesses in a way that ensures that all processes can eventually complete their execution without getting stuck in a deadlock. 
+**Safety Algorithm**
+we can find the status of a being in a safe state or not by simulating the allocation of resources to processes in a way that ensures that all processes can eventually complete their execution without getting stuck in a deadlock. 
 - the algorithm tries to find a sequence of allocations that avoids resource contention and ensures system safety 
 - **it does not try full search**
 - it usually tries a nested for loop
@@ -161,3 +161,23 @@ for _ in range(num_processses):
 	for i in range(num_processes):
 		# iterate over possible resource allocations 
 ```
+
+### Allocation Matrix 
+used for several instances of a given resource type
+- **available:** a vector of length m indicating the number of resources of each type
+- **allocaiton:** an n x m matrix defines the number of resources allocated to each process already
+- **request:** an n x m matrix indicates the current request of each  
+process. If `Request [i][j]` = k, then process $P_i$ is requesting k more  
+instances of resource type $R_j$
+
+![[Screen Shot 2024-03-11 at 10.24.31 AM.png]]![[Screen Shot 2024-03-11 at 10.24.47 AM.png]]
+
+### Example of deadlock detection with allocation matrix![[Screen Shot 2024-03-11 at 10.25.15 AM.png]]
+
+### Process Abortion
+processes can be aborted as a way of breaking deadlocks. We may either abort all processes (an inefficient and disruptive method) or we can abort one process at a time until the deadlock cycle is eliminated 
+
+### Resource Preemption
+successively preempt some resources from processes and give these resources to other processes until the deadlock cycle is broken
+- select a victim process (one with the lowest cost)
+- rollback - return to a safe state - restart that process
