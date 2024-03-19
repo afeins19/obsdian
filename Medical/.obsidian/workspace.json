@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c278c8c6f8bf0cc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Therapy/Homework - 2-22-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Therapy/Homework - 2-22-24.md",
+                "file": "psychiatrist/Medications/medications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Therapy/Homework - 2-22-24.md",
+                "file": "psychiatrist/Medications/medications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Therapy/Homework - 2-22-24.md"
+                "file": "psychiatrist/Medications/medications.md"
               }
             }
           }
@@ -159,18 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c278c8c6f8bf0cc0",
+  "active": "5f8d6a64969e5cc0",
   "lastOpenFiles": [
-    "Therapy/My Values.md",
+    "psychiatrist/Meetings/meeting_2-3_19_2024.md",
+    "psychiatrist/Meetings/meeting_1-2_13_2014.md",
     "Therapy/Homework - 2-22-24.md",
+    "psychiatrist/Meetings/meeting_1-2_13_2024.md",
+    "Therapy/Homework -3-15-24.md",
+    "Therapy/My Values.md",
     "Attachments/CBT.md",
     "psychiatrist/Medications/medications.md",
     "psychiatrist/Medications/medications.pdf",
     "Psychiatrists & Psychologists.md",
     "Therapy/My Values.pdf",
-    "psychiatrist/Meetings/meeting_1-2_13_2014.md",
     "psychiatrist/Symptoms/symptoms.md",
-    "psychiatrist/Meetings/Untitled.md",
     "psychiatrist/Meetings",
     "psychiatrist/Medications",
     "psychiatrist/Symptoms/symptoms.pdf",
