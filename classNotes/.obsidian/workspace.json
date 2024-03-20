@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "76fed5e09b31137e",
+        "id": "21273522a74284d5",
         "type": "tabs",
         "children": [
           {
-            "id": "aa835378ddc550cc",
+            "id": "436f851a67ea98e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(445) Machine Learning/K-means/Overview.md",
+                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 222.5
   },
   "right": {
     "id": "004b8529c7faf751",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(445) Machine Learning/K-means/Overview.md",
+                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(445) Machine Learning/K-means/Overview.md",
+                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(445) Machine Learning/K-means/Overview.md"
+                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md"
               }
             }
           },
@@ -156,54 +156,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aa835378ddc550cc",
+  "active": "436f851a67ea98e3",
   "lastOpenFiles": [
-    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
-    "(445) Machine Learning/K-means/Overview.md",
-    "(445) Machine Learning/K-means/Untitled",
-    "(445) Machine Learning/K-means",
-    "(472) Operating Systems/Main Memory/Overview.md",
-    "Attachments/Screen Shot 2024-03-13 at 10.53.08 AM.png",
-    "Attachments/Screen Shot 2024-03-13 at 10.40.02 AM.png",
-    "(460) PoPL/lectures/Update-store!.md",
-    "(460) PoPL/lectures/Function  Binding.md",
-    "(460) PoPL/Racket Language.md",
-    "(460) PoPL/lectures/Local Scope.md",
-    "Attachments/Screen Shot 2024-03-11 at 2.12.35 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 2.08.58 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 2.04.02 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 2.02.09 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 1.59.04 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 1.50.58 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 1.47.00 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 1.45.45 PM.png",
-    "README.md",
-    "2024-02-16.md",
-    "[.md",
+    "Attachments/Pasted image 20240316180053.png",
+    "Attachments/DALL·E 2024-03-16 16.29.17 - Enhance the logo by incorporating a bit more of a typhoon theme, making it more evident, while still maintaining the minimal and sleek style. Keep the.webp",
+    "(470) Compilers/Compiler Project/white_paper.pdf",
+    "(470) Compilers/Compiler Project/white_paper.md",
+    "(470) Compilers/Compiler Project/type_thon_logo.jpg",
+    "(470) Compilers/Compiler Project/Typethon Specification.pdf",
+    "(470) Compilers/Compiler Project/Typethon Specification.md",
+    "(470) Compilers/Compiler Project/Typethon Documentation.pdf",
+    "(470) Compilers/Compiler Project/Typethon Documentation.md",
+    "(470) Compilers/Compiler Project",
+    "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
+    "Attachments/Screen Shot 2024-03-20 at 10.24.37 AM.png",
     "(472) Operating Systems/Processes/Deadlocks.md",
-    "(472) Operating Systems/Main Memory",
-    "(460) PoPL/lectures/Box.md",
-    "INTERNSHIPS/Consider Applying.md",
-    "academicPlan/Last Semester Requirements.md",
-    "INTERNSHIPS",
-    "academicPlan/COURSES.md",
-    "(470) Compilers/homework/software_testing/Software Testing Plan.md",
-    "(470) Compilers/homework/software_testing",
-    "(460) PoPL/lectures/Begin.md",
-    "(460) PoPL/Plait Language/Plait.md",
+    "(472) Operating Systems/Main Memory/Virtual Memory.md",
+    "(472) Operating Systems/Processes/Inter-Process Communication.md",
+    "(472) Operating Systems/Main Memory/Overview.md",
     "(413) Algorithms Lab/lectures/huffman_coding/huffman coding.md",
-    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
-    "(413) Algorithms Lab/lectures/huffman_coding",
-    "(413) Algorithms Lab/lectures",
-    "(413) Algorithms Lab/lab_5",
-    "(413) Algorithms Lab/Untitled.md",
-    "(413) Algorithms Lab/lab_4",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.pdf",
+    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
+    "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
+    "(463) Alogrithms/Algorithms/Sorting Algorithms/Quicksort.md",
+    "(463) Alogrithms/Algorithms/Graphs & Trees/Graph Search.md",
+    "(463) Alogrithms/Algorithms/Graphs & Trees/Trees.md",
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
-    "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
-    "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
-    "(472) Operating Systems/Boot-up & System Architecture.md",
-    "(472) Operating Systems/What Operating Systems Do.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/ML Pipeline.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "Attachments/Screen Shot 2024-03-15 at 2.11.16 PM.png",
+    "Attachments/Screen Shot 2024-03-15 at 2.10.51 PM.png",
+    "Attachments/Screen Shot 2024-03-15 at 2.05.50 PM.png",
+    "Attachments/Screen Shot 2024-03-15 at 10.38.29 AM.png",
+    "Attachments/Screen Shot 2024-03-15 at 10.33.12 AM.png",
+    "Attachments/Screen Shot 2024-03-15 at 10.27.07 AM.png",
+    "(463) Alogrithms/Course Overview.md",
+    "(463) Alogrithms/Master Method.md",
+    "(463) Alogrithms/Big-O & Algorithmic Efficiency.md",
+    "(463) Alogrithms/Assignments/homework 1.md",
+    "(463) Alogrithms/Algorithms/Counting Inversions/Overview.md",
+    "(460) PoPL/Lambda Calculus/Lambda Calculus.md",
+    "(460) PoPL/Lambda Calculus",
+    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
+    "(445) Machine Learning/K-means/Untitled",
+    "(445) Machine Learning/Clustering Algorithms",
+    "Attachments/Screen Shot 2024-03-13 at 10.53.08 AM.png",
+    "(472) Operating Systems/Main Memory",
+    "INTERNSHIPS",
+    "(470) Compilers/homework/software_testing",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }

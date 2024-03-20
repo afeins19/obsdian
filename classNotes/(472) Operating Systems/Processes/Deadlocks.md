@@ -110,7 +110,7 @@ used for resource allocation decisions. Upon resource request, the system must d
 if $P_i$ doesn't have all the resources it needs, then $P_i$ can wait until all $P_j$ have finished. if $P_j$ is finished, $P_i$ can obtain needed resources. 
 
 ### Resource Allocation Graph Scheme
-- a **claim edge** P_i -> R_j indicates that process P_i may request R_j (given by a dashed line)
+- a **claim edge** $P_i -> R_j$ indicates that process $P_i$ may request $R_j$ (given by a dashed line)
 - a claim edge converts to a request edges when a process request a resource 
 - when a resource is released by a process, the assignment edge converts back to a claim edge 
 
