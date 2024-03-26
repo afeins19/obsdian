@@ -1,12 +1,11 @@
 simple linear models 
 - all attributes are numeric
-- represents linear boundaries between classes (to simple for practice applications)
+- represents linear boundaries between classes 
 
 SVMs are extensions of simple linear models
-- nonlinear class bboundaries
+- nonlinear class boundaries
 - transforming the input using a nonlinear mapping
 - a straight line in the new space doesn't look straight in the original space 
-
 ### Key ideas
 - new effecient separability of non linear regions use **kernel functions**
 - use quadratic optimization problem to avoid local minimum issues that occur with neural nets 

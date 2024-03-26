@@ -1,3 +1,6 @@
+
+**You have to decide to do these things**
+
 # 1. Don't Procrastinate 
 
 ### Goal:
@@ -63,6 +66,7 @@ be attentive and responsive to my friends, reach out to them more, and stay on c
 **Specific Goals**
 - stay in touch with my brother and grandparents
 - call and talk to Oleksiy 
+
 **Action Plan**: 
 - read and look through the family group chat at least once a week
 - work on math problems so you and Oleksiy have stuff to talk about 
