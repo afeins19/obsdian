@@ -31,7 +31,6 @@ Process finished with exit code 0
 ```
 
 
-
 # Exercise 2: Knuth-Morris-Pratt (KMP) Algorithm
 
 ```python 
