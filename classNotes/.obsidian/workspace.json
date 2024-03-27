@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "21273522a74284d5",
+        "id": "54516a61d0dab9e5",
         "type": "tabs",
         "children": [
           {
-            "id": "436f851a67ea98e3",
+            "id": "43097d1e07fcb53d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
+                "file": "(430) Database Design/SQL/Join Operation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
+                "file": "(430) Database Design/SQL/Join Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md",
+                "file": "(430) Database Design/SQL/Join Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Main Memory/Virtual Memory.md"
+                "file": "(430) Database Design/SQL/Join Operation.md"
               }
             }
           },
@@ -156,54 +156,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "436f851a67ea98e3",
+  "active": "43097d1e07fcb53d",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240316180053.png",
-    "Attachments/DALL·E 2024-03-16 16.29.17 - Enhance the logo by incorporating a bit more of a typhoon theme, making it more evident, while still maintaining the minimal and sleek style. Keep the.webp",
+    "(430) Database Design/SQL/SQL Operators.md",
+    "(430) Database Design/SQL/Data Manipulation.md",
+    "(430) Database Design/SQL/Data Definition_part_2.md",
+    "(430) Database Design/SQL/Data Definition_part_1.md",
+    "(430) Database Design/Course Overview.md",
+    "(430) Database Design/Introduction to Databases.md",
+    "(430) Database Design/The Relational Model/The Relational Model.md",
+    "(430) Database Design/The Relational Model/Relational Algebra.md",
+    "(430) Database Design/SQL/Join Operation.md",
+    "(430) Database Design/Entity-Relationship Model/Normalization.md",
+    "(430) Database Design/Entity-Relationship Model/Examples.md",
+    "(430) Database Design/Entity-Relationship Model/The Entity Relationship Model.md",
+    "INTERNSHIPS/Applied.md",
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "(472) Operating Systems/Main Memory/Virtual Memory.md",
+    "Attachments/Screen Shot 2024-03-22 at 10.46.30 AM.png",
+    "Attachments/Screen Shot 2024-03-22 at 10.40.29 AM.png",
+    "Attachments/Screen Shot 2024-03-22 at 10.36.50 AM.png",
+    "Attachments/Screen Shot 2024-03-22 at 10.33.55 AM.png",
+    "Attachments/Screen Shot 2024-03-22 at 10.24.41 AM.png",
+    "Attachments/Screen Shot 2024-03-22 at 10.17.19 AM.png",
+    "INTERNSHIPS/Consider Applying.md",
+    "(463) Alogrithms/Hashing/Hashing.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "(463) Alogrithms/Hashing",
+    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
+    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
+    "(445) Machine Learning/What is Machine Learning.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "Attachments/Screen Shot 2024-03-20 at 1.47.37 PM.png",
+    "Attachments/Screen Shot 2024-03-20 at 1.45.14 PM.png",
+    "Attachments/Screen Shot 2024-03-20 at 1.34.15 PM.png",
+    "Attachments/Screen Shot 2024-03-20 at 1.34.06 PM.png",
+    "(445) Machine Learning/Ensemble Methods",
+    "(472) Operating Systems/Processes/Deadlocks.md",
     "(470) Compilers/Compiler Project/white_paper.pdf",
     "(470) Compilers/Compiler Project/white_paper.md",
-    "(470) Compilers/Compiler Project/type_thon_logo.jpg",
     "(470) Compilers/Compiler Project/Typethon Specification.pdf",
     "(470) Compilers/Compiler Project/Typethon Specification.md",
     "(470) Compilers/Compiler Project/Typethon Documentation.pdf",
-    "(470) Compilers/Compiler Project/Typethon Documentation.md",
     "(470) Compilers/Compiler Project",
-    "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
-    "Attachments/Screen Shot 2024-03-20 at 10.24.37 AM.png",
-    "(472) Operating Systems/Processes/Deadlocks.md",
-    "(472) Operating Systems/Main Memory/Virtual Memory.md",
-    "(472) Operating Systems/Processes/Inter-Process Communication.md",
-    "(472) Operating Systems/Main Memory/Overview.md",
-    "(413) Algorithms Lab/lectures/huffman_coding/huffman coding.md",
-    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
-    "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
-    "(463) Alogrithms/Algorithms/Sorting Algorithms/Quicksort.md",
-    "(463) Alogrithms/Algorithms/Graphs & Trees/Graph Search.md",
-    "(463) Alogrithms/Algorithms/Graphs & Trees/Trees.md",
-    "(445) Machine Learning/PCA/Principle Component Analysis.md",
-    "(445) Machine Learning/Clustering Algorithms/Overview.md",
-    "(445) Machine Learning/ML Pipeline.md",
-    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
-    "Attachments/Screen Shot 2024-03-15 at 2.11.16 PM.png",
-    "Attachments/Screen Shot 2024-03-15 at 2.10.51 PM.png",
-    "Attachments/Screen Shot 2024-03-15 at 2.05.50 PM.png",
-    "Attachments/Screen Shot 2024-03-15 at 10.38.29 AM.png",
-    "Attachments/Screen Shot 2024-03-15 at 10.33.12 AM.png",
-    "Attachments/Screen Shot 2024-03-15 at 10.27.07 AM.png",
-    "(463) Alogrithms/Course Overview.md",
-    "(463) Alogrithms/Master Method.md",
-    "(463) Alogrithms/Big-O & Algorithmic Efficiency.md",
-    "(463) Alogrithms/Assignments/homework 1.md",
-    "(463) Alogrithms/Algorithms/Counting Inversions/Overview.md",
-    "(460) PoPL/Lambda Calculus/Lambda Calculus.md",
     "(460) PoPL/Lambda Calculus",
-    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
     "(445) Machine Learning/K-means/Untitled",
     "(445) Machine Learning/Clustering Algorithms",
-    "Attachments/Screen Shot 2024-03-13 at 10.53.08 AM.png",
     "(472) Operating Systems/Main Memory",
-    "INTERNSHIPS",
-    "(470) Compilers/homework/software_testing",
     "(413) Algorithms Lab/Untitled.canvas"
   ]
 }
