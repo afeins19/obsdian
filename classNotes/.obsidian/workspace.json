@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "e427a3477eea524b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffd0cdcd11427d2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6265f88a563a223b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(413) Algorithms Lab/lab_6/BFS & DFS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1f2eadf3ac15011",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cd40af7b44bbbce",
+    "type": "split",
+    "children": [
+      {
+        "id": "98ad61807f88d159",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a472c173e619b37e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50f05e3e7059ba8c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16b664d3bd62c5f9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5
+  },
+  "right": {
+    "id": "7bfce82e3c5d259c",
+    "type": "split",
+    "children": [
+      {
+        "id": "de96f81d8fbe1d7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee4bef55f39fcae3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "(413) Algorithms Lab/lab_6/BFS & DFS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b788ce31840afb73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "(413) Algorithms Lab/lab_6/BFS & DFS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "48b18c9f3454354c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9b0916e3603942e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "(413) Algorithms Lab/lab_6/BFS & DFS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b1f2eadf3ac15011",
+  "lastOpenFiles": [
+    "Attachments/Image.jpeg",
+    "(472) Operating Systems/File Systems & Disk/File.md",
+    "(413) Algorithms Lab/lab_6/BFS & DFS.md",
+    "(413) Algorithms Lab/lab_6",
+    "(472) Operating Systems/File Systems & Disk/Disk Scheduling.md",
+    "INTERNSHIPS/Applied.md",
+    "INTERNSHIPS/Consider Applying.md",
+    "(463) Alogrithms/Greedy Algorithms/Huffman Coding.md",
+    "(463) Alogrithms/Greedy Algorithms/Knapsack Problem.md",
+    "(445) Machine Learning/NLP/NLP.md",
+    "(463) Alogrithms/Greedy Algorithms",
+    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
+    "(445) Machine Learning/NLP",
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md"
+  ]
+}

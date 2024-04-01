@@ -49,7 +49,6 @@ data structure that contains information about the layout and physical location 
 
 # Disk Data Structures 
 
-
 ### Partitions 
 the division of the disk into one or more groups of cylinders, each treated as a logical disk 
 - partition -> a logical division of the hard disk 
@@ -65,7 +64,7 @@ to increase efficiency, most files systems group blocks into clusters
 - raw disk acess for apps that want to do their own block management -> keeps the os out of the way (e.g. databases)
 
 ### Sector Sparing
-used to handle bad bblocks
+used to handle bad blocks
 - executed by the disk controller
 - maintains a list of the bad blocks and keeps updating the list 
 - logically replaces the bad block with a spare sector when required 
