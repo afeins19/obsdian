@@ -24,7 +24,7 @@ whats the mechanism for ensuring that we have the optimum scheme for prefixes th
 
 
 # Huffman's Greedy Algorithm 
-continuosly try to pair a set of symbols ordered by frequency. We will have (n-1) merges that will be performed on n leaf nodes (the symbols of the alphabet) 
+continuously try to pair a set of symbols ordered by frequency. We will have (n-1) merges that will be performed on n leaf nodes (the symbols of the alphabet) 
 
 # Time Complexity 
 total: O(nlogn)
