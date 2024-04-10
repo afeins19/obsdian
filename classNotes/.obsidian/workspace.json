@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f94c3b3ceb485b2e",
+        "id": "d3a047de71f0227a",
         "type": "tabs",
         "children": [
           {
-            "id": "0dc1b93ce72f5297",
+            "id": "c01b1ac8966b1f91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERNSHIPS/Applied.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 274.5
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTERNSHIPS/Applied.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTERNSHIPS/Applied.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTERNSHIPS/Applied.md"
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md"
               }
             }
           }
@@ -147,26 +147,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dc1b93ce72f5297",
+  "active": "c01b1ac8966b1f91",
   "lastOpenFiles": [
-    "(472) Operating Systems/IO/IO.md",
-    "(472) Operating Systems/IO",
+    "Attachments/Screen Shot 2024-04-10 at 2.12.12 PM.png",
+    "Attachments/Screen Shot 2024-04-10 at 1.53.53 PM.png",
+    "Attachments/Screen Shot 2024-04-10 at 1.49.14 PM.png",
+    "Attachments/Screen Shot 2024-04-10 at 1.45.43 PM.png",
+    "Attachments/Screen Shot 2024-04-10 at 1.44.53 PM.png",
+    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
+    "(412) Data Structures Lab/Lab 7&8.md",
+    "(472) Operating Systems/Security and Protection/Security and Protection.md",
+    "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
+    "(472) Operating Systems/Security and Protection",
+    "(472) Operating Systems/IO/IO Groups.md",
+    "(463) Alogrithms/Dynamic Programming/Genome Sequencing.md",
+    "(460) PoPL/Textbook Notes",
     "(463) Alogrithms/Dynamic Programming/Dynamic Programing.md",
-    "Attachments/Pasted image 20240402122203.png",
-    "(463) Alogrithms/Greedy Algorithms/Knapsack Problem.md",
-    "(463) Alogrithms/Dynamic Programming",
-    "(463) Alogrithms/Greedy Algorithms/Huffman Coding.md",
-    "(413) Algorithms Lab/lab_6/BFS & DFS.md",
-    "Attachments/Image.jpeg",
+    "Attachments/Screen Shot 2024-04-09 at 1.12.49 PM.png",
+    "Attachments/Screen Shot 2024-04-09 at 1.08.26 PM.png",
+    "Attachments/Screen Shot 2024-04-09 at 12.35.27 PM.png",
+    "Attachments/Screen Shot 2024-04-09 at 12.33.19 PM.png",
+    "Attachments/Screen Shot 2024-04-09 at 12.32.15 PM.png",
+    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+    "Attachments/Screen Shot 2024-04-08 at 2.02.51 PM.png",
+    "(445) Machine Learning/NLP/NLP.md",
+    "(445) Machine Learning/Neural Networks (NNs)",
+    "(463) Alogrithms/Master Method.md",
+    "(463) Alogrithms/Hashing/Hashing.md",
+    "(463) Alogrithms/Algorithms/Sorting Algorithms/Merge Sort.md",
+    "(463) Alogrithms/Algorithms/Sorting Algorithms/Quicksort.md",
+    "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
+    "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
+    "(463) Alogrithms/Algorithms/Greedy Algorithms/Knapsack Problem.md",
+    "(463) Alogrithms/Algorithms/Greedy Algorithms/Huffman Coding.md",
+    "(463) Alogrithms/Algorithms/Counting Inversions/Overview.md",
+    "(472) Operating Systems/IO/IO.md",
+    "(413) Algorithms Lab/lab_7/Lab 7 - Minimum Spanning Trees (MST).md",
+    "(413) Algorithms Lab/lab_7",
+    "(463) Alogrithms/Assignments/Untitled.md",
     "(472) Operating Systems/File Systems & Disk/File.md",
+    "INTERNSHIPS/Applied.md",
+    "(472) Operating Systems/IO",
+    "(463) Alogrithms/Dynamic Programming",
+    "(413) Algorithms Lab/lab_6/BFS & DFS.md",
     "(413) Algorithms Lab/lab_6",
     "(472) Operating Systems/File Systems & Disk/Disk Scheduling.md",
-    "INTERNSHIPS/Applied.md",
-    "INTERNSHIPS/Consider Applying.md",
-    "(445) Machine Learning/NLP/NLP.md",
-    "(463) Alogrithms/Greedy Algorithms",
-    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
-    "(445) Machine Learning/NLP",
-    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md"
+    "(463) Alogrithms/Algorithms/Greedy Algorithms",
+    "(445) Machine Learning/NLP"
   ]
 }
