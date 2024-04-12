@@ -68,4 +68,40 @@ if each perceptron in a multilayer neural network is only allowed to use a linea
 # Back propagation 
 the most essential part of learning. This tunes the weights by seeing what values we must tune the weights to minimize the loss function 
 ![[Screen Shot 2024-04-10 at 2.12.12 PM.png]]
+# Gradient 
+a vector which operates on a scalar function to produce a vector whose magnitude is the maximum rate of change of the function at the point of the gradient 
+
+# Training the Perceptron 
+1. training sample is presented and propagated forward through the network 
+2. the output error is calculated, typically the mean squared error ($\frac{(t-y)^2}{2}$)
+3. Network error is minimized using gradient descent 
+	- a stochastic approximation of the gradient descent optimization method for minimizing an objective function 
+	- the wheight's are update in such a way that we don't overstep the global minimum (wheight's are just a small scalar)
+
+### Stochiastic Gradient Descent 
+$$\Delta_{w_{ij}} = -\alpha \frac{dQ}{dw_{ij}}$$ where Q is our error function and $w_{ij}$ is the weight of input i to neuron j 
+
+# Universal Approximation Theorem 
+for a single layer network with a finite number of neurons, this network can be trained to approximate an arbitrarily random function
+- a single hidden layer is powerful enough to learn any function 
+
+this is a theoretical proof and in reality we want to have multiple layers to learn the function quicker. 
+
+# Components of Neural Networks
+- input layer x
+- arbitrary amount of hidden layers 
+- output layer y_hat 
+- set of weights and biases between each layer, W and b 
+- a choice of activation function for each hidden layer - $\sigma$ 
+
+```python
+class NeuralNetwork:
+	def __init__(self, x,y):
+		self.input = x 
+		self.weight1 = np.random(self.input.shape[1],4) # 4 neurons in input layer 
+		self.weight2 = np.random.randint(4,1)
+		self.y = y
+		self.output = np.zeros(y.shape)
+```
+
 

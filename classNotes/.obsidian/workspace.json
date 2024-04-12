@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3a047de71f0227a",
+        "id": "ddcc83525cb33a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "c01b1ac8966b1f91",
+            "id": "21a6742658a2010c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 259.5
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -147,8 +147,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c01b1ac8966b1f91",
+  "active": "21a6742658a2010c",
   "lastOpenFiles": [
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "(472) Operating Systems/Security and Protection/Security and Protection.md",
+    "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
+    "(463) Alogrithms/Dynamic Programming/Bellman-Ford Algorithm.md",
+    "(445) Machine Learning/Decision Trees.md",
+    "(445) Machine Learning/Logistic Regression.md",
+    "(445) Machine Learning/PCA/Principle Component Analysis.md",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
+    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "Attachments/Screen Shot 2024-04-10 at 2.12.12 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.53.53 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.49.14 PM.png",
@@ -156,8 +169,6 @@
     "Attachments/Screen Shot 2024-04-10 at 1.44.53 PM.png",
     "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
     "(412) Data Structures Lab/Lab 7&8.md",
-    "(472) Operating Systems/Security and Protection/Security and Protection.md",
-    "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
     "(472) Operating Systems/Security and Protection",
     "(472) Operating Systems/IO/IO Groups.md",
     "(463) Alogrithms/Dynamic Programming/Genome Sequencing.md",
@@ -168,8 +179,6 @@
     "Attachments/Screen Shot 2024-04-09 at 12.35.27 PM.png",
     "Attachments/Screen Shot 2024-04-09 at 12.33.19 PM.png",
     "Attachments/Screen Shot 2024-04-09 at 12.32.15 PM.png",
-    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
-    "Attachments/Screen Shot 2024-04-08 at 2.02.51 PM.png",
     "(445) Machine Learning/NLP/NLP.md",
     "(445) Machine Learning/Neural Networks (NNs)",
     "(463) Alogrithms/Master Method.md",
@@ -179,19 +188,10 @@
     "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
     "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
     "(463) Alogrithms/Algorithms/Greedy Algorithms/Knapsack Problem.md",
-    "(463) Alogrithms/Algorithms/Greedy Algorithms/Huffman Coding.md",
-    "(463) Alogrithms/Algorithms/Counting Inversions/Overview.md",
-    "(472) Operating Systems/IO/IO.md",
-    "(413) Algorithms Lab/lab_7/Lab 7 - Minimum Spanning Trees (MST).md",
     "(413) Algorithms Lab/lab_7",
-    "(463) Alogrithms/Assignments/Untitled.md",
-    "(472) Operating Systems/File Systems & Disk/File.md",
-    "INTERNSHIPS/Applied.md",
     "(472) Operating Systems/IO",
     "(463) Alogrithms/Dynamic Programming",
-    "(413) Algorithms Lab/lab_6/BFS & DFS.md",
     "(413) Algorithms Lab/lab_6",
-    "(472) Operating Systems/File Systems & Disk/Disk Scheduling.md",
     "(463) Alogrithms/Algorithms/Greedy Algorithms",
     "(445) Machine Learning/NLP"
   ]
