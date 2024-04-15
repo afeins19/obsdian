@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ddcc83525cb33a7f",
+        "id": "18d5bef064d6aa26",
         "type": "tabs",
         "children": [
           {
-            "id": "21a6742658a2010c",
+            "id": "af7d0e6edfafedfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 234.5,
+    "collapsed": true
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(445) Machine Learning/Neural Networks (NNs)/Overview.md"
+                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md"
               }
             }
           }
@@ -147,8 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21a6742658a2010c",
+  "active": "af7d0e6edfafedfc",
   "lastOpenFiles": [
+    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
+    "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
+    "(460) PoPL/Typing.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
     "(472) Operating Systems/Security and Protection/Security and Protection.md",
     "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
@@ -161,13 +166,11 @@
     "(445) Machine Learning/Feature Engineering/Feature Selection.md",
     "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
     "(445) Machine Learning/Clustering Algorithms/Overview.md",
-    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "Attachments/Screen Shot 2024-04-10 at 2.12.12 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.53.53 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.49.14 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.45.43 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.44.53 PM.png",
-    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
     "(412) Data Structures Lab/Lab 7&8.md",
     "(472) Operating Systems/Security and Protection",
     "(472) Operating Systems/IO/IO Groups.md",
@@ -186,8 +189,6 @@
     "(463) Alogrithms/Algorithms/Sorting Algorithms/Merge Sort.md",
     "(463) Alogrithms/Algorithms/Sorting Algorithms/Quicksort.md",
     "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
-    "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
-    "(463) Alogrithms/Algorithms/Greedy Algorithms/Knapsack Problem.md",
     "(413) Algorithms Lab/lab_7",
     "(472) Operating Systems/IO",
     "(463) Alogrithms/Dynamic Programming",

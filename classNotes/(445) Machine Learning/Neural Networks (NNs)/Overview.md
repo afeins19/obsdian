@@ -1,7 +1,6 @@
 # Early Boolean Circuit Model of the brain
 takes a summation of linear terms and applies a non-linear function to produces some output
 ![[Screen Shot 2024-04-08 at 1.46.58 PM.png]]
-
 # Hebbian Learning 
 when a group of neurons fire together, they wire together. This is modeled in the following way: 
 
@@ -60,11 +59,9 @@ after the input passess through the 4 hidden layer perceptrons, we can then pass
 # Quantifying Loss 
 ![[Screen Shot 2024-04-10 at 1.53.53 PM.png]]
 in order to optimize the weights, we need to derive a metric of performance for our model  - the loss function. The cost function is a function of our predictions $X^{(i)}$ and a weight $W$ as well as the actual value for that training sample $y^{(i)}$ 
-
 # Beyond Linearity 
 if each perceptron in a multilayer neural network is only allowed to use a linear activation function, the final output of our network will still be some function of the inputs
 - the feedforward neural network is no more powerful than the perceptron no matter how many layers it has 
-
 # Back propagation 
 the most essential part of learning. This tunes the weights by seeing what values we must tune the weights to minimize the loss function 
 ![[Screen Shot 2024-04-10 at 2.12.12 PM.png]]
@@ -77,7 +74,6 @@ a vector which operates on a scalar function to produce a vector whose magnitude
 3. Network error is minimized using gradient descent 
 	- a stochastic approximation of the gradient descent optimization method for minimizing an objective function 
 	- the wheight's are update in such a way that we don't overstep the global minimum (wheight's are just a small scalar)
-
 ### Stochiastic Gradient Descent 
 $$\Delta_{w_{ij}} = -\alpha \frac{dQ}{dw_{ij}}$$ where Q is our error function and $w_{ij}$ is the weight of input i to neuron j 
 
@@ -86,7 +82,6 @@ for a single layer network with a finite number of neurons, this network can be 
 - a single hidden layer is powerful enough to learn any function 
 
 this is a theoretical proof and in reality we want to have multiple layers to learn the function quicker. 
-
 # Components of Neural Networks
 - input layer x
 - arbitrary amount of hidden layers 
@@ -103,5 +98,3 @@ class NeuralNetwork:
 		self.y = y
 		self.output = np.zeros(y.shape)
 ```
-
-
