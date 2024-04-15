@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md"
+                "file": "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md"
               }
             }
           }
@@ -150,10 +150,14 @@
   },
   "active": "af7d0e6edfafedfc",
   "lastOpenFiles": [
-    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
-    "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
-    "(460) PoPL/Typing.md",
+    "Attachments/Pasted image 20240415140153.png",
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
+    "Attachments/Pasted image 20240415133006.png",
+    "Attachments/Pasted image 20240415132806.png",
+    "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
+    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
+    "(460) PoPL/Typing.md",
     "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
     "(472) Operating Systems/Security and Protection/Security and Protection.md",
     "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
@@ -180,15 +184,11 @@
     "Attachments/Screen Shot 2024-04-09 at 1.12.49 PM.png",
     "Attachments/Screen Shot 2024-04-09 at 1.08.26 PM.png",
     "Attachments/Screen Shot 2024-04-09 at 12.35.27 PM.png",
-    "Attachments/Screen Shot 2024-04-09 at 12.33.19 PM.png",
-    "Attachments/Screen Shot 2024-04-09 at 12.32.15 PM.png",
     "(445) Machine Learning/NLP/NLP.md",
     "(445) Machine Learning/Neural Networks (NNs)",
     "(463) Alogrithms/Master Method.md",
     "(463) Alogrithms/Hashing/Hashing.md",
     "(463) Alogrithms/Algorithms/Sorting Algorithms/Merge Sort.md",
-    "(463) Alogrithms/Algorithms/Sorting Algorithms/Quicksort.md",
-    "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
     "(413) Algorithms Lab/lab_7",
     "(472) Operating Systems/IO",
     "(463) Alogrithms/Dynamic Programming",

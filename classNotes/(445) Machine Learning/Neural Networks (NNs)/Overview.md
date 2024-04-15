@@ -74,9 +74,11 @@ a vector which operates on a scalar function to produce a vector whose magnitude
 3. Network error is minimized using gradient descent 
 	- a stochastic approximation of the gradient descent optimization method for minimizing an objective function 
 	- the wheight's are update in such a way that we don't overstep the global minimum (wheight's are just a small scalar)
-### Stochiastic Gradient Descent 
+# Stochiastic Gradient Descent 
 $$\Delta_{w_{ij}} = -\alpha \frac{dQ}{dw_{ij}}$$ where Q is our error function and $w_{ij}$ is the weight of input i to neuron j 
 
+# Batched Stochiastic Gradient Descent 
+if we take the gradient for each training data point, we may converge very slowly but we might also, have a chance of being knocked off from a local minimum and find a global minimum (a global minimum convergence value). This process how ever is quite slow and involves a rather inefficient path through the loss function. We can take the gradient based on the average of a sequence of values (say groups of 10) - this is called **mini-batching**. This lets us take fewer steps towards a minimum value but might result in having us enter a local minimum rather than the global. The benefit of taking the gradient at each data point is that we have a higher chance of being put on a path towards a lower minimum value.
 # Universal Approximation Theorem 
 for a single layer network with a finite number of neurons, this network can be trained to approximate an arbitrarily random function
 - a single hidden layer is powerful enough to learn any function 
@@ -98,3 +100,27 @@ class NeuralNetwork:
 		self.y = y
 		self.output = np.zeros(y.shape)
 ```
+
+# Back-propagation 
+![[Pasted image 20240415132806.png]]
+
+![[Pasted image 20240415133006.png]]
+
+we take the derivatives over the activation functions. The input to these activation functions is a linear function of $w$. The gradient w.r. to the loss function consists of the 3 terms above d(loss(y,y_hat)/dy, dy_hat/dz, and dz/dw. These relate only to the the **last layer** in the sequence of activations 
+
+### Back Propogation Implementation 
+```python 
+class NN:
+	def __init__(self, x, y):
+		self.input = x
+		...
+def feedforward(self):
+	# calculates activation value for each neuron to the next in the layer 
+		self.layer1 = sigmoid(np.dot(self.input, self.weights1))
+	...
+
+def backprop(self):
+	# applying the chain rule
+	d_weights2 = np.dot(self.layer1.T (2*(self.y_act-y_pred)))...
+```
+
