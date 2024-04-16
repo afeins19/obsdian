@@ -1,0 +1,1 @@
+When you feel awkward or that you're not saying enough. Stand up to the bully that is anxiety. When you feel awkward and anxious socially - come at it with a "bring it on, you cant hurt me approach". 
