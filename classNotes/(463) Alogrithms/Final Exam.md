@@ -1,0 +1,2 @@
+- 1 page (physical) cheat sheet allowed
+- Material - everything after the midterm 

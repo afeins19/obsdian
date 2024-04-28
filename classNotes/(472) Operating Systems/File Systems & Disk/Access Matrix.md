@@ -51,6 +51,5 @@ maintains the list of all access rights in the os globally
 - privilege is the right to execute system calls or use an option within a system call
 - users are assigned roles granting access to privileges and programs 
 	- enable role via password to gain privileges 
-
 ### Role 
 - a set of specific privileges 

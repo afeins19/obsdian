@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Therapy/Don't Relapse.md",
+                "file": "Therapy/My Brother.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Therapy/Don't Relapse.md",
+                "file": "Therapy/My Brother.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Therapy/Don't Relapse.md",
+                "file": "Therapy/My Brother.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Therapy/Don't Relapse.md"
+                "file": "Therapy/My Brother.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "5f8d6a64969e5cc0",
   "lastOpenFiles": [
-    "Therapy/My Values.md",
+    "Therapy/How to Handle Anxiety.md",
+    "Therapy/My Brother.md",
+    "Therapy/First Day.md",
     "Therapy/Don't Relapse.md",
+    "Therapy/My Values.md",
     "Therapy/What I'm Good at.md",
     "Psychiatrists & Psychologists.md",
     "Therapy/Welcome.md",
