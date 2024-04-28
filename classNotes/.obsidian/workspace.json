@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6556bed621d22ef0",
+        "id": "fd7c53909aba4f65",
         "type": "tabs",
         "children": [
           {
-            "id": "5d43638406e4b5ae",
+            "id": "25e9d5848239f8f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
+                "file": "(472) Operating Systems/Final Exam/Quiz 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b90c5c04788887ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
+                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
+                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md"
+                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md"
               }
             }
           }
@@ -147,52 +161,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d43638406e4b5ae",
+  "active": "b90c5c04788887ef",
   "lastOpenFiles": [
-    "(412) Data Structures Lab/Lab 7&8.md",
-    "(472) Operating Systems/Homework/Homework 14.md",
-    "(472) Operating Systems/Homework/Homework 14_pdf.pdf",
-    "Attachments/Screen Shot 2024-04-17 at 10.35.20 AM.png",
-    "Attachments/Screen Shot 2024-04-17 at 10.17.14 AM.png",
-    "(472) Operating Systems/File Systems & Disk/Access Matrix.md",
-    "(463) Alogrithms/Quiz 4.md",
-    "(463) Alogrithms/Dynamic Programming/Floyd-Warshall Algorithm.md",
-    "Attachments/Pasted image 20240415140153.png",
-    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+    "(472) Operating Systems/Final Exam/Quiz 5.md",
+    "(472) Operating Systems/Final Exam/Quiz 6.md",
+    "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
+    "(472) Operating Systems/Final Exam/Quiz 4.md",
+    "(472) Operating Systems/Final Exam/Quiz 3.md",
+    "(472) Operating Systems/Final Exam/Review Notes",
+    "(472) Operating Systems/Boot-up & System Architecture.md",
+    "(472) Operating Systems/Operating System Structure.md",
+    "(472) Operating Systems/Kernel Data Structures.md",
+    "(472) Operating Systems/File Systems & Disk/Disk Scheduling.md",
+    "(472) Operating Systems/Final Exam.zip",
+    "Attachments/Screen Shot 2024-04-28 at 12.50.22 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.49.52 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.49.32 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.48.37 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.48.14 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.48.06 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.47.20 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.45.17 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.44.52 PM.png",
+    "Attachments/Screen Shot 2024-04-28 at 12.44.22 PM.png",
+    "(470) Compilers/FINAL PROJECT PLAN.md",
+    "(472) Operating Systems/Final Exam",
+    "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
+    "(463) Alogrithms/Algorithms/Sorting Algorithms/Merge Sort.md",
+    "(463) Alogrithms/Algorithms/Greedy Algorithms/Huffman Coding.md",
+    "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Stable Matching Problem.md",
+    "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
+    "(412) Data Structures Lab/Labs/Lab_8 (comparing ds)/Lab 8 (Comparing Data Structures).md",
+    "(463) Alogrithms/Final Exam.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
+    "(472) Operating Systems/Distributed Systems/Overview.md",
     "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
-    "Attachments/Pasted image 20240415133006.png",
-    "Attachments/Pasted image 20240415132806.png",
-    "(460) PoPL/Textbook Notes/A Syntax for Local Binding.md",
-    "(460) PoPL/Textbook Notes/Chapter 6 - First Class Functions.md",
-    "(460) PoPL/Typing.md",
-    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "Ab Workout.md",
+    "(472) Operating Systems/File Systems & Disk/Access Matrix.md",
+    "(472) Operating Systems/Distributed Systems",
     "(472) Operating Systems/Security and Protection/Security and Protection.md",
-    "(472) Operating Systems/IO/Transforming io requests to hardware operations.md",
-    "(463) Alogrithms/Dynamic Programming/Bellman-Ford Algorithm.md",
-    "(445) Machine Learning/Decision Trees.md",
-    "(445) Machine Learning/Logistic Regression.md",
-    "(445) Machine Learning/PCA/Principle Component Analysis.md",
-    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
-    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
-    "(445) Machine Learning/Feature Engineering/Feature Selection.md",
-    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
-    "(445) Machine Learning/Clustering Algorithms/Overview.md",
-    "Attachments/Screen Shot 2024-04-10 at 2.12.12 PM.png",
-    "Attachments/Screen Shot 2024-04-10 at 1.53.53 PM.png",
-    "Attachments/Screen Shot 2024-04-10 at 1.49.14 PM.png",
-    "Attachments/Screen Shot 2024-04-10 at 1.45.43 PM.png",
-    "Attachments/Screen Shot 2024-04-10 at 1.44.53 PM.png",
+    "(463) Alogrithms/P vs. NP/Traveling Salesman Problem.md",
+    "(472) Operating Systems/Homework/Homework 14_pdf.pdf",
+    "(472) Operating Systems/Homework/Homework 14.md",
+    "(463) Alogrithms/P vs. NP/NP vs NP Hard.md",
+    "(463) Alogrithms/P vs. NP",
+    "(413) Algorithms Lab/lectures/AVL Trees",
     "(472) Operating Systems/Security and Protection",
-    "(472) Operating Systems/IO/IO Groups.md",
-    "(463) Alogrithms/Dynamic Programming/Genome Sequencing.md",
     "(460) PoPL/Textbook Notes",
-    "(463) Alogrithms/Dynamic Programming/Dynamic Programing.md",
-    "(445) Machine Learning/Neural Networks (NNs)",
-    "(413) Algorithms Lab/lab_7",
-    "(472) Operating Systems/IO",
-    "(463) Alogrithms/Dynamic Programming",
-    "(413) Algorithms Lab/lab_6",
-    "(463) Alogrithms/Algorithms/Greedy Algorithms",
-    "(445) Machine Learning/NLP"
+    "(445) Machine Learning/Neural Networks (NNs)"
   ]
 }
