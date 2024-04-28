@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Homework/Homework 14.md",
+                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945,
-    "collapsed": true
+    "width": 271.51103591918945
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Homework/Homework 14.md",
+                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Homework/Homework 14.md",
+                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Homework/Homework 14.md"
+                "file": "(412) Data Structures Lab/Personal Data Structure/Lab - 10 Design your own data structure.md"
               }
             }
           }
@@ -150,8 +149,9 @@
   },
   "active": "5d43638406e4b5ae",
   "lastOpenFiles": [
-    "(472) Operating Systems/Homework/Homework 14_pdf.pdf",
+    "(412) Data Structures Lab/Lab 7&8.md",
     "(472) Operating Systems/Homework/Homework 14.md",
+    "(472) Operating Systems/Homework/Homework 14_pdf.pdf",
     "Attachments/Screen Shot 2024-04-17 at 10.35.20 AM.png",
     "Attachments/Screen Shot 2024-04-17 at 10.17.14 AM.png",
     "(472) Operating Systems/File Systems & Disk/Access Matrix.md",
@@ -182,7 +182,6 @@
     "Attachments/Screen Shot 2024-04-10 at 1.49.14 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.45.43 PM.png",
     "Attachments/Screen Shot 2024-04-10 at 1.44.53 PM.png",
-    "(412) Data Structures Lab/Lab 7&8.md",
     "(472) Operating Systems/Security and Protection",
     "(472) Operating Systems/IO/IO Groups.md",
     "(463) Alogrithms/Dynamic Programming/Genome Sequencing.md",
