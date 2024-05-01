@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fd7c53909aba4f65",
+        "id": "20ded54a29220270",
         "type": "tabs",
         "children": [
           {
-            "id": "25e9d5848239f8f8",
+            "id": "e50e0895caba946b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(472) Operating Systems/Final Exam/Quiz 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b90c5c04788887ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
+                "file": "Ab Workout.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
+                "file": "Ab Workout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
+                "file": "Ab Workout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md"
+                "file": "Ab Workout.md"
               }
             }
           }
@@ -161,11 +147,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b90c5c04788887ef",
+  "active": "e50e0895caba946b",
   "lastOpenFiles": [
+    "(413) Algorithms Lab/lab_9/Report.md",
+    "(470) Compilers/final project/Translator Architecture.md",
+    "(413) Algorithms Lab/lab_9",
+    "(470) Compilers/final project/Typethon Installation Instructions.md",
+    "(413) Algorithms Lab/lab_4/Priority queue and Heap Sort.md",
+    "(413) Algorithms Lab/lab_3/Lab 3 - String Searching Algorithms.md",
+    "(463) Alogrithms/Big-O & Algorithmic Efficiency.md",
+    "(463) Alogrithms/P vs. NP/NP vs NP Hard.md",
+    "(463) Alogrithms/P vs. NP/Traveling Salesman Problem.md",
+    "(463) Alogrithms/Dynamic Programming/Dynamic Programing.md",
+    "(470) Compilers/final project/Quick Guide.md",
     "(472) Operating Systems/Final Exam/Quiz 5.md",
-    "(472) Operating Systems/Final Exam/Quiz 6.md",
+    "(470) Compilers/final project/FINAL PROJECT PLAN.md",
+    "(470) Compilers/final project",
+    "(445) Machine Learning/Feature Engineering/Feature Engineering.md",
+    "(445) Machine Learning/Decision Trees.md",
     "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
+    "(472) Operating Systems/Final Exam/Quiz 6.md",
     "(472) Operating Systems/Final Exam/Quiz 4.md",
     "(472) Operating Systems/Final Exam/Quiz 3.md",
     "(472) Operating Systems/Final Exam/Review Notes",
@@ -184,30 +185,15 @@
     "Attachments/Screen Shot 2024-04-28 at 12.45.17 PM.png",
     "Attachments/Screen Shot 2024-04-28 at 12.44.52 PM.png",
     "Attachments/Screen Shot 2024-04-28 at 12.44.22 PM.png",
-    "(470) Compilers/FINAL PROJECT PLAN.md",
     "(472) Operating Systems/Final Exam",
     "(463) Alogrithms/Algorithms/Strassen Matrix Multiplication Algorithm/Matrix Multiplication.md",
     "(463) Alogrithms/Algorithms/Sorting Algorithms/Merge Sort.md",
     "(463) Alogrithms/Algorithms/Greedy Algorithms/Huffman Coding.md",
     "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Stable Matching Problem.md",
-    "(463) Alogrithms/Algorithms/G-S Stable Matching Algorithm/Solution.md",
-    "(412) Data Structures Lab/Labs/Lab_8 (comparing ds)/Lab 8 (Comparing Data Structures).md",
-    "(463) Alogrithms/Final Exam.md",
-    "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
-    "(472) Operating Systems/Distributed Systems/Overview.md",
-    "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
-    "Ab Workout.md",
-    "(472) Operating Systems/File Systems & Disk/Access Matrix.md",
     "(472) Operating Systems/Distributed Systems",
-    "(472) Operating Systems/Security and Protection/Security and Protection.md",
-    "(463) Alogrithms/P vs. NP/Traveling Salesman Problem.md",
     "(472) Operating Systems/Homework/Homework 14_pdf.pdf",
-    "(472) Operating Systems/Homework/Homework 14.md",
-    "(463) Alogrithms/P vs. NP/NP vs NP Hard.md",
     "(463) Alogrithms/P vs. NP",
     "(413) Algorithms Lab/lectures/AVL Trees",
-    "(472) Operating Systems/Security and Protection",
-    "(460) PoPL/Textbook Notes",
-    "(445) Machine Learning/Neural Networks (NNs)"
+    "(472) Operating Systems/Security and Protection"
   ]
 }
