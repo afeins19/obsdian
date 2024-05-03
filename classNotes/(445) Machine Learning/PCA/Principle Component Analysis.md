@@ -32,7 +32,7 @@ the **direction of the data that explain a maximal amount of variance**
 - trade off between information loss and dimensionality reduction 
 - it doesn't directly consider the correlation between the principal components and the target variable in the original dataset 
 
-PCA also suffers from some llimitations
+PCA also suffers from some limitations
 - sensitive to the scale of features (so we must standardize the data)
 - not robust against outliers (biased against strong outliers)
 
