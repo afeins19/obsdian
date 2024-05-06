@@ -9,16 +9,13 @@
 - [ ] linux-firmware (firmware)
 - [ ] grub (bootloader)
 - [ ] networkmanager (networking)
-- [ ] man-db man-pages texinfo
+- [ ] man-db
+- [ ] man-pages
+- [ ] texinfo
 - [ ] intel-ucode
-- [ ] neovim
-- [ ] tmux
 - [ ] nano 
-- [ ] kitty (terminal) 
-- [ ] sudo 
-- [ ] zsh
 - [ ] less
-- [ ] rsync (file copying)
+
 
 # Pacstrap (the command that installs arch)
 runs in the installer - use it to download files
