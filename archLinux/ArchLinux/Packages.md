@@ -1,5 +1,9 @@
+1. format the drive
+2. mount it to the installation media
+3. install packages with pacstrap ```pacstrap /<machine location> <big list o' packages>```
 
-# Base Packages (Required)
+
+# Base Packages (Required) - USING PACSTRAP
 - [ ] base (basic utilities)
 - [ ] linux (kernel)
 - [ ] linux-firmware (firmware)
@@ -7,17 +11,21 @@
 - [ ] networkmanager (networking)
 
 # Essentials 
+- [ ] intel-ucode
 - [ ] reflector (arch mirror updator)
 - [ ] neovim
 - [ ] tmux
 - [ ] nano 
-- [ ] gnome-terminal - best terminal? 
+- [ ] kitty (terminal) 
 - [ ] sudo 
 - [ ] zsh
 - [ ] less
 - [ ] rsync (file copying)
 - [ ] avahi (mDNS)
 - [ ] yay (AUR helper)
+
+# Pacstrap (the command that installs arch)
+runs in the installer - use it to download files
 
 # Terminals (options)
 - [ ] kitty
