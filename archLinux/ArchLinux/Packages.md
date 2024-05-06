@@ -21,13 +21,17 @@
 
 # Terminals (options)
 - [ ] kitty
-- [ ] gnome-terminal 
+- [ ] gnome-terminal
+
+# Graphics Drivers
+- [ ] Mesa
+- [ ] lib32 Mesa (for 32bit apps)
 
 # Desktop 
 - [ ] **GOOD DISPLAY SERVER** HYPERLAND 
 - [ ] sddm (display manager)
 - [ ] redshift (warm colors at night)
-- [ ] mes (OpenGL implementation)
+- [ ] mesa (OpenGL implementation) 
 
 # Daemons 
 
