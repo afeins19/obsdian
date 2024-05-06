@@ -31,8 +31,7 @@
 - [ ] barrier (kvm?)
 
 # Daemons 
-- [ ] earlyoom (OOM daemon?)
-- [ ] cronie (Cron daemon?)
+
 
 # Internet
 - [ ] firefox 
