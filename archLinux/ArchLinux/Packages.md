@@ -28,7 +28,6 @@
 - [ ] sddm (display manager)
 - [ ] redshift (warm colors at night)
 - [ ] mes (OpenGL implementation)
-- [ ] barrier (kvm?)
 
 # Daemons 
 
