@@ -52,7 +52,7 @@
 - [ ] cups (printing system)
 - [ ] cups-pdf (pdf printer)
 - [ ] texlive-most (latex)
-- [ ] libreoffice-fresh (office suite)
+- [ ] onlyoffice (office suite)
 - [ ] zotero (bibliiography manager?)
 
 # Fonts
