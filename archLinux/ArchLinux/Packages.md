@@ -9,6 +9,7 @@
 # Essentials 
 - [ ] reflector (arch mirror updator)
 - [ ] neovim
+- [ ] tmux
 - [ ] nano 
 - [ ] gnome-terminal - best terminal? 
 - [ ] sudo 
@@ -17,6 +18,10 @@
 - [ ] rsync (file copying)
 - [ ] avahi (mDNS)
 - [ ] yay (AUR helper)
+
+# Terminals (options)
+- [ ] kitty
+- [ ] gnome-terminal 
 
 # Desktop 
 - [ ] **GOOD DISPLAY SERVER** HYPERLAND 
@@ -69,6 +74,7 @@
 # Graphics
 - [ ] gimp (image editor)
 - [ ] inkscape (vector graphics editor?)
+
 # Development 
 - [ ] base-devel (basic build tools)
 - [ ] dotnet-sdk (.NET Core)
@@ -84,7 +90,6 @@
 - [ ] ruby (script language)
 - [ ] rustup (rust toolchain installer)
 - [ ] go (go compiler)
-- [ ] stack (haskell build tool)
 - [ ] valgrind (Memory debugger)
 - [ ] rider ide (figure out how to git it to make c# stuff)
 - [ ] pycharm-community-edition
