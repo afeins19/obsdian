@@ -140,14 +140,9 @@
 - [ ] zaw-git and grml-zsh-config-git - fancy zsh
 - [ ] nodejs - javascript
 - [ ] vim 
-- [ ] gogoc ipv6 tunnel blocker?
 - [ ] `irqbalance` Balances IRQ on multiple CPU cores
-- [ ] `verynice` Automatically adjusts nice level for processes
-- [ ] `dmenu` Menu for i3
-- [ ] `feh` To view images and set background on i3
-- [ ] `mosh-git` Mosh with IPv6
 - [ ] `curl` gorks those URLs
 - [ ] `python-pip` and `requests`, `httpie`
 - [ ] `john` crack passwords
-- [ ] `gcc` `musl` to make C programs, musl is to make them extra-small (statically)
+- [ ] `gcc` 
 - [ ] `wireshark` to sniff packets
