@@ -110,6 +110,7 @@
 - [ ] ansible (IT Automation)
 
 # CLI Tools
+- [ ] antidote (zsh package manager) 
 - [ ] trash-cli (trash helper)
 - [ ] tree (directory listing command)
 - [ ] fzf (fuzzy finder)
