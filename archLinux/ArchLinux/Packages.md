@@ -9,10 +9,8 @@
 - [ ] linux-firmware (firmware)
 - [ ] grub (bootloader)
 - [ ] networkmanager (networking)
-
-# Essentials 
+- [ ] man-db man-pages texinfo
 - [ ] intel-ucode
-- [ ] reflector (arch mirror updator)
 - [ ] neovim
 - [ ] tmux
 - [ ] nano 
@@ -21,8 +19,6 @@
 - [ ] zsh
 - [ ] less
 - [ ] rsync (file copying)
-- [ ] avahi (mDNS)
-- [ ] yay (AUR helper)
 
 # Pacstrap (the command that installs arch)
 runs in the installer - use it to download files
@@ -118,6 +114,7 @@ runs in the installer - use it to download files
 - [ ] ansible (IT Automation)
 
 # CLI Tools
+- [ ] yay (AUR helper)
 - [ ] antidote (zsh package manager) 
 - [ ] trash-cli (trash helper)
 - [ ] tree (directory listing command)
