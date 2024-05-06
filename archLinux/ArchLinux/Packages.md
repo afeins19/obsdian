@@ -34,7 +34,7 @@
 - [ ] mesa (OpenGL implementation) 
 
 # Daemons 
-
+- [ ] Dundst (notification daemon)
 
 # Internet
 - [ ] firefox 
