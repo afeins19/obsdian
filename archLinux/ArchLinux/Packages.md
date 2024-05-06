@@ -57,9 +57,9 @@
 
 # Fonts
 - [ ] nerdfonts (heard it was good)
-- [ ] ttf-liberation (arial/times new roman replacement)
-- [ ] ttf-jetbrains-mono (code fonts)
-- [ ] ttf-font-awesome (icon font)
+- [ ] noto-fonts
+- [ ] noto-fonts-emoji
+- [ ] notofonts-cjk
 
 # Audio
 - [ ] pipewire (audio processor/router)
