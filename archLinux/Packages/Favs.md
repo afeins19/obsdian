@@ -2,20 +2,18 @@
 2. mount it to the installation media
 3. install packages with pacstrap ```pacstrap /<machine location> <big list o' packages>```
 
-
 # Base Packages (Required) - USING PACSTRAP
-- [ ] base (basic utilities)
-- [ ] linux (kernel)
-- [ ] linux-firmware (firmware)
-- [ ] grub (bootloader)
-- [ ] networkmanager (networking)
-- [ ] man-db
-- [ ] man-pages
-- [ ] texinfo
-- [ ] intel-ucode
-- [ ] nano 
-- [ ] less
-
+- [x] base (basic utilities)
+- [x] linux (kernel)
+- [x] linux-firmware (firmware)
+- [x] grub (bootloader)
+- [x] networkmanager (networking)
+- [x] man-db
+- [x] man-pages
+- [x] texinfo
+- [x] intel-ucode
+- [x] nano 
+- [x] less
 
 # Pacstrap (the command that installs arch)
 runs in the installer - use it to download files
@@ -26,7 +24,7 @@ runs in the installer - use it to download files
 
 # Graphics Drivers
 - [ ] Mesa
-- [ ] lib32 Mesa (for 32bit apps)
+- [ ] vulkan-radeon
 
 # Desktop 
 - [ ] **GOOD DISPLAY SERVER** HYPERLAND 

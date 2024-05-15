@@ -1,19 +1,31 @@
 {
   "main": {
-    "id": "298f08978041516e",
+    "id": "2f44ed72e858229a",
     "type": "split",
     "children": [
       {
-        "id": "d013f8796c7e2052",
+        "id": "27c606ccfcb1082a",
         "type": "tabs",
         "children": [
           {
-            "id": "796e6720370dd185",
+            "id": "2d9fcd1207722d08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Packages.md",
+                "file": "zsh/Starship/Configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8805947e5807e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zsh/Starship/Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a57ed0f7251e1a27",
+    "id": "fd1d3bc152185122",
     "type": "split",
     "children": [
       {
-        "id": "c2905c2a16a731e3",
+        "id": "86a08f91179dabeb",
         "type": "tabs",
         "children": [
           {
-            "id": "ff417484fbd19f9b",
+            "id": "d875fbc8abead099",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +55,7 @@
             }
           },
           {
-            "id": "d84d5f2e6f689cee",
+            "id": "ab0d9601c9a909fa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +70,7 @@
             }
           },
           {
-            "id": "0b2eee5a9615d968",
+            "id": "4e8e4ed5921bebbf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +81,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "806c93b7fd2bdd30",
+    "id": "518abde9f19f2412",
     "type": "split",
     "children": [
       {
-        "id": "43cf333aa4fec561",
+        "id": "d90a4dd994171d42",
         "type": "tabs",
         "children": [
           {
-            "id": "f87e477281195ad7",
+            "id": "34d04a12116a2946",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Packages.md",
+                "file": "zsh/Starship/Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +109,19 @@
             }
           },
           {
-            "id": "917006e67ddc6a60",
+            "id": "e06519734137561c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Packages.md",
+                "file": "zsh/Starship/Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "74f85b7ce60068d2",
+            "id": "c207c65cedfa9b77",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +132,12 @@
             }
           },
           {
-            "id": "3c135ba7eddfa6ad",
+            "id": "4094718f99be9cc4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Packages.md"
+                "file": "zsh/Starship/Configuration.md"
               }
             }
           }
@@ -146,10 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff417484fbd19f9b",
+  "active": "2d9fcd1207722d08",
   "lastOpenFiles": [
-    "[.md",
-    "Packages.md",
-    "Welcome.md"
+    "zsh/Starship/Installation.md",
+    "zsh/Starship/Configuration.md",
+    "README.md",
+    "text group.md",
+    "^Text Group.md",
+    "zsh/Starship",
+    "Commands/Systemd.md",
+    "zsh",
+    "Packages/Packages.md",
+    "Waybar/External Configs.md",
+    "Waybar/sample.png",
+    "Commands/Miscellaneous.md",
+    "Commands/ln.md",
+    "Packages/Favs.md",
+    "Waybar",
+    "Commands/Pacman.md",
+    "Packages",
+    "Commands"
   ]
 }

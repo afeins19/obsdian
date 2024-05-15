@@ -1,0 +1,1 @@
+many of the guides found in these subdirectories are edited versions of wiki's, docs, guides, manuals, reddit comments, etc. for my understanding. 
