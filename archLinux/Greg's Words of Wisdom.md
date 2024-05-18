@@ -1,0 +1,2 @@
+[The lords dotfiles] [https://github.com/GregShiner/dotfiles]
+- "the important fact here is that all regular files are treated the same and their characteristics of what they can do is defined by their permissions"
