@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d9fcd1207722d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zsh/Starship/Configuration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffe221fd3559c73e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kitty/Cool Themes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e40b58e6ea26e808",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Greg's Words of Wisdom.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8805947e5807e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zsh/Starship/Configuration.md",
+                "file": "VIM/Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "518abde9f19f2412",
@@ -122,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greg's Words of Wisdom.md",
+                "file": "VIM/Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greg's Words of Wisdom.md",
+                "file": "VIM/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greg's Words of Wisdom.md"
+                "file": "VIM/Basics.md"
               }
             }
           }
@@ -185,9 +149,11 @@
   },
   "active": "e40b58e6ea26e808",
   "lastOpenFiles": [
-    "Kitty/Cool Themes.md",
-    "Greg's Words of Wisdom.md",
     "zsh/Starship/Configuration.md",
+    "Kitty/Cool Themes.md",
+    "VIM/Basics.md",
+    "Greg's Words of Wisdom.md",
+    "VIM",
     "Kitty",
     "Fonts & Icons/Icons.md",
     "Fonts & Icons",
