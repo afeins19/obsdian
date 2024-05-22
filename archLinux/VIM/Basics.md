@@ -1,6 +1,7 @@
 # Resources
 - `nvim` then `:Tutor`
 - https://www.openvim.com/
+- https://learnxinyminutes.com/docs/vim/ (DONT DO SHIT AT BOTTOM IN `~/.VIMRC`)
 #  Tutorial Specific 
 - Links - put the cursor over the link and type `Enter`
 - control + character is specified by `<C-[char]>`

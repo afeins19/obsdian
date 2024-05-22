@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Greg's Words of Wisdom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a329b2dc26a762e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "VIM/Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,18 +160,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e40b58e6ea26e808",
+  "active": "a329b2dc26a762e0",
   "lastOpenFiles": [
+    "TODO.md",
+    "Greg's Words of Wisdom.md",
+    "README.md",
+    "VIM/Basics.md",
     "zsh/Starship/Configuration.md",
     "Kitty/Cool Themes.md",
-    "VIM/Basics.md",
-    "Greg's Words of Wisdom.md",
     "VIM",
     "Kitty",
     "Fonts & Icons/Icons.md",
     "Fonts & Icons",
     "zsh/Starship/Installation.md",
-    "README.md",
     "text group.md",
     "^Text Group.md",
     "zsh/Starship",
