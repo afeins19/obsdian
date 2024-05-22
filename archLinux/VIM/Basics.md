@@ -24,6 +24,8 @@
 - delete word: go to a word and type `dw`
 - deleting line: go to the end of the correct line and type `d$`
 	- this deletes everything after your cursor 
+### Ex commands `:`
+all commands that begin with `:` are called ex commands
 
 # Editing
 - Deletion:  go over the char you want deleted and press `x`
@@ -88,6 +90,38 @@ this command only works within the current line that you are in (this only works
 - `?` - the same as `/` but reverse
 - `*` - searches for the next occurrence of the word your cursor is currently over 
 - `#` - the same as `*` but in reverse
-
 # Operators
-_Operators_ let you operate in a range of text (defined by motion).
+_Operators_ let you operate in a range of text (defined by motion). 
+- `y` - yank
+- `yy` - yank whole line 
+- `Y` - equivalent to doing `y$` (from cursor position to end of line)
+
+*in the same way, the `d` and `c` motions can be used*
+
+### Change `c`
+equivalent to doing `d <motion> i`. After deleting to the specified motion, you are immediately placed into insert mode.
+
+*note: `cw` and `ce` have the exact same functionality as `ce`*
+
+
+# Visual Mode 
+visual mode consists of 3 separate types of modes. All of them are used to highlight or select text.
+
+*Note: Operators function the same way across all visual modes but in the context of that visual mode. Operators just work on whats selected by the mode.* 
+
+### Visual Character `v`
+normal highlighting behavior. Just goes from where your cursor is currently at to some end point.
+
+### Visual Line `V` (Capital v)
+this mode will only select full lines of text no matter the motion given. 
+
+### Visual Block `<C-v>` (cntrl v)
+this mode will highlight a square block from where your cursor is to the end. (you define the size of the block that will be highlighted)
+
+# Recording 
+1. press `q` to start recording mode
+2. select a register key to save the recording to (as a macro) (do q by default) so press `q`
+3. record your motion 
+4. press `q` to stop your recording 
+5. to play back, input `@` and the register key that your recording was saved to 
+

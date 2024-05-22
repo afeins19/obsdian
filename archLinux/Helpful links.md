@@ -1,0 +1,2 @@
+- TMUX Cheat Sheet: https://tmuxcheatsheet.com/
+- Learn Vim in Y minutes: https://learnxinyminutes.com/docs/vim/ 
