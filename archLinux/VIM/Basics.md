@@ -66,10 +66,17 @@ redoes the last command
 enters insert mode 
 - counts can be applied to it - `3itest` outputs `testtesttest`
 
+### Commeting `gc`,`gcc`,`gb`
+- `gc` - must be paired with a motion that defines how far to comment
+- `gcc` - comments the current line
+- `gb` - defines a block of comments (not supported in all languages)
+
 ### Go-to `gg`, `G`
 applying counts to these motions will take you to specific line number specified by the count 
-- `gg` takes you to the beginning of the file 
-- `G` takes you to the end of the file (applying a count to this does the exact same thing as `gg`)
+- `gg` - takes you to the beginning of the file 
+- `G` - takes you to the end of the file (applying a count to this does the exact same thing as `gg`)
+- `gd` - goto definition (for example for a variable or function definition)
+- `gr` - goto
 
 ### Weird Shit ;) 
 - `<C-d>` - cntrl + d -> moves half a page down on the current screen
