@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8805947e5807e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zsh/Starship/Configuration.md",
+                "file": "Lua/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "518abde9f19f2412",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Lua/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Lua/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Lua/Overview.md"
               }
             }
           }
@@ -160,11 +149,13 @@
   },
   "active": "2d9fcd1207722d08",
   "lastOpenFiles": [
-    "zsh/Starship/Configuration.md",
+    "VIM/Neovim.md",
+    "Lua/Overview.md",
+    "Lua",
     "TODO.md",
+    "zsh/Starship/Configuration.md",
     "README.md",
     "Waybar/Installation.md",
-    "VIM/Neovim.md",
     "VIM/Basics.md",
     "VIM",
     "Kitty/Cool Themes.md",

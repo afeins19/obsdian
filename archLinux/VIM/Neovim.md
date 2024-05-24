@@ -8,5 +8,9 @@ nvim's plugin manager.
 # Autocompletions in NVIM
 autocompletion works just like it does in the terminal with tab to cycle through 
 
-# Kickstart 
+# Getting Started with NVIM Video 
+
+
+
+
 
