@@ -1,0 +1,2 @@
+- [ ] read orientation email (outlook)
+- [ ] double check that you submitted all the correct files 

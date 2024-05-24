@@ -1,3 +1,4 @@
+
 # NVIM
 - [ ] Read through init.lua doc in (read recursively)
 - [ ] Learn X & Y for Vim [[Helpful links]]
