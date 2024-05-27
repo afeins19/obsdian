@@ -15,7 +15,6 @@ Following you will drive to **Executive Terrace**
 (your manager will greet you in the lobby.)
 
 # **Attire:**
-
 The dress code at UHS Corporate  
 is business professional.
 
@@ -27,8 +26,8 @@ _Examples may include a professional blouse/sweater and dress pants or professio
 - [ ] Backpack 
 
 # Parking
-
 When you arrive, follow the  driveway around to the left and  
 park in the main parking lot.
 
 Please do NOT park in the executive lot (on your right when you come in the driveway) or any spaces marked “reserved.”
+

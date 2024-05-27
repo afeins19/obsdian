@@ -184,7 +184,7 @@ s = f1 + f2  -- call __add(f1, f2) on f1's metatable
 ```
 
 # Class-like tables & Inheritance
-classes are not a built in type. There are different ways to make them using tables and metatables 
+classes are not a built in type. There are different ways to make them using tables and meta-tables 
 ```Lua 
 -- Classes aren't built in; there are different ways
 -- to make them using tables and metatables.

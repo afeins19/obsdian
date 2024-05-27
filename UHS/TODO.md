@@ -1,2 +1,2 @@
-- [ ] read orientation email (outlook)
-- [ ] double check that you submitted all the correct files 
+- [x] read orientation email (outlook)
+- [x] double check that you submitted all the correct files 
