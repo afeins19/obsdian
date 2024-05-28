@@ -30,5 +30,5 @@
 - [x] change running background process color 
 
 # Install Additional Drives
-- [ ] NVME numba 2
+- [x] NVME numba 2
 - [ ] SSDs 
