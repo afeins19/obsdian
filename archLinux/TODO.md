@@ -1,3 +1,8 @@
+# Mac 
+- [ ] Get Kickstart downloaded
+	- [ ] Install x-code-tools 
+	- [ ] get dependencies downloaded
+
 
 # NVIM
 - [ ] Read through init.lua doc in (read recursively)
@@ -22,7 +27,7 @@
 # ZSH/Kitty
 - [x] add count of total packages to the `pacfind` alias 
 - [x] Make subdirectory highlighting color (currently red) to something else 
-- [ ] change running background process color 
+- [x] change running background process color 
 
 # Install Additional Drives
 - [ ] NVME numba 2
