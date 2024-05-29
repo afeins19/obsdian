@@ -7,6 +7,7 @@
 - [x] Set it up to open correctly in Rofi 
 
 # NVIM
+- [ ] Watch "The only video you need to get started with Neovim"
 - [ ] Read through init.lua doc in (read recursively)
 	- [ ] put your cursor over the name of a file in nvim and press `gd` - this will open that file in nvim 
 - [ ] Finish the Neovim guide video 
