@@ -3,6 +3,8 @@
 	- [ ] Install x-code-tools 
 	- [ ] get dependencies downloaded
 
+# VCV Rack 2
+- [x] Set it up to open correctly in Rofi 
 
 # NVIM
 - [ ] Read through init.lua doc in (read recursively)
@@ -18,8 +20,7 @@
 - [x] Set up the app tray 
 - [x] Fix weather text high in bubble issue 
 - [x] change default discord icon
-
-# swaylock 
+ 
 
 # Dunst
 - [x] make it pretty 
