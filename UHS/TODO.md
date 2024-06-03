@@ -11,7 +11,7 @@
 - [x] Passport
 - [x] Soc. Sec. Card 
 - [ ] Lunch 
-- [ ] **Umbrella** (might rain tomorrow)
+- [x] **Umbrella** (might rain tomorrow)
 
 ### Make Daily Grind Plan 
 - [x] Pre-work activities 
@@ -23,14 +23,12 @@
 
 ### Make Weekly Ab & Cardio Plan 
 - [x] Study and ab program on YouTube
-- [ ] Read up on most efficient cardio method for fat burn 
 
 ### Coffee machine
-- [ ] Clean Pill Machine 
+- [x] Clean Pill Machine 
 ### Room
 - [ ] Clean side desk
 - [ ] Change bed linens 
-- [ ] **Pay red light camera fine** 
 - [ ] Put thing on top of book cabinet away 
 ### Gym Bag 
 - [ ] pack gym bag 
@@ -39,15 +37,15 @@
 	- [ ] hat 
 	- [ ] socks 
 ### Work Clothes 
-- [ ] Iron (with steam thing)
-
+- [x] Iron (with steam thing)
 ### Work Bag
 - [ ] double check for your sanity
-- [ ] remove laptop 
-- [ ] remove laptop charger 
+- [x] remove laptop 
+- [x] remove laptop charger 
 
 ### Grandpa's Phone
-- [ ] Perform 1 more restart 
+- [x] Perform 1 more restart 
 - [ ] Perform 1 more reflash 
-- [ ] 
+- No bueno so far :(
+
 
