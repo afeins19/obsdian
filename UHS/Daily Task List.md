@@ -35,6 +35,11 @@
 - [ ] ab program 
 - [ ] workout with Andrew 
 
+### Notes Review 
+- [ ] Review Today's Notes
+- [ ] Spend at least 5 minutes going over what you did/learned today
+	- [ ] any new skills?
+	- [ ] anything to improve? 
 
 
 

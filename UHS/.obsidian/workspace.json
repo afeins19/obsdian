@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Daily Summaries/First Day.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Daily Summaries/First Day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Daily Summaries/First Day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Daily Summaries/First Day.md"
               }
             }
           }
@@ -161,9 +161,12 @@
   },
   "active": "74c8c46b564a7ab5",
   "lastOpenFiles": [
-    "First Day/First Day.md",
     "TODO.md",
     "Daily Task List.md",
+    "Daily Summaries/First Day.md",
+    "Daily Summaries",
+    "2024-06-03.md",
+    "First Day/First Day.md",
     "Onboarding/Job Description.md",
     "Onboarding/Job Description 1.md",
     "Onboarding/Tax & Pay Information.md",
