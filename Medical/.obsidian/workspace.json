@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f8d6a64969e5cc0",
+            "id": "3de473a4ab0f2624",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Therapy/Porn.md",
+                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Therapy/Porn.md",
+                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Therapy/Porn.md",
+                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Therapy/Porn.md"
+                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md"
               }
             }
           }
@@ -146,13 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f8d6a64969e5cc0",
+  "active": "1419cd08b4feefbb",
   "lastOpenFiles": [
+    "psychiatrist/Meetings/meeting_2-3_19_2024.md",
+    "psychiatrist/Meetings/meeting_3-8_13_24.md",
+    "psychiatrist/Meetings/meeting_1-2_13_2024.md",
+    "Therapy/Porn.md",
     "Psychiatrists & Psychologists.md",
     "Recomendations/Social Anxiety.md",
     "Therapy/Don't Relapse.md",
     "Recomendations",
-    "Therapy/Porn.md",
     "Therapy/My Brother.md",
     "Therapy/How to Handle Anxiety.md",
     "Therapy/First Day.md",
@@ -160,8 +163,6 @@
     "Therapy/What I'm Good at.md",
     "Therapy/Welcome.md",
     "Therapy/Homework -3-15-24.md",
-    "psychiatrist/Meetings/meeting_1-2_13_2024.md",
-    "psychiatrist/Meetings/meeting_2-3_19_2024.md",
     "psychiatrist/Medications/medications.md",
     "psychiatrist/Meetings/meeting_1-2_13_2014.md",
     "Therapy/Homework - 2-22-24.md",
