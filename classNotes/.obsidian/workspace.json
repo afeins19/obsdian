@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(445) Machine Learning/Decision Trees.md",
+                "file": "Ab Workout.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(445) Machine Learning/Decision Trees.md",
+                "file": "Ab Workout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(445) Machine Learning/Decision Trees.md",
+                "file": "Ab Workout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(445) Machine Learning/Decision Trees.md"
+                "file": "Ab Workout.md"
               }
             }
           }
@@ -147,8 +147,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a41578ed65e2b92e",
+  "active": "a472c173e619b37e",
   "lastOpenFiles": [
+    "academicPlan/COURSES.md",
+    "academicPlan/Last Semester Requirements.md",
+    "(445) Machine Learning/Decision Trees.md",
     "(460) PoPL/Lambda Calculus/Lambda Calculus.md",
     "(430) Database Design/Course Overview.md",
     "(430) Database Design/SQL/SQL Operators.md",
@@ -180,9 +183,6 @@
     "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
     "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
     "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
-    "(445) Machine Learning/Decision Trees.md",
-    "(445) Machine Learning/NLP/NLP.md",
-    "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "Attachments/Pasted image 20240428232228.png",
     "Attachments/Pasted image 20240428232206.png",
