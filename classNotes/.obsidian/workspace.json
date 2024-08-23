@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e11022d42145a7e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Janghoon Research Topics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ab Workout.md",
+                "file": "Janghoon Research Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ab Workout.md",
+                "file": "Janghoon Research Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ab Workout.md"
+                "file": "Janghoon Research Topics.md"
               }
             }
           }
@@ -149,6 +163,8 @@
   },
   "active": "a472c173e619b37e",
   "lastOpenFiles": [
+    "Ab Workout.md",
+    "Janghoon Research Topics.md",
     "academicPlan/COURSES.md",
     "academicPlan/Last Semester Requirements.md",
     "(445) Machine Learning/Decision Trees.md",
@@ -181,8 +197,6 @@
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
     "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
-    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
-    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "Attachments/Pasted image 20240428232228.png",
     "Attachments/Pasted image 20240428232206.png",
