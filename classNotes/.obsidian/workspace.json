@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -163,8 +162,9 @@
   },
   "active": "e11022d42145a7e3",
   "lastOpenFiles": [
-    "Ab Workout.md",
+    "Order.md",
     "Janghoon Research Topics.md",
+    "Ab Workout.md",
     "academicPlan/COURSES.md",
     "academicPlan/Last Semester Requirements.md",
     "(445) Machine Learning/Decision Trees.md",
@@ -196,7 +196,6 @@
     "(445) Machine Learning/Logistic Regression.md",
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
-    "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "Attachments/Pasted image 20240428232228.png",
     "Attachments/Pasted image 20240428232206.png",
