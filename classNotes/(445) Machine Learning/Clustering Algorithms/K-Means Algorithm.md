@@ -26,7 +26,7 @@ defined as the SSE (sum squared error) of the Euclidean distance between each po
 the elbow method: run k-means several times and increment k with each iteration and plot the SSE. an **Elbow point** is the sweet-spot where the SSE curve starts to bend - a reasonable tradeoff between error and numbers of clusters.
 ![[Screen Shot 2024-03-15 at 2.05.50 PM.png]]
 
-**Sillhoutte Coefficient**  $$S(i)=\frac{b(i)-a(i)}{max{a(i),b(i)}}$$
+**Sillhoutte Coefficient**  $$S(i)=\frac{b(i)-a(i)}{max({a(i),b(i)})}$$
 - S(i) is the silhoutte coefficient of the data point i
 - a(i) is the average distance between ia and all the other data points in the cluster to which I belongs
 - b(i) is the average distance from i to all clusters to which i does not belong

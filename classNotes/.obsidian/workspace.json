@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
+                "file": "(457) Graphics/Course Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
+                "file": "(457) Graphics/Course Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
+                "file": "(457) Graphics/Course Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(445) Machine Learning/Final Exam/Bayes and Stuff.md"
+                "file": "(457) Graphics/Course Overview.md"
               }
             }
           }
@@ -147,8 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a472c173e619b37e",
+  "active": "25e9d5848239f8f8",
   "lastOpenFiles": [
+    "Untitled.md",
+    "(457) Graphics/Course Overview.md",
+    "(457) Graphics",
+    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
+    "(445) Machine Learning/Data Processing/Data Collection.md",
+    "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
     "(470) Compilers/final project/Typethon Installation Instructions.md",
     "(470) Compilers/final project/Translator Architecture.md",
     "(470) Compilers/final project/Quick Guide.md",
@@ -162,26 +172,17 @@
     "Attachments/k2.jpg",
     "Attachments/k1.jpg",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.md",
-    "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
     "(445) Machine Learning/Logistic Regression.md",
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
     "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
-    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
     "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
     "(445) Machine Learning/Decision Trees.md",
     "(445) Machine Learning/NLP/NLP.md",
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
-    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
-    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
     "(445) Machine Learning/Data Visualization/Data Visualization.md",
     "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
-    "(445) Machine Learning/Naive Bayes/Naive Bayes Algorithm.md",
-    "(472) Operating Systems/Final Exam/Review Notes/Review Topics.md",
-    "(472) Operating Systems/Final Exam/Quiz 3.md",
-    "(472) Operating Systems/Final Exam/Quiz 4.md",
-    "(472) Operating Systems/Final Exam/Quiz 5.md",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "Attachments/Pasted image 20240428232228.png",
     "Attachments/Pasted image 20240428232206.png",
@@ -193,7 +194,6 @@
     "(472) Operating Systems/Final Exam/Review Notes",
     "(472) Operating Systems/Final Exam.zip",
     "(472) Operating Systems/Final Exam",
-    "(472) Operating Systems/Distributed Systems",
-    "(472) Operating Systems/Homework/Homework 14_pdf.pdf"
+    "(472) Operating Systems/Distributed Systems"
   ]
 }
