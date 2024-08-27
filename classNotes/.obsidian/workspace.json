@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Ab Workout.md",
                 "mode": "source",
                 "source": false
@@ -26,6 +27,9 @@
               "type": "markdown",
               "state": {
                 "file": "Janghoon Research Topics.md",
+=======
+                "file": "(457) Graphics/Course Overview.md",
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +102,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Janghoon Research Topics.md",
+=======
+                "file": "(457) Graphics/Course Overview.md",
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Janghoon Research Topics.md",
+=======
+                "file": "(457) Graphics/Course Overview.md",
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Janghoon Research Topics.md"
+=======
+                "file": "(457) Graphics/Course Overview.md"
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
               }
             }
           }
@@ -160,6 +176,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
+<<<<<<< HEAD
   "active": "e11022d42145a7e3",
   "lastOpenFiles": [
     "Order.md",
@@ -179,6 +196,19 @@
     "(430) Database Design/SQL/Data Definition_part_1.md",
     "(430) Database Design/SQL/Assignment DDL.pdf",
     "(430) Database Design/Entity-Relationship Model/Examples.md",
+=======
+  "active": "25e9d5848239f8f8",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "(457) Graphics/Course Overview.md",
+    "(457) Graphics",
+    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
+    "(445) Machine Learning/Data Processing/Data Collection.md",
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
     "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
     "(470) Compilers/final project/Typethon Installation Instructions.md",
     "(470) Compilers/final project/Translator Architecture.md",
@@ -196,6 +226,17 @@
     "(445) Machine Learning/Logistic Regression.md",
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
     "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
+<<<<<<< HEAD
+=======
+    "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/Decision Trees.md",
+    "(445) Machine Learning/NLP/NLP.md",
+    "(445) Machine Learning/PCA/Principle Component Analysis.md",
+    "(445) Machine Learning/Support Vector Machines (SVM)/SVMs.md",
+    "(445) Machine Learning/Data Visualization/Data Visualization.md",
+    "(445) Machine Learning/Naive Bayes/Probability Theory Review.md",
+>>>>>>> 0856388e9d4d0f447a3d473eb83d1243b0628b6d
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "Attachments/Pasted image 20240428232228.png",
     "Attachments/Pasted image 20240428232206.png",
