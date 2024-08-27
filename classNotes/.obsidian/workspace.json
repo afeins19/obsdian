@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5002780b91cbabbe",
+        "id": "86f26719e2c783d3",
         "type": "tabs",
         "children": [
           {
-            "id": "6523de02045517b4",
+            "id": "f3847da278a030eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,8 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6523de02045517b4",
+  "active": "f3847da278a030eb",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240827130450.png",
+    "Attachments/Pasted image 20240827130447.png",
     "Research/Pytorch.md",
     "Research/Untitled",
     "Research/Pytorch",
