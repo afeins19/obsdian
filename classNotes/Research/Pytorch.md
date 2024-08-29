@@ -317,13 +317,266 @@ print("X", x)
 
 In case you have a GPU, you should now see the attribute `device='cuda:0'` being printed next to your tensor. The zero next to cuda indicates that this is the zero-th GPU device on your computer.
 
+**NOTE!!!:** When generating random numbers, the seed between CPU and GPU is not synchronized. Hence, we need to set the seed on the GPU separately to ensure a reproducible code. Note that due to different GPU architectures, running the same code on different GPUs does not guarantee the same random numbers.
+
+### Setting the Seed for CPU & GPU
+```python 
+# GPU operations have a separate seed we also want to set
+if torch.cuda.is_available():
+torch.cuda.manual_seed(42)
+torch.cuda.manual_seed_all(42)
+
+# Additionally, some stochastic operations are implemented on the GPU for efficiency
+
+# We want to ensure that all operations are deterministic on GPU (if used) for reproducibility
+
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+```
+
+# Training Neural Networks with Torch 
+its possible train neural networks by directly specifying the weight and bias matricies with Tensors (with `requires_grad=True`) and have PyTorch compute the gradients and make adjustments. But this is hella complicated, especially for projects with many parameters. 
+
+# Example: Continuous XOR 
 
 
+**Problem Statement**: Given two binary inputs $x_1$ & $x_2$, we want the neural network to predict 1 if and only if ONE of the inputs is 1 and to predict 0 for all other cases.
+
+### Packages
+the `torch.nn` package streamlines the process of building neural networks. This is what we'll be using. 
+```python 
+# importing
+import torch.nn as nn 
+import torch.nn.functional as F 
+```
+additionally, the `torch.nn.functional` package contains functions that are used in network layers. This is in contrast to `torch.nn` which defines functions as objects encapsulated in *modules* that are chained together. (I THINK) `torch.nn.functional` just contains the raw function code and then it may be used within specific modules. 
+
+### Modules 
+in PyTorch, we create neural networks out of modules. **Modules** can contain other modules and a neural network is considered to be a module itself too. below is a basic module template
+```python 
+class SuperCoolModule(nn.Module):
+
+	def __init__(self):
+		super().__init__()
+		# write subclass init code for this module 
+
+	def forward(self, x):
+		# Function that performs this modules calculation
+		pass 
+
+```
+
+ In the init function, we usually create the parameters of the module, using `nn.Parameter`, or defining other modules that are used in the forward function
+
+### Creating a Simple Classifier 
+Below, we will create a simple classifier of the following model 
+![[Pasted image 20240829143638.png]]
+**input neurons**: blue 
+**hidden neurons**: white
+**output neurons**: red
+
+note that to represent the XOR gate we are using 2 input neurons, 4 hidden neurons, and 1 output neuron for the result. 
+
+```python 
+class SimpleClassifier(nn.Module):
+
+	def __init__(self, num_inputs, num_hidden, num_outputs)
+		super().__init__()
+
+		# initializing the modules to build the layers of our nn
+		self.linear_input = nn.Linear(num_inputs, num_hidden)
+		self.act_fn = nn.Tanh()
+		self.linear_output = nn.Linear(num_hidden, num_outputs)
+
+	def forward(self, x):
+		# processing the input through the network 
+		x = self.linear_input(x)
+		x = self.act_fn(x)
+		x = self.linear_output(x)
+		return x 
+```
+This is the basic structure of the model, but we need to train it for it to function correctly. 
+
+*Note that we do not apply a sigmoid on the output yet. This is because other functions, especially the loss, are more efficient and precise to calculate on the original outputs instead of the sigmoid output.*
+
+### Getting Model Attributes 
+```python 
+model = SimpleClassifier(num_inputs=2, num_hidden=4, num_outputs=1)
+
+# printing a modell shows all of tis submodules 
+print(model)
+
+for name, param in model.named_parameters():
+	print(f"Parameter {name}, shape {param.shape}")
+```
+
+```
+SimpleClassifier( (linear1): Linear(in_features=2, out_features=4, bias=True) (act_fn): Tanh() (linear2): Linear(in_features=4, out_features=1, bias=True) )
 
 
+Parameter linear1.weight, shape torch.Size([4, 2]) 
+Parameter linear1.bias, shape torch.Size([4]) 
+Parameter linear2.weight, shape torch.Size([1, 4]) 
+Parameter linear2.bias, shape torch.Size([1])
+```
 
+Each linear layer has a weight matrix of shape `[output, input]`, and a bias of shape `[output]`. The tanh activation function has no parameters. 
 
+**Parameters are only registered for `nn.Module` objects that are direct object attributes**!!! 
 
+## Generating and Preparing Data  
+PyTorch has some built-in functionality to streamline the process of loading testing and training data. 
+```python
+import torch.utils.data as data 
+```
+PyTorch defines **two classes** for handling data. This is the standard interface for working with your data
+- **`data.Dataset`** - provides a uniform interface to access the training and test data 
+- **`data.DataLoader`** - efficiently loads and stacks data points from the dataset in training batches 
 
+### The Dataset Class 
+To define a dataset in PyTorch, we just need to write two functions:
+- `__get_item__` - returns the $i$-th data point in the dataset
+- `__len__` - returns the size of the dataset 
 
+### The XOR dataset 
+below is the code that will create our dataset for the continuous XOR model
 
+```python
+class XORDataset(data.Dataset):
+
+	def __init__(self, size, std=0.1):
+		"""
+			class inputs: 
+				size - number of data points to make 
+				std - the standard deviation of added noise    
+		"""
+		super().__init__()
+		self.size = size
+		self.std = std
+		self.generate_continous_xor() # function to make data 
+
+	def generate_continous_xor(self): 
+		# Each data point in the XOR dataset has 2 variables (x and y)
+		# the label is the output of x XOR y 
+
+		data = torch.randint(low=0, high=2, size=(self.size, 2), dtype=torch.float32)
+		label = (data.sum(dim) == 1).to(torch.long) # XOR 
+
+		# introducing gaussian noise 
+		data += self.std * torch.randn(data.shape)
+
+		self.data = data
+		self.label = label 
+
+	def __len__(self):
+		return self.size 
+
+	def __getitem__(self, idx): 
+		data_point = self.data[idx]
+		data_label = self.label[idx]
+		
+		return data_point, data_label # returns a tuple
+```
+
+now we can create the dataset and inspect it 
+```python 
+import torch
+dataset = XORDataset(size=200)
+
+print("Size of dataset:", len(dataset))
+print("Data point 0:", dataset[0])
+```
+example of generated output from these print calls (will differ as data is randomly generated but the size doesn't change)
+```
+Size of dataset: 200 Data point 0: (tensor([0.1060, 0.9192]), tensor(1))
+```
+### Visualizing the Data
+below is some code to plot and visualize the data 
+```python 
+def visualize_samples(data, labbel):
+	if isinstance(data, torch.Tensor):
+		data = data.cpu().numpy() # note that we must use cpu for numpy
+	if isinstance(label, torch.Tensor): 
+		label = label.cpu().numpy()
+
+	data_0 = data[label == 0] # all datapoints with label=0
+	data_1 = data[label == 1] # all datapoints with label=1
+
+	plt.title("Dataset samples")
+	plt.figure(figsize=(4,4))
+	plt.scatter(data_0[:,0], data_0[:,1], edgecolor="#333", label="Class 0")
+
+	plt.scatter(data_1[:,0], data_1[:,1], edgecolor="#333", label="Class 1")
+	
+	plt.ylabel(r"$x_2$")
+	plt.xlabel(r"$x_1$")
+	plt.legend()
+```
+```python 
+visualize_samples(dataset.data, dataset.label)
+plt.show()
+```
+
+![[Screen Shot 2024-08-29 at 3.22.32 PM.png]]
+
+### The Data Loader Class 
+This class `torch.utils.data.DataLoader` represents an iterable dataset with support for:
+- automatic batching 
+- multi-process data loading 
+- etc. 
+
+**the data loader communicates with the dataset using the `__getitem__` function and stacks the outputs as tensors over the first dimension to form a batch**. Unlike the dataset class, we usually don't have to define our own data loader. Instead we can create an object and mold it with the following input parameters
+- `batch_size: int` - Number of sample to stack per batch
+- `shuffle: bool` - If True, data is returned in a random order 
+- `num_workers: int` - the number of subprocesses used for data loading. The default is 0 which means that data will be loaded in the main process which can be slow for things like images where datapoints are huge
+- `pin_memory: bool` - If True, the data loader will copy Tensors into CUDA pinned memory before returning them. This can save time for large datapoins on GPUs. 
+- `drop_last` - If True, the last batch is dropped in case it is smaller than the specified batch size. This occurs when the dataset size is not a multiple of the batch size. This is helpful when you want to keep a consistent batch size 
+
+	below is a simple data loader. 
+	- `next(iter(data_loader))` gets the first batch of the data loader. 
+	- If `Shuffle=True`, a different batch gets returned each time this code is run 
+	- since the DataLoader() object is iterable, we can use a for-each loop 
+
+```python 
+data_loader = data.DataLoader(dataset, batch_size=8, shuffle=True)
+
+data_inputs, data_labels = next(iter(data_loader))
+
+print("Data inputs", data_inputs.shape, "\n", data_inputs)
+print("\n")
+print("Data labels", data_labels.shape, "\n", data_labels)
+```
+
+Example output (note values are random but sizes are always consistent)
+
+```
+Data inputs torch.Size([8, 2]) 
+tensor([[ 1.0843, 1.0192], [ 1.0060, -0.0828], [ 0.9584, 0.1025], [ 1.0558, 0.8975], [ 0.0921, 1.0137], [-0.0387, -0.0767], [-0.0124, 1.0740], [ 1.0348, 0.9924]])
+
+Data labels torch.Size([8]) 
+tensor([0, 1, 1, 0, 1, 0, 1, 0])
+```
+
+## Optimization 
+After defining the model and the dataset. Optimization involves the following steps: 
+1. Get a batch from the data loader 
+2. Run the batch through the model and get its predictions 
+3. Calculate the loss based on the difference b/w predictions and labels
+4. Backpropogation - find the gradient for every parameter w.r.t the loss
+5. Update the parameters based on the calculated gradients 
+
+## Loss Modules 
+
+we can find the loss for a batch by doing a few tensor operations (Which are automatically added to the computation graph). For binary classification we can use the **Binary Cross Entropy (BCE)** function:
+$$\mathcal{L}_{BCE} = -\sum_i \left[ y_i \log x_i + (1 - y_i) \log (1 - x_i) \right]$$
+- y = labels
+- x = predictions 
+- both x,y are in range $[0,1]$
+
+PyTorch already provides us with modules that are loss functions. The BCE Function above has two analogs in PyTorch
+- `nn.BCELoss()` - expects the inputs of x to be in range $[0,1]$
+- `nn.BCEWithLogitsLoss()` - contains sigmoid layer and a bce loss layer. This makes the model more numerically stable (idk why)
+
+```python 
+loss_module = nn.BCEWithLogitsLoss()
+```
