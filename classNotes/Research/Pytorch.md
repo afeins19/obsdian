@@ -313,6 +313,8 @@ x = torch.zeros(2, 3)
 x = x.to(device)
 
 print("X", x)
+```
+
 In case you have a GPU, you should now see the attribute `device='cuda:0'` being printed next to your tensor. The zero next to cuda indicates that this is the zero-th GPU device on your computer.
 
 
