@@ -20,6 +20,14 @@ sns.set()
 from tqdm.notebook import tqdm
 ```
 
+# Importing PyTorch
+```python 
+import torch 
+
+# for funsies
+print("Using Torch Version: ", torch.__version__)
+```
+
 # Torch Seed 
 seed to allow users to reproduce the same random values consistently. 
 ```python 
@@ -31,11 +39,14 @@ a tensor is a mathematical object that generalizes the concept of scalars, vecto
 
 ## Creating a Tensors with Pytorch 
 
-### Populated with Random Values
+### Populating Tensors
+*note: just running`torch.tensor` will reuse any value that has already been in memory.*
 ```python 
-# default random values
+# reusing values that are already in memory
 x_default = torch.Tensor(2, 3, 4)
-print(x)
+
+# populating with zeros
+x_zeros = torch.zeros(2,3,4)
 
 # random values between 0 and 1 
 x_rand = torch.rand(2,3,4)
@@ -48,7 +59,7 @@ x_randn = torch.randn(2,3,4)
 creates a tensor containing the values $N,N+1,N+2\\,...,M$
 
 ```python 
-x_arrange = torch.arrange(2,3,4)
+x_arranged = torch.arrange(2,3,4)
 ```
 
 ## Getting Tensor Attributes 
@@ -64,7 +75,7 @@ print("Size:", dim1,dim2,dim3)
 ## Converting Between Tensor & Numpy
 you can convert between numpy arrays and tensors (and vice-versa). 
 
-Note: **The conversion of tensors to numpy require the tensor to be on the CPU**, and not the GPU (more on GPU support in a later section). In case you have a tensor on GPU, you need to call `.cpu()` on the tensor beforehand. Hence, you get a line like **`np_arr = tensor.cpu().numpy()`**.
+Note: **The conversion of tensors to numpy requires  the tensor to be on the CPU**, and not the GPU (more on GPU support in a later section). In case you have a tensor on GPU, you need to call `.cpu()` on the tensor beforehand. Hence, you get a line like **`np_arr = tensor.cpu().numpy()`**.
 
 ### Numpy to Pytorch 
 ```python 
@@ -162,7 +173,7 @@ x2 = torch.rand(2, 3)
 print("X1 (before)", x1)
 print("X2 (before)", x2)
 
-x2.add_(x1)
+x2.add_(x1) # adds x1 to x2
 
 print("X1 (after)", x1)
 print("X2 (after)", x2)
@@ -286,10 +297,23 @@ So in summary, with an input vector of $x = [0,1,2]$, the gradients are $\partia
 
 
 
+# GPU Support 
 
+PyTorch supports the functionality for performing computations on both CPUs and GPUs. We can define a `device()` object to conditionally select to run on either processor depending on whether or not the machine running the code has a gpu or not
 
+```python 
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
+print("Device", device)
+```
+we can then push a tensor to the selected device 
 
+```python 
+x = torch.zeros(2, 3)
+x = x.to(device)
+
+print("X", x)
+In case you have a GPU, you should now see the attribute `device='cuda:0'` being printed next to your tensor. The zero next to cuda indicates that this is the zero-th GPU device on your computer.
 
 
 

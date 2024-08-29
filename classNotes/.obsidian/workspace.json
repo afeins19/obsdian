@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4047dc221b5b7141",
+        "id": "41967d523d97a7ba",
         "type": "tabs",
         "children": [
           {
-            "id": "03a9778f8561355d",
+            "id": "f350b2d23cab0e2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser/Overview.md",
+                "file": "Research/Pytorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7bfce82e3c5d259c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser/Overview.md",
+                "file": "Research/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser/Overview.md",
+                "file": "Research/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser/Overview.md"
+                "file": "Research/Pytorch.md"
               }
             }
           }
@@ -147,8 +148,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03a9778f8561355d",
+  "active": "a472c173e619b37e",
   "lastOpenFiles": [
+    "Attachments/DALL·E 2024-03-16 16.29.17 - Enhance the logo by incorporating a bit more of a typhoon theme, making it more evident, while still maintaining the minimal and sleek style. Keep the.webp",
     "(488) Robot Laser/Overview.md",
     "(488) Robot Laser",
     "(457) Graphics/Course Overview.md",
@@ -189,7 +191,6 @@
     "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
     "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
     "(445) Machine Learning/Decision Trees.md",
-    "(445) Machine Learning/NLP/NLP.md",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "(445) Machine Learning/Untitled",
     "(445) Machine Learning/Final Exam",
