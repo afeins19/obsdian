@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "bcf8a00a426b31a8",
+    "id": "e427a3477eea524b",
     "type": "split",
     "children": [
       {
-        "id": "86f26719e2c783d3",
+        "id": "4047dc221b5b7141",
         "type": "tabs",
         "children": [
           {
-            "id": "f3847da278a030eb",
+            "id": "03a9778f8561355d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5d8d012a7d6cbfd8",
+    "id": "3cd40af7b44bbbce",
     "type": "split",
     "children": [
       {
-        "id": "e28341f4b6653793",
+        "id": "98ad61807f88d159",
         "type": "tabs",
         "children": [
           {
-            "id": "660209770fdb7c23",
+            "id": "a472c173e619b37e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "43a92a05b516e108",
+            "id": "50f05e3e7059ba8c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "ce8a285d97086feb",
+            "id": "16b664d3bd62c5f9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
-    "id": "6e5419602ab653e1",
+    "id": "7bfce82e3c5d259c",
     "type": "split",
     "children": [
       {
-        "id": "9cc1f59ca912f59f",
+        "id": "de96f81d8fbe1d7c",
         "type": "tabs",
         "children": [
           {
-            "id": "029d3f63df93e4af",
+            "id": "ee4bef55f39fcae3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +97,19 @@
             }
           },
           {
-            "id": "49dfe9ddb1237bd8",
+            "id": "b788ce31840afb73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bae1d7245b82e752",
+            "id": "48b18c9f3454354c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,12 +120,12 @@
             }
           },
           {
-            "id": "4f0b82d67bab6b96",
+            "id": "9b0916e3603942e5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Pytorch.md"
+                "file": "(488) Robot Laser/Overview.md"
               }
             }
           }
@@ -148,13 +147,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3847da278a030eb",
+  "active": "03a9778f8561355d",
   "lastOpenFiles": [
+    "(488) Robot Laser/Overview.md",
+    "(488) Robot Laser",
+    "(457) Graphics/Course Overview.md",
+    "(457) Graphics/Chapter 2 - WebGL.md",
+    "Attachments/Screen Shot 2024-08-28 at 2.12.45 PM.png",
+    "Attachments/Screen Shot 2024-08-28 at 2.12.36 PM.png",
+    "Attachments/Screen Shot 2024-08-28 at 2.10.06 PM.png",
+    "Attachments/Screen Shot 2024-08-28 at 1.57.39 PM.png",
+    "Attachments/Screen Shot 2024-08-28 at 1.49.39 PM.png",
+    "Research/Pytorch.md",
+    "Research/Janghoon Research Topics.md",
+    "Research",
+    "Order.md",
     "Attachments/Pasted image 20240827130450.png",
     "Attachments/Pasted image 20240827130447.png",
-    "Research/Pytorch.md",
-    "Research/Untitled",
-    "Research/Pytorch",
-    "Research"
+    "(457) Graphics",
+    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
+    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
+    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
+    "(445) Machine Learning/Clustering Algorithms/Overview.md",
+    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
+    "(445) Machine Learning/Data Processing/Data Collection.md",
+    "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
+    "(470) Compilers/final project/Typethon Installation Instructions.md",
+    "(470) Compilers/final project/Translator Architecture.md",
+    "(470) Compilers/final project/Quick Guide.md",
+    "(470) Compilers/final project/FINAL PROJECT PLAN.md",
+    "(470) Compilers/final project",
+    "(413) Algorithms Lab/lab_9/Report.md",
+    "(413) Algorithms Lab/lab_9",
+    "Attachments/k3 1.jpg",
+    "Attachments/k3.jpg",
+    "Attachments/k2 1.jpg",
+    "(445) Machine Learning/Final Exam/Midterm Test Questions.md",
+    "(445) Machine Learning/Logistic Regression.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Deep Learning.md",
+    "(445) Machine Learning/Neural Networks (NNs)/Auto Encoders.md",
+    "(445) Machine Learning/K-Nearest/K-Nearest Neighbors (KNN).md",
+    "(445) Machine Learning/Decision Trees.md",
+    "(445) Machine Learning/NLP/NLP.md",
+    "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
+    "(445) Machine Learning/Untitled",
+    "(445) Machine Learning/Final Exam",
+    "(472) Operating Systems/Final Exam/Review Notes",
+    "(472) Operating Systems/Final Exam.zip"
   ]
 }

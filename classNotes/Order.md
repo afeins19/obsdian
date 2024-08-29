@@ -1,3 +1,0 @@
-- [ ] Gobi Manchurian 
-- [ ] Chicken Tikka Masala 
-- [ ] Tandoori Chicken 
