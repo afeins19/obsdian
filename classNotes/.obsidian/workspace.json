@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "bcf8a00a426b31a8",
+    "id": "02a88970d55b7172",
     "type": "split",
     "children": [
       {
-        "id": "86f26719e2c783d3",
+        "id": "7fb6b26904d00a41",
         "type": "tabs",
         "children": [
           {
-            "id": "f3847da278a030eb",
+            "id": "3f4e7004cb43402d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5d8d012a7d6cbfd8",
+    "id": "496673c6a7eb0460",
     "type": "split",
     "children": [
       {
-        "id": "e28341f4b6653793",
+        "id": "e4f42599bdf9cb15",
         "type": "tabs",
         "children": [
           {
-            "id": "660209770fdb7c23",
+            "id": "9895325f3cc36ba9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "43a92a05b516e108",
+            "id": "f0bac9f81c70898a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "ce8a285d97086feb",
+            "id": "dc095bf843be70b9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "6e5419602ab653e1",
+    "id": "4dff453b8d6973ee",
     "type": "split",
     "children": [
       {
-        "id": "9cc1f59ca912f59f",
+        "id": "6e7adcb3379803ea",
         "type": "tabs",
         "children": [
           {
-            "id": "029d3f63df93e4af",
+            "id": "d5f84352fc92a70c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "49dfe9ddb1237bd8",
+            "id": "72efd9c8fd78f516",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bae1d7245b82e752",
+            "id": "3443b86771982340",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "4f0b82d67bab6b96",
+            "id": "a3792aeb917381d2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Pytorch.md"
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md"
               }
             }
           }
@@ -147,13 +147,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3847da278a030eb",
+  "active": "3f4e7004cb43402d",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240827130450.png",
-    "Attachments/Pasted image 20240827130447.png",
-    "Research/Pytorch.md",
-    "Research/Untitled",
-    "Research/Pytorch",
-    "Research"
+    "(488) Robot Laser/Overview.md"
   ]
 }
