@@ -1,6 +1,5 @@
  - 08/29/24 
  - Online
-
 # To Be Discussed 
 
 ### General Team Stuff
@@ -11,6 +10,7 @@
 		- [ ] Target on robot or on battleground 
 		- [ ] wifi emitters above obstacles (line of site with robots)
 		- [ ] perfectly flat terrain or some bumps/hills 
+	- [ ] Write a message on ms teams about this to the other groups 
 
 ### Discovery Phase
 - [ ] plan to research our tech stack as well as pros/cons of each component with respect to its utility to the goal 
