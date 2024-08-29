@@ -580,3 +580,4 @@ PyTorch already provides us with modules that are loss functions. The BCE Functi
 ```python 
 loss_module = nn.BCEWithLogitsLoss()
 ```
+

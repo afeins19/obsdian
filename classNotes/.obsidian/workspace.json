@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Pytorch.md"
+                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md"
               }
             }
           }
@@ -150,6 +150,10 @@
   },
   "active": "f350b2d23cab0e2a",
   "lastOpenFiles": [
+    "Research/Pytorch.md",
+    "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
+    "(488) Robot Laser/Meeting Plans",
+    "Research/Janghoon Research Topics.md",
     "Attachments/Screen Shot 2024-08-29 at 3.22.32 PM.png",
     "Attachments/Pasted image 20240829143638.png",
     "Attachments/DALL·E 2024-03-16 16.29.17 - Enhance the logo by incorporating a bit more of a typhoon theme, making it more evident, while still maintaining the minimal and sleek style. Keep the.webp",
@@ -162,8 +166,6 @@
     "Attachments/Screen Shot 2024-08-28 at 2.10.06 PM.png",
     "Attachments/Screen Shot 2024-08-28 at 1.57.39 PM.png",
     "Attachments/Screen Shot 2024-08-28 at 1.49.39 PM.png",
-    "Research/Pytorch.md",
-    "Research/Janghoon Research Topics.md",
     "Research",
     "Order.md",
     "Attachments/Pasted image 20240827130450.png",
@@ -183,7 +185,6 @@
     "(470) Compilers/final project",
     "(413) Algorithms Lab/lab_9/Report.md",
     "(413) Algorithms Lab/lab_9",
-    "Attachments/k3 1.jpg",
     "(445) Machine Learning/Final Exam/Midterm Test Questions.md",
     "(445) Machine Learning/Logistic Regression.md",
     "(445) Machine Learning/Neural Networks (NNs)/Overview.md",
@@ -194,7 +195,6 @@
     "(445) Machine Learning/Final Exam/Midterm Test Questions.zip",
     "(445) Machine Learning/Untitled",
     "(445) Machine Learning/Final Exam",
-    "(472) Operating Systems/Final Exam/Review Notes",
-    "(472) Operating Systems/Final Exam.zip"
+    "(472) Operating Systems/Final Exam/Review Notes"
   ]
 }
