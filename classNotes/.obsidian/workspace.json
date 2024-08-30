@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
+                "file": "academicPlan/Last Semester Requirements.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
+                "file": "academicPlan/Last Semester Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
+                "file": "academicPlan/Last Semester Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Initial Meeting.md"
+                "file": "academicPlan/Last Semester Requirements.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "3f4e7004cb43402d",
   "lastOpenFiles": [
+    "Ab Workout.md",
+    "academicPlan/Last Semester Requirements.md",
+    "(457) Graphics/Chapter 2 - WebGL.md",
+    "academicPlan/COURSES.md",
+    "academicPlan",
+    "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
     "(488) Robot Laser/Overview.md"
   ]
 }
