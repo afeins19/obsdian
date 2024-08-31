@@ -459,7 +459,8 @@ class XORDataset(data.Dataset):
 		# Each data point in the XOR dataset has 2 variables (x and y)
 		# the label is the output of x XOR y 
 
-		data = torch.randint(low=0, high=2, size=(self.size, 2), dtype=torch.float32)
+		data = torch.randint(low=0, high=2, size=(self.size, 2),
+		dtype=torch.float32)
 		label = (data.sum(dim) == 1).to(torch.long) # XOR 
 
 		# introducing gaussian noise 
@@ -528,8 +529,8 @@ This class `torch.utils.data.DataLoader` represents an iterable dataset with sup
 **the data loader communicates with the dataset using the `__getitem__` function and stacks the outputs as tensors over the first dimension to form a batch**. Unlike the dataset class, we usually don't have to define our own data loader. Instead we can create an object and mold it with the following input parameters
 - `batch_size: int` - Number of sample to stack per batch
 - `shuffle: bool` - If True, data is returned in a random order 
-- `num_workers: int` - the number of subprocesses used for data loading. The default is 0 which means that data will be loaded in the main process which can be slow for things like images where datapoints are huge
-- `pin_memory: bool` - If True, the data loader will copy Tensors into CUDA pinned memory before returning them. This can save time for large datapoins on GPUs. 
+- `num_workers: int` - the number of sub processes used for data loading. The default is 0 which means that data will be loaded in the main process which can be slow for things like images where data points are huge
+- `pin_memory: bool` - If True, the data loader will copy Tensors into CUDA pinned memory before returning them. This can save time for large datapoints on GPUs. 
 - `drop_last` - If True, the last batch is dropped in case it is smaller than the specified batch size. This occurs when the dataset size is not a multiple of the batch size. This is helpful when you want to keep a consistent batch size 
 
 	below is a simple data loader. 
@@ -581,3 +582,213 @@ PyTorch already provides us with modules that are loss functions. The BCE Functi
 loss_module = nn.BCEWithLogitsLoss()
 ```
 
+# Stochastic Gradient Descent 
+PyTorch provides the `torch.optim` package that implements many of the most popular optimization algorithms. For this form gradient descent (SGD), we will use `torch.optim.SGD`. Recall that his updates parameters by multiplying the gradients with a small constant (the learning rate) and subtracts them from the parameters (minimizing the loss function), 
+
+The input to the optimizer are the parameters of the model: `model.parameters()`
+```python
+# learning rate = 0.1
+optimizer = torch.optim.SGD(model.parameters(), lr=0.1) 
+```
+
+### Optimizer Parameters 
+The optimizer provides two functions for adjusting parameters:
+- `optimizer.step()` - updates the parameters based on the gradients 
+- `optimizer.zero_grad` - sets the gradients of all parameters to **zero**, this is done before performing back propagation. If we don't make the gradients zero after training, then the last gradient values will be added back to the previous ones 
+
+# Training 
+Now we are ready to begin training. First we must create a slightly larger data set and create a data loader with a larger batch size. Note that for small datasets, pushing to the GPU takes much more time than just running it all on the CPU but if the dataset is large, then its best to use the GPU.
+
+```python 
+# creating large XOR data set with large batch size 
+train_dataset = XORDataset(size=2500)
+train_data_loader = data.DataLoader(train_dataset, batch_size=128, shuffle=True)
+```
+
+Now we can push the data to our selected device: 
+```python 
+model.to(device)
+```
+
+### Training Function 
+Before training (but within the training function), we must set our model to training mode by calling `model.train()`. This is done because certain modules need to perform a different forward step during training than during testing (BatchNorm and Dropout). To switch to the testing mode, call `model.eval()`
+
+```python
+def train_model(model, optimizer, data_loader, loss_module, num_epochs=100):
+	# Training loop
+	for epoch in tqdm(range(num_epochs)):
+
+		# Step 1: Move input data to device (if using gpu)
+		data_inputs = data_inputs.to(device)
+		data_labels = data_labels.to(device)
+
+		# Step 2: Run the model on input data 
+		preds = model(data_inputs)
+		# since output is [batch size,1] we want just [batch size]
+		preds = preds.squeeze(dim=1)
+
+		# Step 3: Calculate loss 
+		loss = loss_module(preds, data_labels.float())
+
+		# Step 4: Backpropagate 
+		# ensure that gradients are all zero before starting
+		optimizer.zero_grad()
+
+		# Backpropgate
+		loss.backward()
+
+		# Step 5: Update Parameters 
+		optimizer.step() 
+```
+
+now we can call the function and train the model on our dataset 
+```python 
+train_model(model, optimizer, train_data_loader, loss_module)
+```
+
+# Saving a Trained Model 
+Models can be saved, specifically the weights tensor can be saved to a `state_dict`. To save a model, just do:
+```python
+state_dict = model.state_dict()
+torch.save(state_dict, "my_model.tar")
+```
+
+### Loading a Model from a `state_dict`
+```python
+state_dict = torch.load("my_model.tar")
+
+# creating a new model and loading in the state
+new_model = SimpleClassifier(num_inputs=2, num_hidden=4, num_outputs=1)
+new_model.load_state_dict(state_dict)
+```
+if we print the `state_dict` of the original model and the new_model, we can see that they are the same.
+
+# Evaluation 
+we remove some portion of data from the dataset for testing purposes. For the XOR example, our dataset consists of pre-generated data so we have to make some more data points for testing. 
+
+```python 
+test_dataset = XORDataset(size=500)
+
+# drop_last...don't do it in this case 
+test_data_loader = data.DataLoader(test_dataset, batch_size=128, shuffle=False, drop_last=False)
+```
+
+### Accuracy Metric
+$$acc = \frac{\#\text{correct predictions}}{\#\text{all predictions}} = \frac{TP+TN}{TP+TN+FP+FN}$$
+
+  
+where TP are the true positives, TN true negatives, FP false positives, and FN the false negatives.
+
+### Deactivating The Computational Graph
+When we evaluate the model, we don't need to keep track of the computation graph since we wont be calculating the gradients. This lets us free up compute and memory that was required for that to speed up the model. 
+
+To deactivate the computational graph, we can use `with torch.no_grad():`
+```python 
+def eval_model(model, data_loader):
+	model.eval() # sets the model to eval mode
+	true_preds, num_preds = 0., 0. # setting up values for formula
+
+	with torch.no_grad():
+		for data_inputs, data_labels in data_loader:
+
+			# Get the model's predictions for the 
+			data_inputs = data_inputs.to(device)
+			data_labels = data_labels.to(device)
+
+			# Store model predictions
+			preds = model(data_inputs)
+			preds = preds.squeeze(dim=1)
+			preds = torch.sigmoid(preds) # Sig forces data b/w 0 & 1
+			pred_labels = (preds >= 0.5).long() # binarize preds
+
+			# Compute true predictions (TP+TN)
+			true_preds += (pred_labels == data_labels).sum()
+			num_preds += data_labels.shape[0]
+
+	acc = true_preds / num_preds
+	print(f"Model Accuracy: {100.0*acc:4.2f}%")
+```
+
+```python
+eval_model(model, test_data_loader)
+```
+
+# Visualizing Classification Boundaries
+
+to visualize what the model has learned, we can perform a prediction for every data point in a range of $[-0.5, 1.5]$. This will tell us where the model has created decision boundaries and which points would be classified as 0 or 1. This visualization will show us the following:
+- if a point would fall in class 0, we'd see a blue background
+- if a point would fall in class 1, we'd see an orange background 
+- if the model is uncertain about a particular region, we'll see a blurry overlap 
+
+```python 
+@torch.no_grad() # Decorator, same effect as "with torch.no_grad(): ..." over the whole function.
+
+def visualize_classification(model, data, label):
+
+if isinstance(data, torch.Tensor):
+
+data = data.cpu().numpy()
+
+if isinstance(label, torch.Tensor):
+
+label = label.cpu().numpy()
+
+data_0 = data[label == 0]
+
+data_1 = data[label == 1]
+
+  
+
+fig = plt.figure(figsize=(4,4), dpi=500)
+
+plt.scatter(data_0[:,0], data_0[:,1], edgecolor="#333", label="Class 0")
+
+plt.scatter(data_1[:,0], data_1[:,1], edgecolor="#333", label="Class 1")
+
+plt.title("Dataset samples")
+
+plt.ylabel(r"$x_2$")
+
+plt.xlabel(r"$x_1$")
+
+plt.legend()
+
+  
+
+# Let's make use of a lot of operations we have learned above
+
+model.to(device)
+
+c0 = torch.Tensor(to_rgba("C0")).to(device)
+
+c1 = torch.Tensor(to_rgba("C1")).to(device)
+
+x1 = torch.arange(-0.5, 1.5, step=0.01, device=device)
+
+x2 = torch.arange(-0.5, 1.5, step=0.01, device=device)
+
+xx1, xx2 = torch.meshgrid(x1, x2, indexing='ij') # Meshgrid function as in numpy
+
+model_inputs = torch.stack([xx1, xx2], dim=-1)
+
+preds = model(model_inputs)
+
+preds = torch.sigmoid(preds)
+
+output_image = (1 - preds) * c0[None,None] + preds * c1[None,None] # Specifying "None" in a dimension creates a new one
+
+output_image = output_image.cpu().numpy() # Convert to numpy array. This only works for tensors on CPU, hence first push to CPU
+
+plt.imshow(output_image, origin='lower', extent=(-0.5, 1.5, -0.5, 1.5))
+
+plt.grid(False)
+
+return fig
+
+  
+
+_ = visualize_classification(model, dataset.data, dataset.label)
+
+plt.show()
+```
+   ![[Pasted image 20240830182328.png]]

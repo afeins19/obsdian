@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fb6b26904d00a41",
+        "id": "3d8dd598035fdb9c",
         "type": "tabs",
         "children": [
           {
-            "id": "3f4e7004cb43402d",
+            "id": "f8bae96978b610ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academicPlan/Last Semester Requirements.md",
+                "file": "Research/Pytorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "academicPlan/Last Semester Requirements.md",
+                "file": "Research/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "academicPlan/Last Semester Requirements.md",
+                "file": "Research/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "academicPlan/Last Semester Requirements.md"
+                "file": "Research/Pytorch.md"
               }
             }
           }
@@ -147,10 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f4e7004cb43402d",
+  "active": "f8bae96978b610ca",
   "lastOpenFiles": [
-    "Ab Workout.md",
+    "Attachments/Pasted image 20240830182328.png",
+    "Research/Meetings.md",
+    "(445) Machine Learning/PCA/Principle Component Analysis.md",
+    "(445) Machine Learning/NLP/NLP.md",
+    "Research/Pytorch.md",
     "academicPlan/Last Semester Requirements.md",
+    "Ab Workout.md",
     "(457) Graphics/Chapter 2 - WebGL.md",
     "academicPlan/COURSES.md",
     "academicPlan",
