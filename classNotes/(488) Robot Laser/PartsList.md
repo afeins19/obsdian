@@ -4,4 +4,4 @@
 
 ### Additional Components 
 - wheels/actuators for movement
-
+- 3d printing resin 
