@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/PartsList.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/PartsList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Pytorch.md",
+                "file": "(488) Robot Laser/PartsList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Pytorch.md"
+                "file": "(488) Robot Laser/PartsList.md"
               }
             }
           }
@@ -149,12 +149,12 @@
   },
   "active": "9895325f3cc36ba9",
   "lastOpenFiles": [
+    "Research/Pytorch.md",
     "(488) Robot Laser/PartsList.md",
     "Attachments/Pasted image 20240830182328.png",
     "Research/Meetings.md",
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/NLP/NLP.md",
-    "Research/Pytorch.md",
     "academicPlan/Last Semester Requirements.md",
     "Ab Workout.md",
     "(457) Graphics/Chapter 2 - WebGL.md",
