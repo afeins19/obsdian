@@ -725,65 +725,52 @@ to visualize what the model has learned, we can perform a prediction for every d
 
 def visualize_classification(model, data, label):
 
-if isinstance(data, torch.Tensor):
-
-data = data.cpu().numpy()
-
-if isinstance(label, torch.Tensor):
-
-label = label.cpu().numpy()
-
-data_0 = data[label == 0]
-
-data_1 = data[label == 1]
-
-  
-
-fig = plt.figure(figsize=(4,4), dpi=500)
-
-plt.scatter(data_0[:,0], data_0[:,1], edgecolor="#333", label="Class 0")
-
-plt.scatter(data_1[:,0], data_1[:,1], edgecolor="#333", label="Class 1")
-
-plt.title("Dataset samples")
-
-plt.ylabel(r"$x_2$")
-
-plt.xlabel(r"$x_1$")
-
-plt.legend()
-
-  
-
-# Let's make use of a lot of operations we have learned above
-
-model.to(device)
-
-c0 = torch.Tensor(to_rgba("C0")).to(device)
-
-c1 = torch.Tensor(to_rgba("C1")).to(device)
-
-x1 = torch.arange(-0.5, 1.5, step=0.01, device=device)
-
-x2 = torch.arange(-0.5, 1.5, step=0.01, device=device)
-
-xx1, xx2 = torch.meshgrid(x1, x2, indexing='ij') # Meshgrid function as in numpy
-
-model_inputs = torch.stack([xx1, xx2], dim=-1)
-
-preds = model(model_inputs)
-
-preds = torch.sigmoid(preds)
-
-output_image = (1 - preds) * c0[None,None] + preds * c1[None,None] # Specifying "None" in a dimension creates a new one
-
-output_image = output_image.cpu().numpy() # Convert to numpy array. This only works for tensors on CPU, hence first push to CPU
-
-plt.imshow(output_image, origin='lower', extent=(-0.5, 1.5, -0.5, 1.5))
-
-plt.grid(False)
-
-return fig
+	if isinstance(data, torch.Tensor):
+		data = data.cpu().numpy()
+	if isinstance(label, torch.Tensor):
+		label = label.cpu().numpy()
+		data_0 = data[label == 0]
+		data_1 = data[label == 1]
+		
+	  
+	
+	fig = plt.figure(figsize=(4,4), dpi=500)
+	
+	plt.scatter(data_0[:,0], data_0[:,1], edgecolor="#333", label="Class 0")
+	plt.scatter(data_1[:,0], data_1[:,1], edgecolor="#333", label="Class 1")
+	
+	plt.title("Dataset samples")	
+	plt.ylabel(r"$x_2$")	
+	plt.xlabel(r"$x_1$")
+	plt.legend()
+	
+	  
+	
+	# Let's make use of a lot of operations we have learned above
+	
+	model.to(device)
+	
+	c0 = torch.Tensor(to_rgba("C0")).to(device)
+	c1 = torch.Tensor(to_rgba("C1")).to(device)
+	
+	x1 = torch.arange(-0.5, 1.5, step=0.01, device=device)
+	x2 = torch.arange(-0.5, 1.5, step=0.01, device=device)
+	
+	xx1, xx2 = torch.meshgrid(x1, x2, indexing='ij') # Meshgrid function as in numpy
+	
+	model_inputs = torch.stack([xx1, xx2], dim=-1)
+	preds = model(model_inputs)
+	preds = torch.sigmoid(preds)
+	
+	output_image = (1 - preds) * c0[None,None] + preds * c1[None,None] # Specifying "None" in a dimension creates a new one
+	
+	output_image = output_image.cpu().numpy() # Convert to numpy array. This only works for tensors on CPU, hence first push to CPU
+	
+	plt.imshow(output_image, origin='lower', extent=(-0.5, 1.5, -0.5, 1.5))
+	
+	plt.grid(False)
+	
+	return fig
 
   
 
@@ -792,3 +779,41 @@ _ = visualize_classification(model, dataset.data, dataset.label)
 plt.show()
 ```
    ![[Pasted image 20240830182328.png]]
+
+# TensorBoard
+This tool lets us visualize how our training_loss decreases over time 
+```python 
+writer = SummaryWriter(logging_dir)
+
+model_plotted = False
+# Add average loss to TensorBoard
+
+epoch_loss /= len(data_loader)
+
+writer.add_scalar('training_loss',
+
+epoch_loss,
+
+global_step = epoch + 1)
+
+  
+
+# Visualize prediction and add figure to TensorBoard
+
+# Since matplotlib figures can be slow in rendering, we only do it every 10th epoch
+
+if (epoch + 1) % 10 == 0:
+
+	fig = visualize_classification(model, val_dataset.data, val_dataset.label)
+	
+	writer.add_figure('predictions',
+	
+	fig,
+	
+	global_step = epoch + 1)
+
+  
+
+writer.close()
+
+```
