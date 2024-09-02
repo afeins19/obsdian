@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md",
+                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md",
+                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md",
+                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md"
+                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md"
               }
             }
           }
@@ -147,9 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5f84352fc92a70c",
+  "active": "ea0049a0f93e37ba",
   "lastOpenFiles": [
     "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md",
+    "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
+    "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
     "(488) Robot Laser/PartsList.md",
     "Research/Pytorch.md",
     "Attachments/Pasted image 20240830182328.png",
