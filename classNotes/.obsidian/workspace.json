@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
+                "file": "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
+                "file": "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
+                "file": "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md"
+                "file": "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md"
               }
             }
           }
@@ -149,10 +149,14 @@
   },
   "active": "ea0049a0f93e37ba",
   "lastOpenFiles": [
-    "(488) Robot Laser/Meeting Plans/Team Leader Meeting 1.md",
-    "(488) Robot Laser/Meeting Plans/Team Meeting 2 - Discovery.md",
-    "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
     "(488) Robot Laser/PartsList.md",
+    "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
+    "(488) Robot Laser/Meetings/Team/Team Meeting 1 - Discovery.md",
+    "(488) Robot Laser/Meetings/Leadership/Initial Meeting.md",
+    "(488) Robot Laser/Meetings/Team",
+    "(488) Robot Laser/Meetings/Leadership",
+    "(488) Robot Laser/Meetings/Leadership/Team Leader Meeting 1.md",
+    "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
     "Research/Pytorch.md",
     "Attachments/Pasted image 20240830182328.png",
     "Research/Meetings.md",
@@ -163,7 +167,6 @@
     "(457) Graphics/Chapter 2 - WebGL.md",
     "academicPlan/COURSES.md",
     "academicPlan",
-    "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
     "(488) Robot Laser/Overview.md"
   ]
 }
