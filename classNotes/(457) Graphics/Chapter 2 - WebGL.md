@@ -69,3 +69,41 @@ the benefit of this coordinate system is it allows us to easily determine whethe
 Scaling, Mirroring, and Rotations are all easily achievable with only using matrix multiplication. However, if we want to move a series of points (translation), we must employ the use of addition operations. Homogenous coordinates allow us to perform transformations only using matrix multiplication.
 
 ![[Screen Shot 2024-09-04 at 1.38.51 PM.png]]
+
+to translate the point given by vector <x,y> by some distance dx and dy, increase the size of the matrix (nxm) to ((n+1) x (m+1)). Note we can also do the standard matrix operations in tandem with the the translation:
+
+![[Screen Shot 2024-09-04 at 1.41.56 PM.png]]
+this applies a rotation to the vector this matrix is being multiplied by as well as a translation by dx and dy. 
+
+# The WebGL Coordinate System 
+this coordinate system is different from the html coordinate system:
+	- the center position of the `<canvas>`: (0.0, 0.0, 0.0)
+	- the range of the x axis is (-1.0,0,0) to (1.0,0,0)
+	- the range of the y axis is (0.0,-1.0,0.0) to (0.0, 1.0, 0.0)
+	- the Z axis "protrudes" towards you (0.0,0.0, -1.0 to (0.0,0.0,1.0)
+
+# Passing data between JavaScript and the Shaders 
+we need to define global variables that have acces to both shader variables and js variables 
+1. prepare the attribute variable for the vertex position in the vertex shader 
+```WebGL		 
+'attribute vec4 a_Position'; 
+```
+2. assign the attribute variable to the gl_position variable (this is set dynamically from the javascript rather than statically)
+3. pass the data to the attribute variable 
+4. assign a value to an attribute variable 
+
+what this does is allows us to specify a position variable locally in the javascript and then send it to the shader program when its ready to be plotted. This lets us dynamically control the location where an object will be on the canvas. 
+
+# Converting Between WebGL and HTML Coordinates 
+
+```javascript 
+var x = ev.ClientX; // x coordinate
+var y = ev.ClientY; // y coordinate 
+
+var rect = ev.target.getBoundingClient
+
+// getting difference between your screen's boundary and the canvas boundary (if one exists)
+x = ((x-rect.left) - (canvas.width/2) / (canvas.width/2))
+y = ((y-canvas.top)/2 - (y - rect.top/2)) / (canvas.height/2)
+```
+
