@@ -1,4 +1,4 @@
-
+meeting 1 - 09/03/2024
 ### Goals for the meeting
 - [ ] Clearly define the main objectives for the game
 	- [ ] agree upon the rules of the game
@@ -9,6 +9,7 @@
 	- [ ] ramming/blocking 
 - [ ] Define the minimum requirements that each robot needs to have
 	- [ ] ex: amount and configuration of light receivers to detect hits from other robot's lasers
+	- [ ] What parts are potentially not allowed (can we add our own sensors)
 - [ ] Brainstorm/Discuss any initial concerns
 	- [ ] Bluetooth signal degredation through obstacles
 	- [ ] Lidar in center may not give a great view of the filed

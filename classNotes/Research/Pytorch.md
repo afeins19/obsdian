@@ -29,7 +29,7 @@ print("Using Torch Version: ", torch.__version__)
 ```
 
 # Torch Seed 
-seed to allow users to reproduce the same random values consistently. 
+seeds to allow users to reproduce the same random values consistently. 
 ```python 
 torch.manual_seed(42)
 ```
@@ -40,7 +40,7 @@ a tensor is a mathematical object that generalizes the concept of scalars, vecto
 ## Creating a Tensors with Pytorch 
 
 ### Populating Tensors
-*note: just running`torch.tensor` will reuse any value that has already been in memory.*
+*note: just running`torch.tensor` will reuse any value that has already been stored in memory.*
 ```python 
 # reusing values that are already in memory
 x_default = torch.Tensor(2, 3, 4)
@@ -149,7 +149,7 @@ W = torch.arange(9).view(3,3) # operation stacking is allowed
 h = torch.matmul(x, W) 
 ```
 
-The behavior depends on the dimensionality of the tensors as follows:
+The behavior of `matmul()` depends on the dimensionality of the tensors as follows:
 
 - If both tensors are 1-dimensional, the dot product (scalar) is returned.
     
@@ -207,9 +207,9 @@ Indexing for tensors is the same as in numpy
 x = torch.arrange(12).view(3, 4) # tensor of size (x,y,z) = (3,4,3)
 
 """
-		X tensor([[ 0,  1,  2,  3],
-        [ 4,  5,  6,  7],
-        [ 8,  9, 10, 11]])
+X tensor([[ 0,  1,  2,  3],
+          [ 4,  5,  6,  7],
+          [ 8,  9, 10, 11]])
 """
 
 # printing the second column 
@@ -226,8 +226,9 @@ print(x[:2, -1]) # tensor([3,7])
 Pytorch automatically support gradient/derivative calculations for the functions that we define. If we use weight matrices in our function that we want to learn, then those are called the *parameters* or just *weights*. 
 
 If our neural network would output a single scalar value, we would talk about taking the **derivative**, but more often than not, we will have multiple output variables so we would refer to the output as a **gradient**. 
+
 ### The Computational Graph
-Given some input $x$, we define our function by *manipulating* that input, usually by matrix multiplication with weight matrices and addition operations with bias *bias vectors*.  
+Given some input $x$, we define our function by *manipulating* that input, usually by matrix multiplication with weight matrices and addition operations with *bias vectors*.  
 
 As we perform operations over our input, Pytorch automatically creates a *computational graph* of these operations. This shows us the ordered sequence of steps needed to arrive at a given output. PyTorch is a *define-by-run* framework which means that it automatically generates and maintains the graph as we perform manipulations on our data
 
@@ -256,7 +257,7 @@ y = torch.ones((3,), requires_grad=True)
 Say we define our gradient function as such (where $\ell(x)$ denotes the number of elements). 
 
 $$y = \frac{1}{\ell(x)}\sum_i \left[(x_i + 2)^2 + 3\right]$$
-we are taking a mean here over the operation within the sum. You could imagine that x are our parameters, and we want to optimize (either maximize or minimize) the output y. For this, we want to obtain the gradients ∂y/∂x. For our example, we'll use x=<0,1,2> as our input.
+we are taking a mean here over the operation within the sum. You could imagine that x are our parameters, and we want to optimize (either maximize or minimize) the output y. For this, we want to obtain the gradients ∂y/∂x. For our example, we'll use x=$[0,1,2]$ as our input.
 
 We can express this operation in our code as well and see how PyTorch handles the computation graph to enable back propagation. 
 
@@ -285,7 +286,7 @@ PyTorch automatically calculates the gradient of each step of the calculation so
 
 $$\frac{\partial y}{\partial x_i} = \frac{\partial y}{\partial c_i}\frac{\partial c_i}{\partial b_i}\frac{\partial b_i}{\partial a_i}\frac{\partial a_i}{\partial x_i}$$
 
-Each of the partial derivatives are are taken with respect to their argument terms:
+Each of the partial derivatives are  taken with respect to their argument terms:
 
 $$
 \frac{\partial a_i}{\partial x_i} = 1,\hspace{1cm}
@@ -293,9 +294,7 @@ $$
 \frac{\partial c_i}{\partial b_i} = 1\hspace{1cm}
 \frac{\partial y}{\partial c_i} = \frac{1}{3}
 $$
-So in summary, with an input vector of $x = [0,1,2]$, the gradients are $\partial y/\partial \mathbf{x}=[4/3,2,8/3]$.
-
-
+So in summary, with an input vector of $x = [0,1,2]$, the gradients are $\partial y/\partial \mathbf{x}=[4/3,2,8/3]$. 
 
 # GPU Support 
 
@@ -358,7 +357,8 @@ class SuperCoolModule(nn.Module):
 
 	def __init__(self):
 		super().__init__()
-		# write subclass init code for this module 
+		# Write subclass init code for this module 
+		# I think its used for setting stuff up 
 
 	def forward(self, x):
 		# Function that performs this modules calculation
@@ -369,7 +369,7 @@ class SuperCoolModule(nn.Module):
  In the init function, we usually create the parameters of the module, using `nn.Parameter`, or defining other modules that are used in the forward function
 
 ### Creating a Simple Classifier 
-Below, we will create a simple classifier of the following model 
+Below, we will create a simple classifier for the following model
 ![[Pasted image 20240829143638.png]]
 **input neurons**: blue 
 **hidden neurons**: white

@@ -27,6 +27,7 @@ function main() {
 ```
 
 # Coordinate System
+webpage coordinates have the origin at the top left corner and +x & +y are all left and down from this point respectively 
 ![[Screen Shot 2024-08-28 at 1.49.39 PM.png]]
 
 without webgl, we define the left and top most point of the figure (120,10) and then the dimensions (150) and (150)
@@ -61,3 +62,10 @@ there are 2 types of shader:
 # Drawing the Object
 ![[Screen Shot 2024-08-28 at 2.12.45 PM.png]]
 `gl.drawArrays(g1.POINTS, 0, 1);` 
+
+# Homogenous Coordinates 
+the benefit of this coordinate system is it allows us to easily determine whether or not an object is in the line of sight of another object (if an object blocks another object). More Importantly, this coordinate system makes it easier to perform transformations on matrices. 
+
+Scaling, Mirroring, and Rotations are all easily achievable with only using matrix multiplication. However, if we want to move a series of points (translation), we must employ the use of addition operations. Homogenous coordinates allow us to perform transformations only using matrix multiplication.
+
+![[Screen Shot 2024-09-04 at 1.38.51 PM.png]]
