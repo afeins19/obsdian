@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "e427a3477eea524b",
+    "id": "02a88970d55b7172",
     "type": "split",
     "children": [
       {
-        "id": "bfddc18322d1a729",
+        "id": "6a147ac7670ca19f",
         "type": "tabs",
         "children": [
           {
-            "id": "98a60fe0e8310d3a",
+            "id": "ea0049a0f93e37ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3cd40af7b44bbbce",
+    "id": "496673c6a7eb0460",
     "type": "split",
     "children": [
       {
-        "id": "98ad61807f88d159",
+        "id": "e4f42599bdf9cb15",
         "type": "tabs",
         "children": [
           {
-            "id": "a472c173e619b37e",
+            "id": "9895325f3cc36ba9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "50f05e3e7059ba8c",
+            "id": "f0bac9f81c70898a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "16b664d3bd62c5f9",
+            "id": "dc095bf843be70b9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "7bfce82e3c5d259c",
+    "id": "4dff453b8d6973ee",
     "type": "split",
     "children": [
       {
-        "id": "de96f81d8fbe1d7c",
+        "id": "6e7adcb3379803ea",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4bef55f39fcae3",
+            "id": "d5f84352fc92a70c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +98,19 @@
             }
           },
           {
-            "id": "b788ce31840afb73",
+            "id": "72efd9c8fd78f516",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "48b18c9f3454354c",
+            "id": "3443b86771982340",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +121,12 @@
             }
           },
           {
-            "id": "9b0916e3603942e5",
+            "id": "a3792aeb917381d2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md"
+                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md"
               }
             }
           }
@@ -147,53 +148,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98a60fe0e8310d3a",
+  "active": "ea0049a0f93e37ba",
   "lastOpenFiles": [
-    "(457) Graphics/Course Overview.md",
-    "(457) Graphics/example explanations/ClickedPoints.js.md",
+    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
+    "(497) Computer Vision/Matlab.md",
+    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+    "(497) Computer Vision/Lab_1",
+    "(497) Computer Vision/Class Overview.md",
     "(457) Graphics/Chapter 2 - WebGL.md",
-    "(457) Graphics/example explanations",
+    "(497) Computer Vision",
+    "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
+    "(457) Graphics/example explanations/ClickedPoints.js.md",
+    "(457) Graphics/example explanations",
+    "(488) Robot Laser Tag/PartsList.md",
+    "(488) Robot Laser Tag/Overview.md",
+    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
+    "(488) Robot Laser Tag/Meetings/Team",
+    "(488) Robot Laser Tag/Meetings/Leadership",
+    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
+    "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
     "Research/Pytorch.md",
-    "Research/Janghoon Research Topics.md",
-    "(488) Robot Laser/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
-    "(488) Robot Laser/Meetings/Leadership/Initial Meeting.md",
-    "(488) Robot Laser/Meetings/Leadership/Team Leader Meeting 1.md",
-    "(488) Robot Laser/Meetings/Team/Team Meeting 1 - Discovery.md",
-    "Research/Meetings.md",
     "Attachments/Pasted image 20240830182328.png",
-    "(488) Robot Laser/PartsList.md",
-    "(488) Robot Laser/Meetings/Team",
-    "(488) Robot Laser/Meetings/Leadership",
-    "(488) Robot Laser/Meetings",
-    "(488) Robot Laser/Meeting Plans/Initial Meeting.md",
-    "(488) Robot Laser/Meeting Plans",
-    "Attachments/Screen Shot 2024-08-29 at 3.22.32 PM.png",
-    "Attachments/Pasted image 20240829143638.png",
-    "Attachments/DALL·E 2024-03-16 16.29.17 - Enhance the logo by incorporating a bit more of a typhoon theme, making it more evident, while still maintaining the minimal and sleek style. Keep the.webp",
-    "(488) Robot Laser/Overview.md",
-    "(488) Robot Laser",
-    "Attachments/Screen Shot 2024-08-28 at 2.12.45 PM.png",
-    "Attachments/Screen Shot 2024-08-28 at 2.12.36 PM.png",
-    "Attachments/Screen Shot 2024-08-28 at 2.10.06 PM.png",
-    "Attachments/Screen Shot 2024-08-28 at 1.57.39 PM.png",
-    "Research",
-    "Order.md",
-    "(457) Graphics",
-    "(445) Machine Learning/Ensemble Methods/XGBoost.md",
-    "(445) Machine Learning/Ensemble Methods/Ensemble Methods.md",
-    "(445) Machine Learning/Clustering Algorithms/K-Means Algorithm.md",
-    "(445) Machine Learning/Clustering Algorithms/Overview.md",
-    "(445) Machine Learning/Data Processing/Data Preprocessing.md",
-    "(445) Machine Learning/Data Processing/Data Collection.md",
-    "(445) Machine Learning/Final Exam/Bayes and Stuff.md",
-    "(470) Compilers/final project/Typethon Installation Instructions.md",
-    "(470) Compilers/final project/Translator Architecture.md",
-    "(470) Compilers/final project/Quick Guide.md",
-    "(470) Compilers/final project/FINAL PROJECT PLAN.md",
-    "(470) Compilers/final project",
-    "(413) Algorithms Lab/lab_9/Report.md",
-    "(413) Algorithms Lab/lab_9"
+    "Research/Meetings.md",
+    "(445) Machine Learning/PCA/Principle Component Analysis.md",
+    "(445) Machine Learning/NLP/NLP.md",
+    "academicPlan/Last Semester Requirements.md",
+    "Ab Workout.md",
+    "academicPlan/COURSES.md",
+    "academicPlan"
   ]
 }
