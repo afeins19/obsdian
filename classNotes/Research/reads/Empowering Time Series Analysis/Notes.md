@@ -57,7 +57,7 @@ to adopt LLMs for time series analysis, three primary methods are employed:
 There are specifically three components that can be leveraged to fine-tune LLMs. The input time series is first tokenized into an embedding based on proper tokenization techniques where proper prompts can be adopted to further enhance the time series representation. This lets LLMs to better comprehend prompt-enhanced time series embeddings and be fined tuned for downstream tasks. 
 
 ### Direct Query of LLMs 
-- **PromptCast** is the first work that directly conducts general time series forecasting in a sentence-to-sentence fashion using pre-trained LLLMs
+- **PromptCast** is the first work that directly conducts general time series forecasting in a sentence-to-sentence fashion using pre-trained LLMs
 - it uses prompt based time series forecasting that embeds lag information as well as instructions into the prompts and uses output sentences from the LLMs to conduct forecasting 
 ### Time Series Tokenization
 encodes time series data into string based tokens so that LLMs can seamlessly encode time series as a series of natural language inputs so the LLMs can process them as any other sort of data. This section focuses on the design of tokenization schemes to represent time series data more effectively. 
@@ -65,3 +65,17 @@ encodes time series data into string based tokens so that LLMs can seamlessly en
 some specific techniques include **patching tokenization**: 
 For a univariate time series in- put with length $L : X_{1D} \in R^{pX n}$ 
 he patching operation first repeats the final value in the original univariate time series S times. Then, it unfolds the input univariate time series through a sliding window with the length of patch size P and the stride size of S. Through patching, the univariate time series will be transformed into two-dimensional representations $X_p \in R^{pXn}$ where N is the number of patches with $N = floor(\frac{(L-P)}{2})$  
+
+### Prompt Design 
+- One of the main features of PromptCast is that it also develops template-based prompts for LLM time series forecasting. 
+- Some other methods enrich the prompt design by incorporatin LLM-generated or gathered background information which highlights the importance of context-inclusive prompts in trea-world applications 
+-  Time- LLM (Jin et al., 2024) adds statistical information of the time series data to the time series 
+
+compared with fixed and non-trainable prompts, a soft and trainable prompt makes it easier for LLMs to understand and alight with the input. 
+
+Prefix soft prompts are the task-specific embedding vectors, learned based on a loss from the LLM's output and the ground truth 
+
+###### Notable Works in Prompt Design Techniques
+- from LLMs’ output and the ground truth. TEST (Sun et al., 2024) initializes the soft prompts with uniform distributions, text embedding of the downstream task labels, or the most common words from the vocabulary.
+- TEMPO (Cao et al., 2024) selects highly representative soft prompts from key-value pools
+- S^2 IP-LLM (Pan etal., 2024) does prompt design by choosing the most similar semantic anchors derived from pre-trained word embedding for fine-tuning through a similarity score matching mechanism 
