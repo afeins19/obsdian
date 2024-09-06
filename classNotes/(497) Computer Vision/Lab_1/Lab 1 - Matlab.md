@@ -133,7 +133,9 @@ Voltages in sorted order:
 ```
 
 ### Graphs 
-![](file:////tmp/ConnectorClipboard3382073183514359393/image17255105056660.png)
+![](file:////tmp/ConnectorClipboard8409888997102347884/image17255850259340.png)
+
+![](file:////tmp/ConnectorClipboard8409888997102347884/image17255850426900.png)
 
 
 

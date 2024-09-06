@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+                "file": "(497) Computer Vision/Matlab.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+                "file": "(497) Computer Vision/Matlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+                "file": "(497) Computer Vision/Matlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md"
+                "file": "(497) Computer Vision/Matlab.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "ea0049a0f93e37ba",
   "lastOpenFiles": [
-    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
     "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
     "(497) Computer Vision/Matlab.md",
     "(497) Computer Vision/Lab_1",
     "(497) Computer Vision/Class Overview.md",
