@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -151,8 +150,8 @@
   "active": "ea0049a0f93e37ba",
   "lastOpenFiles": [
     "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
-    "(497) Computer Vision/Matlab.md",
     "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
+    "(497) Computer Vision/Matlab.md",
     "(497) Computer Vision/Lab_1",
     "(497) Computer Vision/Class Overview.md",
     "(457) Graphics/Chapter 2 - WebGL.md",

@@ -135,7 +135,7 @@ Voltages in sorted order:
 ### Graphs 
 ![](file:////tmp/ConnectorClipboard3382073183514359393/image17255105056660.png)
 
-![](file:////tmp/ConnectorClipboard3382073183514359393/image17255105140300.png)
+
 
 # Part 2: Resistor Calculations 
 These are two MATLAB scripts each with 3 test values separate to calculate the total resistance of n - resistors in: 
