@@ -10,3 +10,7 @@
 
 ### Homework
 - Find something interesting (blog, paper, etc.) associated with the project description. Use Janghoon's Large Language Models (LLMs) for computing guide 
+
+# Meeting 2 
+- We are scoping down from broad direction to some specific directions
+- keep reading and finding out current SOTA strategies 

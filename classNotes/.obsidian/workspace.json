@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a147ac7670ca19f",
+        "id": "3c5c9a2cdd664c88",
         "type": "tabs",
         "children": [
           {
-            "id": "ea0049a0f93e37ba",
+            "id": "60dcacc638ac46a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -85,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,12 +123,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,17 +145,69 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea0049a0f93e37ba",
+  "floating": {
+    "id": "2956fab13f4b1b2c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0b81957547924d39",
+        "type": "window",
+        "children": [
+          {
+            "id": "47b6d26034a051e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d103cadee2785de6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
+                  }
+                }
+              },
+              {
+                "id": "cfb799d8439e6ec4",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 545,
+        "y": 42,
+        "width": 525,
+        "height": 1868,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "cfb799d8439e6ec4",
   "lastOpenFiles": [
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "Research/reads/Resources.md",
+    "Research/reads/Fundamentals.md",
+    "Research/Janghoon Research Topics.md",
+    "Research/Meeting 2.md",
+    "Research/Pytorch.md",
+    "Research/Meetings.md",
+    "Research/Meetings",
+    "(488) Robot Laser Tag/PartsList.md",
+    "(457) Graphics/Chapter 2 - WebGL.md",
     "(457) Graphics/labs/graph.js",
     "(457) Graphics/labs/lab_2_html",
     "(457) Graphics/labs/lab_2",
     "(457) Graphics/example explanations/ClickedPoints.js.md",
     "(457) Graphics/examples/ClickedPoints.js.md",
     "(457) Graphics/examples",
-    "(457) Graphics/Chapter 2 - WebGL.md",
-    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(497) Computer Vision/Matlab.md",
     "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
     "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
@@ -168,17 +218,12 @@
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
     "(457) Graphics/example explanations",
-    "(488) Robot Laser Tag/PartsList.md",
     "(488) Robot Laser Tag/Overview.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
-    "(488) Robot Laser Tag/Meetings/Team",
-    "(488) Robot Laser Tag/Meetings/Leadership",
     "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
     "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
-    "Research/Pytorch.md",
     "Attachments/Pasted image 20240830182328.png",
-    "Research/Meetings.md",
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/NLP/NLP.md",
     "academicPlan/Last Semester Requirements.md",

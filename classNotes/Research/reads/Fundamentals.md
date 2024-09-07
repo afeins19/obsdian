@@ -1,7 +1,7 @@
 ### LLLMs 
 
 ### General Reading on LLMS
-- [ ] "Enhancing Financial Time Series Forecasting with Deep Learning and Language Models"
+- [x] "Enhancing Financial Time Series Forecasting with Deep Learning and Language Models"
 ### GPT (Generative Pre-trained Transformers) 
 - [ ] “Attention is All You Need” by Vaswani et al.
 ### BERT (Bidirectional Encoder Representations from TRansformers)

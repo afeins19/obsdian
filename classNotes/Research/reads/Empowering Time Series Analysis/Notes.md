@@ -68,8 +68,8 @@ he patching operation first repeats the final value in the original univariate t
 
 ### Prompt Design 
 - One of the main features of PromptCast is that it also develops template-based prompts for LLM time series forecasting. 
-- Some other methods enrich the prompt design by incorporatin LLM-generated or gathered background information which highlights the importance of context-inclusive prompts in trea-world applications 
--  Time- LLM (Jin et al., 2024) adds statistical information of the time series data to the time series 
+- Some other methods enrich the prompt design by incorporating LLM-generated or gathered background information which highlights the importance of context-inclusive prompts in real-world applications 
+-  Time-LLM (Jin et al., 2024) adds statistical information of the time series data to the time series 
 
 compared with fixed and non-trainable prompts, a soft and trainable prompt makes it easier for LLMs to understand and alight with the input. 
 

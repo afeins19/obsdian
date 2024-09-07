@@ -815,5 +815,4 @@ if (epoch + 1) % 10 == 0:
   
 
 writer.close()
-
 ```

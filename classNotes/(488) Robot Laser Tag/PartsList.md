@@ -5,3 +5,6 @@
 ### Additional Components 
 - wheels/actuators for movement
 - 3d printing resin 
+
+# 3D Printer 
+https://www.thingiverse.com/thing:5858901
