@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
+                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -86,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md"
+              }
             }
           }
         ],
@@ -145,53 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "2956fab13f4b1b2c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0b81957547924d39",
-        "type": "window",
-        "children": [
-          {
-            "id": "47b6d26034a051e2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d103cadee2785de6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
-                  }
-                }
-              },
-              {
-                "id": "cfb799d8439e6ec4",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 545,
-        "y": 42,
-        "width": 525,
-        "height": 1868,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "cfb799d8439e6ec4",
+  "active": "60dcacc638ac46a2",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240907163512.png",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "Research/reads/Resources.md",
     "Research/reads/Fundamentals.md",
@@ -227,7 +188,6 @@
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/NLP/NLP.md",
     "academicPlan/Last Semester Requirements.md",
-    "Ab Workout.md",
-    "academicPlan/COURSES.md"
+    "Ab Workout.md"
   ]
 }
