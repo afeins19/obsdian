@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
+                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b76389df78e36a2b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attachments/Pasted image 20240908213353.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
+                "file": "Attachments/Pasted image 20240908213353.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
+                "file": "Attachments/Pasted image 20240908213353.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md"
+                "file": "Attachments/Pasted image 20240908213353.png"
               }
             }
           }
@@ -148,11 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60dcacc638ac46a2",
+  "active": "9895325f3cc36ba9",
   "lastOpenFiles": [
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
+    "Attachments/Pasted image 20240908213353.png",
+    "Attachments/Pasted image 20240908213332.png",
+    "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
+    "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240907163512.png",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "Research/reads/Resources.md",
     "Research/reads/Fundamentals.md",
@@ -187,7 +203,6 @@
     "Attachments/Pasted image 20240830182328.png",
     "(445) Machine Learning/PCA/Principle Component Analysis.md",
     "(445) Machine Learning/NLP/NLP.md",
-    "academicPlan/Last Semester Requirements.md",
-    "Ab Workout.md"
+    "academicPlan/Last Semester Requirements.md"
   ]
 }
