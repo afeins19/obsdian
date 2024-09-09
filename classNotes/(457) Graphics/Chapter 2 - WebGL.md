@@ -107,3 +107,37 @@ x = ((x-rect.left) - (canvas.width/2) / (canvas.width/2))
 y = ((y-canvas.top)/2 - (y - rect.top/2)) / (canvas.height/2)
 ```
 
+### Points are stored in an array as a flat arrangement
+```
+g_points = [x_1, y_1, x_2, y_2, ...]
+```
+- each point is represented by 2 values in thiis array 
+
+to iterate over these points we use:
+```javascript 
+for (var i = 0; i < len; i+=2)
+	// do stuff 
+```
+
+# Changing the Point Color (ChangingPoints.JS)
+we must pass the data to a fragment shader as fragment shaders handle colors 
+1. prepare the uniform variable for the color in the fragment shader
+2. assign the uniform variable to the gl_FragColor variable 
+3. pass the color data to the unifrom variable from the JS program
+
+# Shader Code
+```
+var FSHADER_SOURCE +
+	'precision mediump float;' + 
+	'uniform vec4 u_FracColor;' +
+	...
+```
+
+# Uniform variables 
+used to pass static information to the fragment shader 
+(things like `u_FragColor`)
+
+### Assigning a Value to a uniform Variable
+```
+// logic to determine which quadrant was clicked
+```

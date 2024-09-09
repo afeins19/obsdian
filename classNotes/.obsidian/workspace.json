@@ -23,9 +23,11 @@
             "id": "b76389df78e36a2b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Pasted image 20240908213353.png"
+                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Pasted image 20240908213353.png",
+                "file": "(457) Graphics/Chapter 2 - WebGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Pasted image 20240908213353.png",
+                "file": "(457) Graphics/Chapter 2 - WebGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Pasted image 20240908213353.png"
+                "file": "(457) Graphics/Chapter 2 - WebGL.md"
               }
             }
           }
@@ -159,14 +161,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9895325f3cc36ba9",
+  "active": "b76389df78e36a2b",
   "lastOpenFiles": [
+    "(457) Graphics/Drawing Points.md",
+    "(457) Graphics/Chapter 2 - WebGL.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240908213353.png",
     "Attachments/Pasted image 20240908213332.png",
     "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
-    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240907163512.png",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
@@ -178,7 +182,6 @@
     "Research/Meetings.md",
     "Research/Meetings",
     "(488) Robot Laser Tag/PartsList.md",
-    "(457) Graphics/Chapter 2 - WebGL.md",
     "(457) Graphics/labs/graph.js",
     "(457) Graphics/labs/lab_2_html",
     "(457) Graphics/labs/lab_2",
