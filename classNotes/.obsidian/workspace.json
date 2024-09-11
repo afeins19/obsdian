@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Intro to Computer Vision Toolbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Intro to Computer Vision Toolbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md",
+                "file": "(497) Computer Vision/Intro to Computer Vision Toolbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(457) Graphics/Chapter 2 - WebGL.md"
+                "file": "(497) Computer Vision/Intro to Computer Vision Toolbox.md"
               }
             }
           }
@@ -163,8 +164,11 @@
   },
   "active": "b76389df78e36a2b",
   "lastOpenFiles": [
-    "(457) Graphics/Drawing Points.md",
+    "(497) Computer Vision/Untitled/Untitled.md",
+    "(497) Computer Vision/Intro to Computer Vision Toolbox.md",
     "(457) Graphics/Chapter 2 - WebGL.md",
+    "(497) Computer Vision/Untitled",
+    "(457) Graphics/Drawing Points.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240908213353.png",
@@ -197,15 +201,12 @@
     "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
-    "(457) Graphics/example explanations",
     "(488) Robot Laser Tag/Overview.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
     "(488) Robot Laser/Meeting Plans/Untitled Kanban.md",
     "Attachments/Pasted image 20240830182328.png",
-    "(445) Machine Learning/PCA/Principle Component Analysis.md",
-    "(445) Machine Learning/NLP/NLP.md",
-    "academicPlan/Last Semester Requirements.md"
+    "(445) Machine Learning/PCA/Principle Component Analysis.md"
   ]
 }
