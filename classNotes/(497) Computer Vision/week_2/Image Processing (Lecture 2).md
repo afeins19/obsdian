@@ -39,7 +39,7 @@ This lab will show us how to write a program to overlay a display of how "round"
 
 ### Algorithm For Detecting Circular Objects
 1. first read in am image `rgb = imread(RGB);`
-2. create a gray-scale version of the image `gray = rgb2gra(rgb)`
+2. create a gray-scale version of the image `gray = rgb2gray(rgb)`
 	- we will also find what MATLAB determined was the gray threshold value with `threshold = graythresh(gray)` - this is done so that when the image is binarized, we can get the clearest contrast image 
 3. Using the gray image and the threshold value, we can binarize the image using the gray threshold value for max contrast - `bw = imbinarize(gray, theshold)` 
 4. Remove all objects containing fewer than 30 pixels (note that this number depends on the size of the image and other factors such as noice...its adjustable) This is done to remove any grains or noise from the image 
@@ -48,7 +48,7 @@ This lab will show us how to write a program to overlay a display of how "round"
 	- we select the structuring element aka the paintbrush with                         `se = strel('disk', 2);`
 	- we then fill the gap with `bw2 = imclose(bw1, se);`
 6. We then fill in all holes in the image (any enclosed areas will have their internal areas filled) 
-	- this is done with `bw3 = imfill(bw2, 'holes);`
+	- this is done with `bw3 = imfill(bw2, 'holes');`
 7. Get the pixel which represent the boundaries of each object 
 	- This is done with `[B,L] = bwboundaries(bw3, 'noholes');`
 		- B is a data structure which holds the boundaries of objects and the L is a label matrix holds the distinct objects within the image as unique integers. The label essentially groups pixels together that correspond with a particular object enclosed by a boundary 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/Lab_2/Image Processing (Lecture 2).md",
+                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/Lab_2/Image Processing (Lecture 2).md",
+                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/Lab_2/Image Processing (Lecture 2).md",
+                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/Lab_2/Image Processing (Lecture 2).md"
+                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md"
               }
             }
           }
@@ -148,17 +148,58 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9895325f3cc36ba9",
+  "floating": {
+    "id": "1abe11de1a9c4c4c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a616b794040fb300",
+        "type": "window",
+        "children": [
+          {
+            "id": "10d0597c981cb8bd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "601cd4d7758f850a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1090,
+        "y": 42,
+        "width": 1900,
+        "height": 1028,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "601cd4d7758f850a",
   "lastOpenFiles": [
-    "(497) Computer Vision/Lab_2",
+    "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
+    "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
+    "(497) Computer Vision/lectures",
+    "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
     "(497) Computer Vision/Loading Images.md",
+    "(497) Computer Vision/Untitled/Untitled.md",
+    "(497) Computer Vision/Matlab.md",
+    "(497) Computer Vision/Class Overview.md",
+    "(497) Computer Vision/week_2",
     "(457) Graphics/Chapter 2 - WebGL.md",
-    "(497) Computer Vision/Lab_2/Image Processing (Lecture 2).md",
     "Attachments/Pasted image 20240911130511.png",
     "Attachments/Pasted image 20240911123433.png",
     "Attachments/Pasted image 20240911121132.png",
-    "(497) Computer Vision/Untitled/Untitled.md",
-    "(497) Computer Vision/Untitled",
     "(457) Graphics/Drawing Points.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
@@ -183,18 +224,13 @@
     "(457) Graphics/example explanations/ClickedPoints.js.md",
     "(457) Graphics/examples/ClickedPoints.js.md",
     "(457) Graphics/examples",
-    "(497) Computer Vision/Matlab.md",
-    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.md",
-    "(497) Computer Vision/Lab_1/Lab 1 - Matlab.pdf",
-    "(497) Computer Vision/Lab_1",
-    "(497) Computer Vision/Class Overview.md",
-    "(497) Computer Vision",
+    "(497) Computer Vision/week_1/Lab 1 - Matlab.pdf",
+    "(497) Computer Vision/week_1",
     "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
     "(488) Robot Laser Tag/Overview.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md"
+    "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md"
   ]
 }
