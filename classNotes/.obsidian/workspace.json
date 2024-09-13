@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
+                "file": "(488) Robot Laser Tag/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
+                "file": "(488) Robot Laser Tag/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
+                "file": "(488) Robot Laser Tag/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md"
+                "file": "(488) Robot Laser Tag/Overview.md"
               }
             }
           }
@@ -149,12 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0017190ecd58e002",
+  "active": "9895325f3cc36ba9",
   "lastOpenFiles": [
+    "(488) Robot Laser Tag/PartsList.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
+    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
-    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
     "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
     "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
@@ -168,7 +170,6 @@
     "Attachments/Pasted image 20240911123433.png",
     "Attachments/Pasted image 20240911121132.png",
     "(457) Graphics/Drawing Points.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240908213353.png",
     "Attachments/Pasted image 20240908213332.png",
@@ -184,15 +185,12 @@
     "Research/Pytorch.md",
     "Research/Meetings.md",
     "Research/Meetings",
-    "(488) Robot Laser Tag/PartsList.md",
     "(457) Graphics/labs/graph.js",
     "(457) Graphics/labs/lab_2_html",
     "(457) Graphics/labs/lab_2",
     "(457) Graphics/example explanations/ClickedPoints.js.md",
     "(457) Graphics/examples/ClickedPoints.js.md",
     "(457) Graphics/examples",
-    "(497) Computer Vision/week_1/Lab 1 - Matlab.pdf",
-    "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
     "(488) Robot Laser Tag/Overview.md",
