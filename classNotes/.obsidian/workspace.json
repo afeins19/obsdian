@@ -11,11 +11,9 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "(488) Robot Laser Tag/Overview.md",
-                "mode": "source",
-                "source": false
+                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser Tag/Overview.md",
+                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser Tag/Overview.md",
+                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser Tag/Overview.md"
+                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
               }
             }
           }
@@ -148,11 +147,65 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9895325f3cc36ba9",
+  "floating": {
+    "id": "2be4a29fae9054ec",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9d0d3e0bc79f712e",
+        "type": "window",
+        "children": [
+          {
+            "id": "a2143aff51de949f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ac77a8111a47af6d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2237,
+        "y": 42,
+        "width": 753,
+        "height": 1028,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
+    "(488) Robot Laser Tag/Meetings/UseCases",
+    "(488) Robot Laser Tag/Overview.md",
+    "Research/Pytorch.md",
+    "Research/Meetings.md",
+    "Research/Meeting 2.md",
+    "Research/Janghoon Research Topics.md",
+    "Research/reads/Resources.md",
+    "Research/reads/Fundamentals.md",
+    "(497) Computer Vision/Matlab.md",
+    "(497) Computer Vision/Loading Images.md",
     "(488) Robot Laser Tag/PartsList.md",
+    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
+    "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
@@ -160,40 +213,23 @@
     "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
     "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
-    "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Untitled/Untitled.md",
-    "(497) Computer Vision/Matlab.md",
     "(497) Computer Vision/Class Overview.md",
     "(497) Computer Vision/week_2",
     "(457) Graphics/Chapter 2 - WebGL.md",
     "Attachments/Pasted image 20240911130511.png",
     "Attachments/Pasted image 20240911123433.png",
     "Attachments/Pasted image 20240911121132.png",
-    "(457) Graphics/Drawing Points.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "Attachments/Pasted image 20240908213353.png",
     "Attachments/Pasted image 20240908213332.png",
     "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Pasted image 20240907163512.png",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
-    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
-    "Research/reads/Resources.md",
-    "Research/reads/Fundamentals.md",
-    "Research/Janghoon Research Topics.md",
-    "Research/Meeting 2.md",
-    "Research/Pytorch.md",
-    "Research/Meetings.md",
     "Research/Meetings",
     "(457) Graphics/labs/graph.js",
     "(457) Graphics/labs/lab_2_html",
     "(457) Graphics/labs/lab_2",
-    "(457) Graphics/example explanations/ClickedPoints.js.md",
-    "(457) Graphics/examples/ClickedPoints.js.md",
-    "(457) Graphics/examples",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
-    "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
-    "(488) Robot Laser Tag/Overview.md",
-    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md"
+    "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png"
   ]
 }
