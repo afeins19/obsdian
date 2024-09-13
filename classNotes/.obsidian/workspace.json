@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
+                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
+                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
+                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md"
+                "file": "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md"
               }
             }
           }
@@ -150,8 +151,11 @@
   },
   "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
+    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
     "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
-    "(497) Computer Vision/week_2/Lab 1 - Detecting Round Objects.md",
     "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
     "(497) Computer Vision/Loading Images.md",
@@ -188,12 +192,10 @@
     "(457) Graphics/examples/ClickedPoints.js.md",
     "(457) Graphics/examples",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.pdf",
-    "(497) Computer Vision/week_1",
     "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png",
     "(488) Robot Laser Tag/Overview.md",
-    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md"
+    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md"
   ]
 }

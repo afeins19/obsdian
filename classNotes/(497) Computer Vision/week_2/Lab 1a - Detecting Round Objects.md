@@ -1,8 +1,7 @@
 
-
 Aaron Feinberg
 CMPSC-497
-Lab 1 - Detecting Circular Objects
+Lab 1a - Detecting Circular Objects
 Materials: Matlab, Household Objects, Camera (Phone)
 
 ### Discussion 
