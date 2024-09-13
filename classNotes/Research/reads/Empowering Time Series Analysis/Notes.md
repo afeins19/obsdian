@@ -79,3 +79,42 @@ Prefix soft prompts are the task-specific embedding vectors, learned based on a 
 - from LLMs’ output and the ground truth. TEST (Sun et al., 2024) initializes the soft prompts with uniform distributions, text embedding of the downstream task labels, or the most common words from the vocabulary.
 - TEMPO (Cao et al., 2024) selects highly representative soft prompts from key-value pools
 - S^2 IP-LLM (Pan etal., 2024) does prompt design by choosing the most similar semantic anchors derived from pre-trained word embedding for fine-tuning through a similarity score matching mechanism 
+
+
+---> For Meeting 2 
+
+# Current Applications 
+these LLMS have been used to perform analysis in a few fields (traffic, electricity, business, illness etc.) 
+
+The tasks that these LLMs perform may be:
+- Classification 
+- imputation 
+- anomaly detection 
+
+The key sort of mundane similarity between all of these is that they operate on **structured time series data**. 
+
+### Event Sequence Data 
+Models such as **LAMP** integrates an event prediction model with an LLM that performs abductive reasoning (reasoning about what the simplest and most likely cause of some event is). In the LAMP framework, event candidate predictions are generated from historical event data using a pre-trained base event sequence model. Then an LLM is prompted to suggest possible event causes. 
+
+The LLM is instruction-tuned with some expert-annotated examples too. For retrieval of relevant events, these events will be constructed as embeddings and matched against past events based on cosine similarity scores. 
+
+**Cosine Similarity**
+![[Pasted image 20240912150119.png]]
+
+After this and lastly, an energy function with a continuous-time transformer learns to rank predictions with scores and output the event with the strongest retrieved evidence.
+
+**The proposed framework outperforms state-of-the-art event sequence models on real-world benchmark**
+
+### Finance 
+
+##### Yu et al model 
+focuses on a stock return prediction task by incorporating multi-modal data including the historical stock price. It takes in: 
+- Historical stock price
+- Company profiles/descriptions
+- Summarized news from GPT-4 
+
+This paper tests both zero shot and one shot quieries on GPT-4 and isntruction based fine tuning on Open LLaMA. **The Results indicate that fine-tuned LLMs are capable of making decisions by analyzing multi-modal financial data thereby extracting menaingful insights and yielding explainabble forecasts.** 
+
+###### Lopez-Lira Experiment 
+ Similarly, a model from Lopez-Lira and Tang directly queries ChatGPT and other large language models for stock market return predictions by using news headlines. A linear regression of the next day’s stock return is conducted on the recom- mendation score. A positive correlation between the scores and subsequent returns is observed, showing the potential of LLMs to comprehend and forecast financial time series.
+
