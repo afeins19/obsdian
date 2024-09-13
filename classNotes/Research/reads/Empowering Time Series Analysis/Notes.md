@@ -113,7 +113,7 @@ focuses on a stock return prediction task by incorporating multi-modal data incl
 - Company profiles/descriptions
 - Summarized news from GPT-4 
 
-This paper tests both zero shot and one shot quieries on GPT-4 and isntruction based fine tuning on Open LLaMA. **The Results indicate that fine-tuned LLMs are capable of making decisions by analyzing multi-modal financial data thereby extracting menaingful insights and yielding explainabble forecasts.** 
+This paper tests both zero shot and one shot quieries on GPT-4 and isntruction based fine tuning on Open LLaMA. **The Results indicate that fine-tuned LLMs are capable of making decisions by analyzing multi-modal financial data thereby extracting meaningful insights and yielding explainable forecasts.** 
 
 ###### Lopez-Lira Experiment 
  Similarly, a model from Lopez-Lira and Tang directly queries ChatGPT and other large language models for stock market return predictions by using news headlines. A linear regression of the next day’s stock return is conducted on the recom- mendation score. A positive correlation between the scores and subsequent returns is observed, showing the potential of LLMs to comprehend and forecast financial time series.

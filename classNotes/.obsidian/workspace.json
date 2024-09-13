@@ -11,9 +11,11 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
+                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf"
+                "file": "Research/reads/Empowering Time Series Analysis/Notes.md"
               }
             }
           }
@@ -175,19 +176,22 @@
           }
         ],
         "direction": "vertical",
-        "x": 2237,
+        "x": 1818,
         "y": 42,
-        "width": 753,
+        "width": 1172,
         "height": 1028,
         "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "0017190ecd58e002",
+  "active": "ac77a8111a47af6d",
   "lastOpenFiles": [
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
+    "(497) Computer Vision/Loading Images.md",
+    "(497) Computer Vision/Class Overview.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
     "(488) Robot Laser Tag/Meetings/UseCases",
     "(488) Robot Laser Tag/Overview.md",
@@ -198,7 +202,6 @@
     "Research/reads/Resources.md",
     "Research/reads/Fundamentals.md",
     "(497) Computer Vision/Matlab.md",
-    "(497) Computer Vision/Loading Images.md",
     "(488) Robot Laser Tag/PartsList.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
@@ -208,13 +211,11 @@
     "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
     "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
     "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
     "(497) Computer Vision/Untitled/Untitled.md",
-    "(497) Computer Vision/Class Overview.md",
     "(497) Computer Vision/week_2",
     "(457) Graphics/Chapter 2 - WebGL.md",
     "Attachments/Pasted image 20240911130511.png",
