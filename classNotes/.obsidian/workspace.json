@@ -11,11 +11,9 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
-                "mode": "source",
-                "source": false
+                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
+                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
+                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/reads/Empowering Time Series Analysis/Notes.md"
+                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf"
               }
             }
           }
@@ -148,50 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "2be4a29fae9054ec",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9d0d3e0bc79f712e",
-        "type": "window",
-        "children": [
-          {
-            "id": "a2143aff51de949f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ac77a8111a47af6d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Research/reads/Empowering Time Series Analysis/Notes.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1818,
-        "y": 42,
-        "width": 1172,
-        "height": 1028,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "ac77a8111a47af6d",
+  "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "(488) Robot Laser Tag/deliverables/team2_groupContract_MOU.pdf",
+    "(488) Robot Laser Tag/deliverables/team2_groupContractMOU.pdf",
+    "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
+    "(488) Robot Laser Tag/deliverables",
+    "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
     "(488) Robot Laser Tag/Meetings/UseCases",
     "(488) Robot Laser Tag/Overview.md",
@@ -202,7 +168,6 @@
     "Research/reads/Resources.md",
     "Research/reads/Fundamentals.md",
     "(497) Computer Vision/Matlab.md",
-    "(488) Robot Laser Tag/PartsList.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
@@ -227,9 +192,6 @@
     "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Pasted image 20240907163512.png",
     "Research/Meetings",
-    "(457) Graphics/labs/graph.js",
-    "(457) Graphics/labs/lab_2_html",
-    "(457) Graphics/labs/lab_2",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png"
   ]
