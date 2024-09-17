@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Backpropogation.md",
+                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Backpropogation.md",
+                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Backpropogation.md",
+                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Backpropogation.md"
+                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md"
               }
             }
           }
@@ -150,8 +150,10 @@
   },
   "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "Research/Backpropogation/Formulas.md",
+    "Research/Backpropogation/Understanding the Partial Derivatives.md",
+    "Research/Backpropogation",
     "(488) Robot Laser Tag/PartsList.md",
-    "Research/Backpropogation.md",
     "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContract_MOU.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContractMOU.pdf",
@@ -184,8 +186,6 @@
     "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
     "(497) Computer Vision/Untitled/Untitled.md",
-    "(497) Computer Vision/week_2",
-    "(457) Graphics/Chapter 2 - WebGL.md",
     "Attachments/Pasted image 20240911130511.png",
     "Attachments/Pasted image 20240911123433.png",
     "Attachments/Pasted image 20240911121132.png",
