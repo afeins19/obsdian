@@ -11,11 +11,9 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
-                "mode": "source",
-                "source": false
+                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
+                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md",
+                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Backpropogation/Understanding the Partial Derivatives.md"
+                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf"
               }
             }
           }
@@ -150,15 +148,21 @@
   },
   "active": "0017190ecd58e002",
   "lastOpenFiles": [
-    "Research/Backpropogation/Formulas.md",
+    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
+    "Attachments/Pasted image 20240917181019.png",
+    "Attachments/Pasted image 20240917180952.png",
+    "Attachments/Pasted image 20240917180937.png",
     "Research/Backpropogation/Understanding the Partial Derivatives.md",
+    "Research/Backpropogation/Formulas.md",
     "Research/Backpropogation",
     "(488) Robot Laser Tag/PartsList.md",
     "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContract_MOU.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContractMOU.pdf",
     "(488) Robot Laser Tag/deliverables",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
@@ -180,21 +184,14 @@
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
-    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
     "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
-    "(497) Computer Vision/lectures",
     "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
-    "(497) Computer Vision/Untitled/Untitled.md",
     "Attachments/Pasted image 20240911130511.png",
     "Attachments/Pasted image 20240911123433.png",
     "Attachments/Pasted image 20240911121132.png",
     "Attachments/Pasted image 20240908213353.png",
     "Attachments/Pasted image 20240908213332.png",
     "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
-    "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
-    "Attachments/Pasted image 20240907163512.png",
-    "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
-    "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png"
+    "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png"
   ]
 }

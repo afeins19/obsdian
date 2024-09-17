@@ -18,6 +18,14 @@ Since we'd be performing this operation 3 images, i created a function called `p
 - `roundness_threshold` - the minimum thershold for assuming something is "round" or not 
 - `graypoint` - a value for which the builtin `rgb2gray()` function should use as the graypoint (-1 for letting the function itself decide). 
 
+### Code That Did Not Originate From the Lecture notes
+Since the Image processing steps were the same for all images, I created a function called `processImage()` which returns the total number of objects and the total number of round objects (those which exceeded the threshold value given by the  `roundness_threshold` parameter). The inputs to this function are 
+- `im` - the image file 
+- `roundness_threshold` - the value above which objects are round
+- `graypoint` - this was something i had to tweak as different images had objects of different colors and slightly different lighting/angles. The gray point selected by the `rgb2gray()` function didn't do a very good job of choosing that value for this task. 
+
+In order to count the objects, i created a counter called `objects_exceed_threshold`. This counter would increment each time an object exceeded the roundness threshold and kept track of how many round objects there are in the photo. 
+
 ```MATLAB 
 % importing image of objects
 im_1 = imread('/home/aaron/Pictures/circular_obj.jpg');
@@ -114,284 +122,32 @@ end
 # Results
 
 ### Image 1
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480030.png)
+![](file:////tmp/ConnectorClipboard2385019385559613465/image17266108585660.png)
 
-B = 5×1 cell
-
-||1|
-|---|---|
-|1|594×2 double|
-|2|1081×2 double|
-|3|261×2 double|
-|4|410×2 double|
-|5|600×2 double|
-
-L = 905×464
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-
-boundary = 594×2
-   494     1
-   493     2
-   492     3
-   491     4
-   490     5
-   489     6
-   488     6
-   487     7
-   486     8
-   485     9
-
-metric = 0.2116
-
-boundary = 1081×2
-   733    29
-   732    30
-   731    30
-   730    30
-   729    30
-   728    31
-   727    31
-   726    31
-   725    31
-   724    32
-
-metric = 0.7155
-
-boundary = 261×2
-   136    60
-   135    61
-   134    62
-   133    63
-   132    64
-   132    65
-   131    66
-   130    67
-   129    68
-   129    69
-
-metric = 0.4739
-
-boundary = 410×2
-   414   225
-   413   226
-   412   226
-   411   227
-   410   227
-   409   227
-   408   228
-   407   229
-   406   230
-   405   231
-
-metric = 0.7549
-
-boundary = 600×2
-    83   297
-    82   298
-    81   298
-    80   299
-    79   299
-    78   299
-    77   299
-    76   299
-    75   300
-    74   301
-
-metric = 0.2682
-
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480091.png)
+![[Pasted image 20240917181019.png]]
 
 ans = "Total Objects: 5"
 
 ans = "Objects Exceeding Roundness Threshold: 2"
 
-ans = 5
-
 
 ### Image 2
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480172.png)
 
-B = 4×1 cell
+![](file:////tmp/ConnectorClipboard2385019385559613465/image17266110631500.png)
 
-||1|
-|---|---|
-|1|1416×2 double|
-|2|2793×2 double|
-|3|4016×2 double|
-|4|2310×2 double|
-
-L = 2190×2059
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-
-boundary = 1416×2
-   262   189
-   261   190
-   260   190
-   259   190
-   258   190
-   257   190
-   256   190
-   255   190
-   254   190
-   253   190
-
-metric = 0.8430
-
-boundary = 2793×2
-        2029         256
-        2028         257
-        2027         257
-        2026         257
-        2025         257
-        2024         257
-        2023         257
-        2022         257
-        2021         257
-        2020         257
-
-metric = 0.2290
-
-boundary = 4016×2
-        1809         855
-        1808         856
-        1808         857
-        1808         858
-        1808         859
-        1808         860
-        1808         861
-        1808         862
-        1808         863
-        1808         864
-
-metric = 0.3936
-
-boundary = 2310×2
-   432   892
-   431   893
-   430   893
-   429   893
-   428   894
-   427   894
-   426   895
-   425   895
-   424   896
-   423   896
-
-metric = 0.6639
-
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480223.png)
-
+![](file:////tmp/ConnectorClipboard2385019385559613465/image17266110820710.png)
 ans = "Total Objects: 4"
 
 ans = "Objects Exceeding Roundness Threshold: 1"
 
-ans = 4
-
 ### Image 3
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480284.png)
+![](file:////tmp/ConnectorClipboard2385019385559613465/image17266110935310.png)
 
-B = 4×1 cell
-
-||1|
-|---|---|
-|1|3123×2 double|
-|2|1187×2 double|
-|3|493×2 double|
-|4|819×2 double|
-
-L = 2024×1706
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
-
-boundary = 3123×2
-        1139           9
-        1139          10
-        1139          11
-        1139          12
-        1139          13
-        1139          14
-        1139          15
-        1138          16
-        1137          17
-        1136          18
-
-metric = 0.5922
-
-boundary = 1187×2
-        1498         595
-        1497         596
-        1496         596
-        1495         596
-        1494         596
-        1493         596
-        1492         596
-        1491         597
-        1490         597
-        1489         597
-
-metric = 0.8097
-
-boundary = 493×2
-         819        1230
-         818        1231
-         817        1231
-         816        1232
-         815        1232
-         814        1232
-         813        1232
-         812        1233
-         811        1233
-         810        1233
-
-metric = 0.9037
-
-boundary = 819×2
-         394        1356
-         393        1357
-         392        1357
-         391        1357
-         390        1357
-         389        1357
-         388        1357
-         387        1357
-         386        1358
-         385        1358
-
-metric = 0.7936
-
-![](file:////tmp/ConnectorClipboard7252756723269157601/image17261034480325.png)
-
+![](file:////tmp/ConnectorClipboard2385019385559613465/image17266110971600.png)
 ans = "Total Objects: 4"
 
 ans = "Objects Exceeding Roundness Threshold: 3"
 
-ans = 4
 
 # Problems 
 One of the main problems I encountered was the issue of the default gray point. I found that in order to avoid doing a lot of post processing in MATLAB, I needed to find objects with a lot of contrast between the background. The default gray point that was chosen was often sensible as an average brightness value but that was actually detrimental in most cases for this lab.  It was also clear that any sort of glare or uneven lighting showed up as an object when I binarized the image. Also, objects like the little cologne bottle in the first image had a black logo in the center which when binarized created a hole in the center of the bottle. This required me to play with the imclose() and imfill() functions quite a bit (as well as for other objects). 
