@@ -1,4 +1,4 @@
-1) the hard work of breaking the habit, because to some extent feeling stupid _is_ just habit. It's a reflex. You're used to it. So you have to catch yourself getting angry and say, 'No, I'm not going to do it'. You'll _want_ to do it  it will feel like you _have_ to just to feel better. But what will happen is if you do none of those things you'll feel better anyway.
+1) the hard work of breaking the habit, because to some extent feeling stupid _is_ just habit. It's a reflex. You're used to it. So you have to catch yourself feeling dumb and say, 'No, I'm not going to do it'. You'll _want_ to do it  it will feel like you _have_ to just to feel better. But what will happen is if you do none of those things you'll feel better anyway.
 
 2) you have gained something very few achieve. You know what its like to have faced abject failure. You tried incredibly hard and failed and while it hurts you should feel good in knowing two things: one, you only failed right now and going forward you can do better. And two, you know what it feels like to fail.
 
