@@ -11,9 +11,11 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf"
+                "file": "Research/Backpropogation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
+                "file": "Research/Backpropogation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
+                "file": "Research/Backpropogation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf"
+                "file": "Research/Backpropogation.md"
               }
             }
           }
@@ -148,11 +150,12 @@
   },
   "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "(488) Robot Laser Tag/PartsList.md",
+    "Research/Backpropogation.md",
+    "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContract_MOU.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContractMOU.pdf",
-    "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(488) Robot Laser Tag/deliverables",
-    "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(497) Computer Vision/Loading Images.md",
@@ -191,7 +194,6 @@
     "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png",
     "Attachments/Pasted image 20240907163512.png",
-    "Research/Meetings",
     "Attachments/Screen Shot 2024-09-04 at 1.41.56 PM.png",
     "Attachments/Screen Shot 2024-09-04 at 1.38.51 PM.png"
   ]
