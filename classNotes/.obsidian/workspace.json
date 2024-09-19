@@ -11,9 +11,11 @@
             "id": "0017190ecd58e002",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf"
+                "file": "(497) Computer Vision/week_3/Lecture Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
+                "file": "(497) Computer Vision/week_3/Lecture Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
+                "file": "(497) Computer Vision/week_3/Lecture Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf"
+                "file": "(497) Computer Vision/week_3/Lecture Notes.md"
               }
             }
           }
@@ -148,13 +151,23 @@
   },
   "active": "0017190ecd58e002",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240918224034.png",
+    "Attachments/Pasted image 20240918223048.png",
+    "Attachments/Pasted image 20240918221630.png",
+    "Attachments/Pasted image 20240918215526.png",
+    "Attachments/Pasted image 20240918215450.png",
+    "Attachments/Pasted image 20240918214522.png",
+    "Attachments/Pasted image 20240918214405.png",
+    "Attachments/Pasted image 20240918214243.png",
+    "Attachments/Pasted image 20240918214011.png",
+    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
+    "(497) Computer Vision/week_3/Lecture Notes.md",
+    "(497) Computer Vision/week_3",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
     "Attachments/Pasted image 20240917181019.png",
     "Attachments/Pasted image 20240917180952.png",
-    "Attachments/Pasted image 20240917180937.png",
     "Research/Backpropogation/Understanding the Partial Derivatives.md",
     "Research/Backpropogation/Formulas.md",
     "Research/Backpropogation",
@@ -168,7 +181,6 @@
     "(497) Computer Vision/Class Overview.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
-    "(488) Robot Laser Tag/Meetings/UseCases",
     "(488) Robot Laser Tag/Overview.md",
     "Research/Pytorch.md",
     "Research/Meetings.md",
@@ -184,14 +196,6 @@
     "(488) Robot Laser Tag/Meetings/Leadership/Meeting 3.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Initial Meeting.md",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.md",
-    "(497) Computer Vision/week_2/Image Processing (Lecture 2).md",
-    "(497) Computer Vision/week_1/Lab 1 - Matlab.md",
-    "Attachments/Pasted image 20240911130511.png",
-    "Attachments/Pasted image 20240911123433.png",
-    "Attachments/Pasted image 20240911121132.png",
-    "Attachments/Pasted image 20240908213353.png",
-    "Attachments/Pasted image 20240908213332.png",
-    "Attachments/Screenshot 2024-09-08 at 21-19-33 Microsoft Teams meeting Microsoft Teams.png",
-    "Attachments/Screenshot 2024-09-08 at 21-17-13 Microsoft Teams meeting Microsoft Teams.png"
+    "(497) Computer Vision/week_2/Image Processing (Lecture 2).md"
   ]
 }
