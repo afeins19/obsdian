@@ -11,8 +11,12 @@
             "id": "2d824f32224bbdec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Research/reads/TimeLLM/Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/reads/TimeLLM/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Research/reads/TimeLLM/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/reads/TimeLLM/Notes.md"
+              }
             }
           }
         ],
@@ -131,17 +140,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9895325f3cc36ba9",
+  "active": "2d824f32224bbdec",
   "lastOpenFiles": [
+    "Research/reads/Fundamentals.md",
+    "Research/reads/TimeLLM/Notes.md",
+    "Research/reads/TimeLLM",
+    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().pdf",
@@ -166,9 +180,6 @@
     "Research/Backpropogation",
     "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(488) Robot Laser Tag/deliverables/team2_groupContract_MOU.pdf",
-    "(488) Robot Laser Tag/deliverables/team2_groupContractMOU.pdf",
-    "(488) Robot Laser Tag/deliverables",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
@@ -178,7 +189,6 @@
     "Research/Meeting 2.md",
     "Research/Janghoon Research Topics.md",
     "Research/reads/Resources.md",
-    "Research/reads/Fundamentals.md",
     "(497) Computer Vision/Matlab.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
     "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
