@@ -30,7 +30,9 @@ it turns out that pre-training somewhat generic models and then fine-tuning them
 - self-supervised learning (Zhang et al., [2022b](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib55); Deldari et al., [2022](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib9); Zhang et al., [2023](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib53)).
 
 The paper seems to imply this kind of general time series training leads to some gain in understanding of representing input time series.
-The key limitation with **in-modality** adaptation is that the model can only really be expected to operate on similar domains. The article states that:
+The key limitation with **in-modality** adaptation is that the model can only really be expected to operate on similar domains. 
+
+The article states that:
 	"The development of TSPTMs leverages the success of pre-training and fine-tuning in NLP and CV but remains limited on smaller scales due to data sparsity."
 
 ### Cross-Modality Adaptation
@@ -42,7 +44,7 @@ this builds on in-modality adaptation. The paper describes transfering knowledge
 - Voice2Series (Yang et al., [2021](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib50)) - adapts an acoustic model from the task of speech recognition to time series classification by editing a time series into a format the model can process.
 
 ### LLM4TS
-- Chang et al. ([2023](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib6))
+- from Chang et al. ([2023](https://ar5iv.labs.arxiv.org/html/2310.01728#bib.bib6))
 
 this model performs time series forecasting using LLMs and outlines a 2-stage process for doing so. 
 1. Supervised pre-training on time series first
@@ -92,3 +94,7 @@ where N are 1 dimension variables across T time step. The aim is to reprogram th
 $$\hat Y \in \mathbb{R}^{N \times H}$$
 we then compare this to the actual target result and try to minimize the MSE given by
 $$\frac{1}{H} \sum_{h=1}^H||\hat Y_h - Y_h||_F^2$$
+this is pretty standard NN stuff at the end of the day
+# Look into
+- byte-pair embedding -> used to build up a dictionary 
+- outlier detection 
