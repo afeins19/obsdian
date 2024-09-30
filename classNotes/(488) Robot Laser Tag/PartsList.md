@@ -7,10 +7,11 @@
 - [ ] Infrared Sensor - https://www.amazon.com/HiLetgo-HC-SR501-Infrared-Sensor-Arduino/dp/B07KZW86YR/ref=sr_1_6?crid=18RDJXWH2IQMJ&dib=eyJ2IjoiMSJ9.eeY8YiCOc0teluojg2eO953inWIi3-OFE6XS1wdtvxb0XfGiZijB5ToHgmdNA-ijBoKobCTO66-VCt9Y2_ekIQrGNqRkhbR_2UfKzHDXuvvzuswxyxRvztc5hAYo1VnQNPNVdKwHUrCHe75ano-6YQ8CYXuLQbI2DskRAOfKks0uVxOf2mo-Ue7xGMm_MEQxZGAKMUEID2TqGi0jbcZmAuA6qtJt5JJ926wgixfm6_9SGAx8u9guXUOxJwojyZgRFlDD5R9WpVH0ccz8j_3AQ_YWeqxYaPmHNyHACNrIOvg.f3e9GxqCc4hFvCfQvQs3hm_jxweWTugs8Pg4y8LOz9U&dib_tag=se&keywords=infrared+sensor&qid=1725846096&s=electronics&sprefix=infrared+sensor%2Celectronics%2C64&sr=1-6
 - [ ] Jetson Nano Hat for driving stepper motors - https://www.amazon.com/waveshare-Raspberry-Microstepping-Sculpturing-Mechanical/dp/B0B4T8XDWG/ref=sr_1_3?crid=16USAQPHZ0VSS&dib=eyJ2IjoiMSJ9.NUQezRE9RM_XrbLzX_X-FoLb5tfNlO4b8YHZVORcOy1fBkr0ZirnhZRUB8mQWA6GDZ-xPViLhsZInrGZZOAP8xSxgIezOmqFj66ZmBkYiJEBqmYPjuy7iv2ox522Tho7Kdv8WpwoG_BMObfCZREbJXN3wfsjuuknhUirr33tzwKJAPz4EO76kP-hWOE3zRoREPEYfYtdztNTdTQ-RrbkElR7HLhkf8G7wl1KggWfUXo.OikhBkBuv2oii6Y9nDM_XVo8zv7EnVN2U4TTvsU_-1U&dib_tag=se&keywords=Adafruit+DC+%26+Stepper+Motor+HAT&qid=1725738206&sprefix=adafruit+dc+%26+stepper+motor+hat%2Caps%2C92&sr=8-3
 - [ ] Battery Pack - https://www.amazon.com/TalentCell-Rechargeable-12000mAh-Multi-led-indicator/dp/B00ME3ZH7C/ref=sr_1_3?crid=1AY3SJODG22T0&dib=eyJ2IjoiMSJ9.SyYnvK8p8atZi6t5pK19jTkwS7CUvprAHRIw-PQCnyBM9XPOBFHqgVXRM7ajuyyGzKGCwCCpr3FwXRzM1rHeSTPfSeVH5vh7c9hVUF3Fb04Vnt9Blk5g7QUaeKgs3wHlEQWzmfpVojg0ls0IP6lEmomMjDMKncLhZ-lIhJChA23KrzIUFj_wPPZPHtCfIICGLRxZJZr0Nkd766GKI6_-LvlJ58DRXmyxmk1JPANXLh0.hnsSsp2JxxHDD-0m8hwBF3aTsxj3OYN8qyBGSCCK7F8&dib_tag=se&keywords=Power+Bank+5+12+volt&qid=1725845144&sprefix=power+bank+5+12+vo%2Caps%2C124&sr=8-3
+- [ ] Motor Controller - https://www.amazon.com/dp/B07BRS249H?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 ### Additional Components 
 - wheels/actuators for movement
-- 3d printing resin 
+- 3d printing resin sss
 
 # 3D Printer 
 https://www.thingiverse.com/thing:5858901
