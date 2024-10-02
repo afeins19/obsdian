@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bedb0a0db39c0bd1",
+        "id": "76ba181f160ee3b1",
         "type": "tabs",
         "children": [
           {
-            "id": "2d824f32224bbdec",
+            "id": "336b401decee52fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -146,37 +145,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2d824f32224bbdec",
+  "active": "336b401decee52fe",
   "lastOpenFiles": [
-    "Research/Janghoon Research Topics.md",
-    "Research/Meetings.md",
-    "Research/Meeting 2.md",
-    "Research/reads/TimeLLM/Janghoon Questions.md",
+    "Attachments/Pasted image 20241001225039.png",
     "Research/reads/TimeLLM/Notes - TimeLLM.md",
+    "LATEX.md",
+    "Research/reads/TimeLLM/Janghoon Questions.md",
+    "Untitled Kanban.md",
+    "Research/reads/TimeLLM/TimeLLmPaper.pdf",
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "Research/reads/Fundamentals.md",
     "Research/reads/TimeLLM/Notes.md",
-    "Attachments/right.png",
-    "Attachments/right.jpg",
-    "Attachments/left.png",
-    "Attachments/left.jpg",
-    "Attachments/hardright.jpg",
-    "Attachments/hardleft.jpg",
-    "Attachments/center.png",
-    "Attachments/center.jpg",
-    "(497) Computer Vision/week_4/Lab 2.pdf",
-    "(497) Computer Vision/week_4/Lab 2.md",
     "Research/reads/TimeLLM",
-    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().pdf",
     "Attachments/Pasted image 20240921134807.png",
     "(497) Computer Vision/week_3/Lecture Notes.md",
     "Attachments/Pasted image 20240918224034.png",
+    "Attachments/Pasted image 20240918223048.png",
+    "Attachments/Pasted image 20240918221630.png",
+    "Attachments/Pasted image 20240918215526.png",
+    "Attachments/Pasted image 20240918215450.png",
+    "Attachments/Pasted image 20240918214522.png",
+    "Attachments/Pasted image 20240918214405.png",
+    "Attachments/Pasted image 20240918214243.png",
+    "Attachments/Pasted image 20240918214011.png",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
     "(497) Computer Vision/week_3",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
@@ -191,11 +190,12 @@
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
     "(488) Robot Laser Tag/Overview.md",
     "Research/Pytorch.md",
+    "Research/Meetings.md",
+    "Research/Meeting 2.md",
+    "Research/Janghoon Research Topics.md",
     "Research/reads/Resources.md",
     "(497) Computer Vision/Matlab.md",
     "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Robot Lazer Tag - Objectives & Rules.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Meeting 4.md"
+    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md"
   ]
 }
