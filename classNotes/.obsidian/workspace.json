@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76ba181f160ee3b1",
+        "id": "ab3fcfde09742226",
         "type": "tabs",
         "children": [
           {
-            "id": "336b401decee52fe",
+            "id": "90952236cbafaeb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,9 +128,17 @@
                 "file": "Research/reads/TimeLLM/Janghoon Questions.md"
               }
             }
+          },
+          {
+            "id": "3c80dcebc0d7546f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,13 +157,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "336b401decee52fe",
+  "active": "90952236cbafaeb8",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20241001225039.png",
-    "Research/reads/TimeLLM/Notes - TimeLLM.md",
+    "Research/Meeting 2.md",
+    "Research/Janghoon Research Topics.md",
     "LATEX.md",
     "Research/reads/TimeLLM/Janghoon Questions.md",
     "Untitled Kanban.md",
+    "Untitled Kanban 3.md",
+    "Untitled Kanban 2.md",
+    "Untitled Kanban 1.md",
+    "Attachments/Pasted image 20241001225039.png",
+    "Research/reads/TimeLLM/Notes - TimeLLM.md",
     "Research/reads/TimeLLM/TimeLLmPaper.pdf",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
@@ -175,7 +188,6 @@
     "Attachments/Pasted image 20240918214522.png",
     "Attachments/Pasted image 20240918214405.png",
     "Attachments/Pasted image 20240918214243.png",
-    "Attachments/Pasted image 20240918214011.png",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
     "(497) Computer Vision/week_3",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
@@ -191,11 +203,7 @@
     "(488) Robot Laser Tag/Overview.md",
     "Research/Pytorch.md",
     "Research/Meetings.md",
-    "Research/Meeting 2.md",
-    "Research/Janghoon Research Topics.md",
     "Research/reads/Resources.md",
-    "(497) Computer Vision/Matlab.md",
-    "(488) Robot Laser Tag/Meetings/Team/Team Meeting 1 - Discovery.md",
-    "(488) Robot Laser Tag/Meetings/Leadership/Team Leader Meeting 1.md"
+    "(497) Computer Vision/Matlab.md"
   ]
 }
