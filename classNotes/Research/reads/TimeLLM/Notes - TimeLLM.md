@@ -98,3 +98,12 @@ this is pretty standard NN stuff at the end of the day
 # Look into
 - byte-pair embedding -> used to build up a dictionary 
 - outlier detection 
+
+# Univariate Vs. Multivariate Standard Time Series 
+a time series is defined as a sequence of T data points ordered by time denoted by:
+$$
+X=\{X_1,X_2,...,X_T\} \in \mathbb{R}^{ T\times D}
+$$
+Where each $x_t \in \mathbb{R}^D$
+is some datapoint at time step t and D is the dimention of the data points. If $D=1$ the time series is said to be *univariate*. For all values of $D>1$ the time series is multivariate 
+
