@@ -34,8 +34,6 @@ strel=\begin{bmatrix}
 0&1&0
 \end{bmatrix}$$
 This will take pixels and stretch them vertically and horizontally but not diagonally 
-
-
 # `strel()` Function 
 This function may be used with a few different parameters to develop a structuring element. In general, we can create one with 
 
