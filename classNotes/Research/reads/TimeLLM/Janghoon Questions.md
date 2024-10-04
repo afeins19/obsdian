@@ -13,7 +13,7 @@ where S denotes the Stride length. (I don't know where the $+2$ comes from)
 ### Embedded Space 
 In general we have an input $(n_{channels}, \;T)$ where n denotes the number of uni variate channels and T represents the number of time steps. Since we have P - patches with length $L_p$ then the sort of internal size of the patch will be $(P, L_p)$. 
 
-This is the point where the raw input data is converted to some representation in of prototypes. 
+This is the point where the raw input data is converted to some representation thats an intermediate step to the prototype words. 
 
 ### Output
 The patches are then passed into the Patch Embedder that maps each data point at each time step to some **prototype** -> this results in the dimensionality reduction of the raw input data. The output depends on the size of the prototype space (a latent space that represents condensed knowledge and meaningful relationships that the model has learned):
@@ -33,12 +33,6 @@ where $d_{m}$ is the size of the vector after passing through the embedding laye
 ##### Prototypes
 These are essentially representations of data in the latent space which is derived from the input tokens. This is how the model condenses the "knowledge" it gains from the input data. The latent space contains some kinds of abstractions to map terms with similar semantics together into the same prototype? 
 ![[Pasted image 20241001225039.png]]
-
-# Try to find out how outputs with each patch are used for a long sequence to find the output for a long sequence. Did it take majority decision or averaging from each output?
-
-if we have a long sequence of input data (many time steps), is the output of the patching operation pushed through an averaging function or a majority vote from patches used?
-
-In my understanding, they don't really seem to use either method. Instead the section called *patch reprogramming* states that it uses its concept of **reprogramming**. Using the Query, Key, and Value Matrices the model will assign importance to the inputs based on operations on these objects **(QNOTE TO SELF - STUDY UP ON THESE CONCEPTS)**
 
 
 # Try to understand the multi-head attention. What are Q, K, and V?
@@ -101,19 +95,35 @@ $$
 
 Softmax produces a normal distribution -> it assigns a weight based on how relevant each key is to each query
 
+# Try to find out how outputs with each patch are used for a long sequence to find the output for a long sequence. Did it take majority decision or averaging from each output?
+
+if we have a long sequence of input data (many time steps), is the output of the patching operation pushed through an averaging function or a majority vote from patches used?
+
+In my understanding, they don't really seem to use either method. Instead the section called *patch reprogramming* states that it uses its concept of **reprogramming**. Using the Query, Key, and Value Matrices the model will assign importance to the inputs based on operations on these objects 
+
 
 # Try to find what kind of text will be inserted as input to Patch Program in figure-2. I mean what words or word will be converted to word embeddings? 
 the raw input data is converted into some specific words from a subset of words that the LLM was trained on - these words capture some kind of information about what the raw data is doing 
 - "short up" 
 - "steady down"
-- 
+- "hold center"
 These word embeddings are then compared to the the prototype space projections to see which prototypes best align with the data in a given patch. 
 
 ### What is the size of the words? 
+this i dont really know. It seems that we let the model choose the words based on where the projections from the query matrix lands as compared to the prototypes... the model would choose based on its vocabulary and the where the vector that represents a given word would land
+
 
 ### Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
 
+the model applies the same weight matrix to all of the word embeddings -> linear layer. This is in step with most other transformer models that do this. Though it might be more accurate to apply the weights over each word embedding, its way more computationally intensive. 
 
-3. In figure-3, patch-as-prefix and prompt as prefix are illustrated. However, while patch as prefix take LLM output directly, prompt as prefix requires additional layer to create the final output. Please find out why they have different architecture just depending on the input composition
-4. Verify that first LLM output tensors and Patch Reprogram output are simply concatenated and they are inserted as input to the second LLM as if they are embedding of tokens
-5. Think about the network structure if we replace LLM with PLM (pretrained language model) such as BERT
+
+#  In figure-3, patch-as-prefix and prompt as prefix are illustrated. However, while patch as prefix take LLM output directly, prompt as prefix requires additional layer to create the final output. Please find out why they have different architecture just depending on the input composition
+
+patch as prefix doesnt need an extra layer because the data thats being passed into the LLM is already in a verbal format. The can directly operate on the patch as prefix data because it treats it just like any other language input
+
+prompt as prefix requires an additional processing step since the **prompt** requires processing see what its asking for. The combination of the prompt with the actual time series data is used to orient the focus of the model or provide it with some specifc context about the data or maybe some specific aspect that the is trying to be extracted from the data.
+
+
+1. Verify that first LLM output tensors and Patch Reprogram output are simply concatenated and they are inserted as input to the second LLM as if they are embedding of tokens
+2. Think about the network structure if we replace LLM with PLM (pretrained language model) such as BERT
