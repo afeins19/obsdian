@@ -43,6 +43,12 @@ In my understanding, they don't really seem to use either method. Instead the se
 
 # Try to understand the multi-head attention. What are Q, K, and V?
 
+### Reprogrammed Embeddings
+A vector of univariate time series data $X_{P}^{(i)}$ is **reprogrammed** into some representation that the model can understand denoted by 
+$$
+\hat{X}_{P}^{(i)} 
+$$
+
 ### Vocabulary Dimensionality Reduction
 Since the pre-trained model's vocabulary set $V$ is quite large, we take the overall pre-trained word embedding set $E \in \mathbb{R}^{V \times D}$ and create a subset $E' \in \mathbb{R}^{V' \times D}$ where $V' \ll V$ (V' is smaller). 
 
