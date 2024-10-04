@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab3fcfde09742226",
+        "id": "bedb0a0db39c0bd1",
         "type": "tabs",
         "children": [
           {
-            "id": "90952236cbafaeb8",
+            "id": "2d824f32224bbdec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -128,17 +129,9 @@
                 "file": "Research/reads/TimeLLM/Janghoon Questions.md"
               }
             }
-          },
-          {
-            "id": "3c80dcebc0d7546f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,63 +140,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90952236cbafaeb8",
+  "active": "2d824f32224bbdec",
   "lastOpenFiles": [
     "(497) Computer Vision/week_4/HW - 3 (Hough Circles).pdf",
     "(497) Computer Vision/week_4/HW - 3 (Hough Circles).md",
-    "(497) Computer Vision/week_4/Untitled.md",
-    "Research/Meeting 2.md",
-    "Research/Janghoon Research Topics.md",
-    "LATEX.md",
+    "(488) Robot Laser Tag/workFlowDiagram.pdf",
+    "(488) Robot Laser Tag/StyleGuide.drawio.pdf",
+    "(488) Robot Laser Tag/M5 Stack.md",
+    "(488) Robot Laser Tag/Overview.md",
     "Research/reads/TimeLLM/Janghoon Questions.md",
-    "Untitled Kanban.md",
-    "Untitled Kanban 3.md",
-    "Untitled Kanban 2.md",
-    "Untitled Kanban 1.md",
-    "Attachments/Pasted image 20241001225039.png",
-    "Research/reads/TimeLLM/Notes - TimeLLM.md",
     "Research/reads/TimeLLM/TimeLLmPaper.pdf",
-    "Research/reads/Empowering Time Series Analysis/Notes.md",
-    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "LATEX.md",
+    "Attachments/Pasted image 20241001225039.png",
+    "Research/Janghoon Research Topics.md",
+    "Research/Meetings.md",
+    "Research/Meeting 2.md",
+    "Research/reads/TimeLLM/Notes - TimeLLM.md",
     "Research/reads/Fundamentals.md",
     "Research/reads/TimeLLM/Notes.md",
+    "Attachments/right.png",
+    "Attachments/right.jpg",
+    "Attachments/left.png",
+    "Attachments/left.jpg",
+    "Attachments/hardright.jpg",
+    "Attachments/hardleft.jpg",
+    "Attachments/center.png",
+    "Attachments/center.jpg",
+    "(497) Computer Vision/week_4/Lab 2.pdf",
+    "(497) Computer Vision/week_4/Lab 2.md",
     "Research/reads/TimeLLM",
+    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
+    "Research/reads/Empowering Time Series Analysis/Notes.md",
     "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().pdf",
     "Attachments/Pasted image 20240921134807.png",
     "(497) Computer Vision/week_3/Lecture Notes.md",
-    "Attachments/Pasted image 20240918224034.png",
-    "Attachments/Pasted image 20240918223048.png",
-    "Attachments/Pasted image 20240918221630.png",
-    "Attachments/Pasted image 20240918215526.png",
-    "Attachments/Pasted image 20240918215450.png",
-    "Attachments/Pasted image 20240918214522.png",
-    "Attachments/Pasted image 20240918214405.png",
-    "Attachments/Pasted image 20240918214243.png",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
     "(497) Computer Vision/week_3",
     "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "Research/Backpropogation/Understanding the Partial Derivatives.md",
     "Research/Backpropogation/Formulas.md",
-    "Research/Backpropogation",
-    "(488) Robot Laser Tag/deliverables/CMPSC_488_FA_24_AB_SEC2_TEAM_2_RevA.pdf",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
-    "(488) Robot Laser Tag/Overview.md",
-    "Research/Pytorch.md"
+    "Research/Pytorch.md",
+    "Research/reads/Resources.md",
+    "(497) Computer Vision/Matlab.md"
   ]
 }

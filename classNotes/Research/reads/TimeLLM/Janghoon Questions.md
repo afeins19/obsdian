@@ -1,4 +1,4 @@
- 
+ One of the crucial features of TimeLLM is that it does not train or retrain the underlying backbone model. Instead, it trains the input mechanism to convert raw time series data into 
 
 # Please draw a block diagram for patch embedder in the figure(2).  Find out the input shape and output shape of this patch encoder![](https://github.com/KimMeen/Time-LLM/raw/main/figures/method-detailed-illustration.png)
 
@@ -48,7 +48,6 @@ A vector of univariate time series data $X_{P}^{(i)}$ is **reprogrammed** into s
 $$
 \hat{X}_{P}^{(i)} 
 $$
-
 ### Vocabulary Dimensionality Reduction
 Since the pre-trained model's vocabulary set $V$ is quite large, we take the overall pre-trained word embedding set $E \in \mathbb{R}^{V \times D}$ and create a subset $E' \in \mathbb{R}^{V' \times D}$ where $V' \ll V$ (V' is smaller). 
 
@@ -68,13 +67,13 @@ Each attention head has some trained weight matrix which transforms vectors from
 For each Head $k = \{1,\dots,k\}$, we define the following matrices: 
 
 **Query Matrix**
-This matrix represents the mapping of a **specific** patch of raw data into text prototypes 
+This matrix represents the mapping of a **specific** patch of raw data into the query space. The goal is to have this query space align as best as possible with the downstream key space which is constructed from the prototypes 
 $$
 Q_{k}^{(i)} = \hat{X}_{P}^{(i)}  W_{K}^Q
 $$
 Where:
 - $\hat{X}_{P}^{(i)}$ is the reprogramed time series data 
-- $W_K^Q$ is a learned matrix of weights that will be multiplied by text embedded patches of the  raw data $\hat{X}_{P}^{(i)}$ 
+- $W_K^Q$ is a learned matrix of weights that will be multiplied by text embedded patches of the raw data $\hat{X}_{P}^{(i)}$ 
 
 **Key Matrix** 
 This Matrix represents **the mapping of the entire subspace of embedding $E'$** transformed by their optimized representation in the model space
@@ -92,8 +91,29 @@ $$
 
 **The value matrices are important because although the model can just use the key and query matrices to determine the importance of parts of the input, we wouldn't be able to map it to the actual output of the model**
 
+### Attention Function - Softmax 
 
-1. Try to find what kind of text will be inserted as input to Patch Program in figure-2. I mean what words or word will be converted to word embeddings? What is the size of the words? Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
+$$
+Z_K^{(i)} = ATTENTION(Q_k^{(i)}, K_k^{(i)}, V_k^{(i)})^T = SOFTMAX(\frac{Q_k^{(i)} K_k^{(i)}} {\sqrt{d_k}}) V_k^{(i)}
+$$
+**Dimensions of weight matrices**
+- $W^K_k , W^V_k \in \mathbb{R}^{D \times d}$ - where D is the **hidden dimension of the backbone embedding model** and $d = ⌊\frac{d_m}{K}⌋$ 
+
+Softmax produces a normal distribution -> it assigns a weight based on how relevant each key is to each query
+
+
+# Try to find what kind of text will be inserted as input to Patch Program in figure-2. I mean what words or word will be converted to word embeddings? 
+the raw input data is converted into some specific words from a subset of words that the LLM was trained on - these words capture some kind of information about what the raw data is doing 
+- "short up" 
+- "steady down"
+- 
+These word embeddings are then compared to the the prototype space projections to see which prototypes best align with the data in a given patch. 
+
+### What is the size of the words? 
+
+### Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
+
+
 3. In figure-3, patch-as-prefix and prompt as prefix are illustrated. However, while patch as prefix take LLM output directly, prompt as prefix requires additional layer to create the final output. Please find out why they have different architecture just depending on the input composition
 4. Verify that first LLM output tensors and Patch Reprogram output are simply concatenated and they are inserted as input to the second LLM as if they are embedding of tokens
 5. Think about the network structure if we replace LLM with PLM (pretrained language model) such as BERT
