@@ -34,15 +34,27 @@ where $d_{m}$ is the size of the vector after passing through the embedding laye
 These are essentially representations of data in the latent space which is derived from the input tokens. This is how the model condenses the "knowledge" it gains from the input data. The latent space contains some kinds of abstractions to map terms with similar semantics together into the same prototype? 
 ![[Pasted image 20241001225039.png]]
 
-
 # Try to find out how outputs with each patch are used for a long sequence to find the output for a long sequence. Did it take majority decision or averaging from each output?
 
 if we have a long sequence of input data (many time steps), is the output of the patching operation pushed through an averaging function or a majority vote from patches used?
 
 In my understanding, they don't really seem to use either method. Instead the section called *patch reprogramming* states that it uses its concept of **reprogramming**. Using the Query, Key, and Value Matrices the model will assign importance to the inputs based on operations on these objects **(QNOTE TO SELF - STUDY UP ON THESE CONCEPTS)**
 
+
+# Try to understand the multi-head attention. What are Q, K, and V?
+
+### Multi-Head Attention 
+this is an approach to designing models that are able to focus on different parts of the input data at the same time - especially from multiple perspectives (focusing on different attributes and patterns). Each head focuses on a different learned set of attention weights. 
+
+The outputs of all the heads are then concatenated and then transformed and passed to the output layer. 
+
+**Main Idea**: each head learns to focus on different patters in the data. 
+
+## Self Attention Matrices 
+
+
+
 1. Try to find what kind of text will be inserted as input to Patch Program in figure-2. I mean what words or word will be converted to word embeddings? What is the size of the words? Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
-2. Try to understand the multi-head attention. What are Q, K, and V?
 3. In figure-3, patch-as-prefix and prompt as prefix are illustrated. However, while patch as prefix take LLM output directly, prompt as prefix requires additional layer to create the final output. Please find out why they have different architecture just depending on the input composition
 4. Verify that first LLM output tensors and Patch Reprogram output are simply concatenated and they are inserted as input to the second LLM as if they are embedding of tokens
 5. Think about the network structure if we replace LLM with PLM (pretrained language model) such as BERT

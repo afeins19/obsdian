@@ -1,5 +1,6 @@
 [
   "obsidian-plugin-toc",
   "buttons",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-latex-suite"
 ]
