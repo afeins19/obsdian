@@ -4,7 +4,7 @@
 
 ### Input Embedding 
 
-each input channel $X^i$ extracted from the time series (the model looks at each uni variate time series channel separately). These channels are first normalized with RevIN. then each channel $X^i$ is divided into **consecutive overlapped or non-overlapped patches** with the total number of input patches equaling:
+each input channel $X^i$ extracted from the time series (the model looks at each uni variate time series channel separately). These channels are first normalized with RevIN. then each channel $X^i$ is divided into **consecutive overlapped or non-overlapped patches** with the total number of input patches equaling: 
 $$
 P = ⌊\frac{T-L_p}{S}⌋ + 2
 $$
@@ -74,7 +74,7 @@ This Matrix represents **the mapping of the entire subspace of embedding $E'$** 
 $$K_{k}^{(i)} = E'W_{k}^K$$
 where:
 - $E' \in \mathbb{R}^{V' \times D} \subseteq E$ is a subspace of all embeddings $E$ 
-**THE GOAL IS TO TRAIN THE WEIGHT MATRIX $W_K^Q$ SUCH THAT ITS RESULTING QUERY VECTORS ARE ALIGNED ONTO THE KEY SPACE
+
 
 **Value Matrix**
 $$
@@ -92,6 +92,8 @@ Z_K^{(i)} = ATTENTION(Q_k^{(i)}, K_k^{(i)}, V_k^{(i)})^T = SOFTMAX(\frac{Q_k^{(i
 $$
 **Dimensions of weight matrices**
 - $W^K_k , W^V_k \in \mathbb{R}^{D \times d}$ - where D is the **hidden dimension of the backbone embedding model** and $d = ⌊\frac{d_m}{K}⌋$ 
+- 
+**THE GOAL IS TO TRAIN THE WEIGHT MATRIX $W_K^Q$ SUCH THAT ITS RESULTING QUERY VECTORS ARE ALIGNED ONTO THE KEY SPACE
 
 Softmax produces a normal distribution -> it assigns a weight based on how relevant each key is to each query
 
@@ -111,7 +113,6 @@ These word embeddings are then compared to the the prototype space projections t
 
 ### What is the size of the words? 
 this i dont really know. It seems that we let the model choose the words based on where the projections from the query matrix lands as compared to the prototypes... the model would choose based on its vocabulary and the where the vector that represents a given word would land
-
 
 ### Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
 
