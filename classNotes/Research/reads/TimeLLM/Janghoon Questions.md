@@ -43,6 +43,11 @@ In my understanding, they don't really seem to use either method. Instead the se
 
 # Try to understand the multi-head attention. What are Q, K, and V?
 
+### Vocabulary Dimensionality Reduction
+Since the pre-trained model's vocabulary set $V$ is quite large, we take the overall pre-trained word embedding set $E \in \mathbb{R}^{V \times D}$ and create a subset $E' \in \mathbb{R}^{V' \times D}$ where $V' \ll V$ (V' is smaller). 
+
+Using linear probing, the model selects **prototypes** that are optimized to better convey the raw data in verbal form to the model. 
+
 ### Multi-Head Attention 
 this is an approach to designing models that are able to focus on different parts of the input data at the same time - especially from multiple perspectives (focusing on different attributes and patterns). Each head focuses on a different learned set of attention weights. 
 
@@ -50,8 +55,36 @@ The outputs of all the heads are then concatenated and then transformed and pass
 
 **Main Idea**: each head learns to focus on different patters in the data. 
 
-## Self Attention Matrices 
+### Head Attention Weight Matrices
+Each attention head has some trained weight matrix which transforms vectors from one space into its representation in both the key and query space. This is what TimeLLM trains. 
 
+## Self Attention Matrices 
+For each Head $k = \{1,\dots,k\}$, we define the following matrices: 
+
+**Query Matrix**
+This matrix represents the mapping of a **specific** patch of raw data into text prototypes 
+$$
+Q_{k}^{(i)} = \hat{X}_{P}^{(i)}  W_{K}^Q
+$$
+Where:
+- $\hat{X}_{P}^{(i)}$ is the reprogramed time series data 
+- $W_K^Q$ is a learned matrix of weights that will be multiplied by text embedded patches of the  raw data $\hat{X}_{P}^{(i)}$ 
+
+**Key Matrix** 
+This Matrix represents **the mapping of the entire subspace of embedding $E'$** transformed by their optimized representation in the model space
+$$K_{k}^{(i)} = E'W_{k}^K$$
+where:
+- $E' \in \mathbb{R}^{V' \times D} \subseteq E$ is a subspace of all embeddings $E$ 
+**THE GOAL IS TO TRAIN THE WEIGHT MATRIX $W_K^Q$ SUCH THAT ITS RESULTING QUERY VECTORS ARE ALIGNED ONTO THE KEY SPACE
+
+**Value Matrix**
+$$
+V_{K}^{(i)} = E'W_{K}^V
+$$
+- $W^V_{k} \in \mathbb{R}^{D \times d}$ is of the same dimensionality as the key matrix. 
+- The value matrix holds the corresponding data that the keys point to. 
+
+**The value matrices are important because although the model can just use the key and query matrices to determine the importance of parts of the input, we wouldn't be able to map it to the actual output of the model**
 
 
 1. Try to find what kind of text will be inserted as input to Patch Program in figure-2. I mean what words or word will be converted to word embeddings? What is the size of the words? Is linear block applied to each word embedding separately or is it linear layer where multiple word embeddings are input?
