@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/reads/TimeLLM/Janghoon Questions.md",
+                "file": "(488) Robot Laser Tag/PartsList.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/reads/TimeLLM/Janghoon Questions.md",
+                "file": "(488) Robot Laser Tag/PartsList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/reads/TimeLLM/Janghoon Questions.md",
+                "file": "(488) Robot Laser Tag/PartsList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/reads/TimeLLM/Janghoon Questions.md"
+                "file": "(488) Robot Laser Tag/PartsList.md"
               }
             }
           }
@@ -152,13 +151,13 @@
   },
   "active": "2d824f32224bbdec",
   "lastOpenFiles": [
-    "(497) Computer Vision/week_4/HW - 3 (Hough Circles).pdf",
-    "(497) Computer Vision/week_4/HW - 3 (Hough Circles).md",
     "(488) Robot Laser Tag/workFlowDiagram.pdf",
     "(488) Robot Laser Tag/StyleGuide.drawio.pdf",
+    "Research/reads/TimeLLM/Janghoon Questions.md",
+    "(497) Computer Vision/week_4/HW - 3 (Hough Circles).pdf",
+    "(497) Computer Vision/week_4/HW - 3 (Hough Circles).md",
     "(488) Robot Laser Tag/M5 Stack.md",
     "(488) Robot Laser Tag/Overview.md",
-    "Research/reads/TimeLLM/Janghoon Questions.md",
     "Research/reads/TimeLLM/TimeLLmPaper.pdf",
     "LATEX.md",
     "Attachments/Pasted image 20241001225039.png",
@@ -188,7 +187,6 @@
     "(497) Computer Vision/week_3/Lecture Notes.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
     "(497) Computer Vision/week_3",
-    "(497) Computer Vision/week_2/Lab 1b - Cookie Defect Detector.pdf",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "Research/Backpropogation/Understanding the Partial Derivatives.md",
     "Research/Backpropogation/Formulas.md",
