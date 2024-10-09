@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
+                "file": "Don't Relapse.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
+                "file": "Don't Relapse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md",
+                "file": "Don't Relapse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "psychiatrist/Meetings/meeting_3-8_13_24.md"
+                "file": "Don't Relapse.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "1419cd08b4feefbb",
   "lastOpenFiles": [
-    "psychiatrist/Meetings/meeting_2-3_19_2024.md",
+    "Attachments/CBT.md",
     "psychiatrist/Meetings/meeting_3-8_13_24.md",
+    "psychiatrist/Meetings/meeting_2-3_19_2024.md",
     "psychiatrist/Meetings/meeting_1-2_13_2024.md",
     "Therapy/Porn.md",
     "Psychiatrists & Psychologists.md",
     "Recomendations/Social Anxiety.md",
-    "Therapy/Don't Relapse.md",
+    "Don't Relapse.md",
     "Recomendations",
     "Therapy/My Brother.md",
     "Therapy/How to Handle Anxiety.md",
@@ -166,7 +167,6 @@
     "psychiatrist/Medications/medications.md",
     "psychiatrist/Meetings/meeting_1-2_13_2014.md",
     "Therapy/Homework - 2-22-24.md",
-    "Attachments/CBT.md",
     "psychiatrist/Medications/medications.pdf",
     "Therapy/My Values.pdf",
     "psychiatrist/Symptoms/symptoms.md",
