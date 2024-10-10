@@ -28,3 +28,11 @@ How i feel right now (after edging):
 - you slowly but surely introduce other things that your brain will learn to derive pleasure from 
 - your task engagement and focus improves 
 - you feel "pushed" to do the right thing when you realize you aren't instead of feeling apathetic 
+
+
+
+
+
+
+
+

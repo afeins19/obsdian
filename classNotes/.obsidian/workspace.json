@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(488) Robot Laser Tag/PartsList.md",
+                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(488) Robot Laser Tag/PartsList.md",
+                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(488) Robot Laser Tag/PartsList.md",
+                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(488) Robot Laser Tag/PartsList.md"
+                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md"
               }
             }
           }
@@ -151,6 +152,16 @@
   },
   "active": "2d824f32224bbdec",
   "lastOpenFiles": [
+    "(497) Computer Vision/week_5/lab3/lab - 3.md",
+    "(497) Computer Vision/week_5/lab4/Lab 4.md",
+    "(497) Computer Vision/week_5/lab4",
+    "Attachments/Pasted image 20241009152238.png",
+    "(497) Computer Vision/week_5/Color Tracking.md",
+    "(497) Computer Vision/week_5/lab3",
+    "Attachments/Pasted image 20241009105705.png",
+    "Attachments/Pasted image 20241009105635.png",
+    "(488) Robot Laser Tag/PartsList.md",
+    "(497) Computer Vision/week_5",
     "(488) Robot Laser Tag/workFlowDiagram.pdf",
     "(488) Robot Laser Tag/StyleGuide.drawio.pdf",
     "Research/reads/TimeLLM/Janghoon Questions.md",
@@ -173,28 +184,19 @@
     "Attachments/left.jpg",
     "Attachments/hardright.jpg",
     "Attachments/hardleft.jpg",
-    "Attachments/center.png",
-    "Attachments/center.jpg",
     "(497) Computer Vision/week_4/Lab 2.pdf",
     "(497) Computer Vision/week_4/Lab 2.md",
     "Research/reads/TimeLLM",
     "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
-    "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().md",
-    "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().pdf",
-    "Attachments/Pasted image 20240921134807.png",
     "(497) Computer Vision/week_3/Lecture Notes.md",
-    "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects_CORRECTED.pdf",
-    "(497) Computer Vision/week_3",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
     "Research/Backpropogation/Understanding the Partial Derivatives.md",
     "Research/Backpropogation/Formulas.md",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
     "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
-    "Research/Pytorch.md",
-    "Research/reads/Resources.md",
-    "(497) Computer Vision/Matlab.md"
+    "Research/Pytorch.md"
   ]
 }
