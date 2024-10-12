@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4dff453b8d6973ee",
@@ -152,14 +151,21 @@
   },
   "active": "2d824f32224bbdec",
   "lastOpenFiles": [
-    "(497) Computer Vision/week_5/lab3/lab - 3.md",
-    "(497) Computer Vision/week_5/lab4/Lab 4.md",
-    "(497) Computer Vision/week_5/lab4",
-    "Attachments/Pasted image 20241009152238.png",
     "(497) Computer Vision/week_5/Color Tracking.md",
+    "Attachments/Screen Shot 2024-01-30 at 12.35.01 PM.png",
+    "Attachments/Screen Shot 2024-02-07 at 10.44.13 AM.png",
+    "Attachments/Screen Shot 2024-02-09 at 10.29.01 AM.png",
+    "Attachments/Screen Shot 2024-02-14 at 10.17.55 AM.png",
+    "Attachments/Screen Shot 2024-02-16 at 10.45.27 AM.png",
+    "Attachments/Screen Shot 2024-02-19 at 10.27.47 AM.png",
+    "Attachments/Screen Shot 2024-02-24 at 6.01.03 PM.png",
+    "Attachments/Screen Shot 2024-02-27 at 1.02.24 PM.png",
+    "Attachments/Screen Shot 2024-03-11 at 2.12.35 PM.png",
+    "Attachments/Screen Shot 2024-03-20 at 10.24.37 AM.png",
+    "(497) Computer Vision/week_5/lab4/Lab 4.md",
+    "(497) Computer Vision/week_5/lab3/lab - 3.md",
+    "(497) Computer Vision/week_5/lab4",
     "(497) Computer Vision/week_5/lab3",
-    "Attachments/Pasted image 20241009105705.png",
-    "Attachments/Pasted image 20241009105635.png",
     "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_5",
     "(488) Robot Laser Tag/workFlowDiagram.pdf",
@@ -171,19 +177,12 @@
     "(488) Robot Laser Tag/Overview.md",
     "Research/reads/TimeLLM/TimeLLmPaper.pdf",
     "LATEX.md",
-    "Attachments/Pasted image 20241001225039.png",
     "Research/Janghoon Research Topics.md",
     "Research/Meetings.md",
     "Research/Meeting 2.md",
     "Research/reads/TimeLLM/Notes - TimeLLM.md",
     "Research/reads/Fundamentals.md",
     "Research/reads/TimeLLM/Notes.md",
-    "Attachments/right.png",
-    "Attachments/right.jpg",
-    "Attachments/left.png",
-    "Attachments/left.jpg",
-    "Attachments/hardright.jpg",
-    "Attachments/hardleft.jpg",
     "(497) Computer Vision/week_4/Lab 2.pdf",
     "(497) Computer Vision/week_4/Lab 2.md",
     "Research/reads/TimeLLM",
@@ -196,7 +195,6 @@
     "Research/Backpropogation/Formulas.md",
     "(497) Computer Vision/Loading Images.md",
     "(497) Computer Vision/Class Overview.md",
-    "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md",
-    "Research/Pytorch.md"
+    "(488) Robot Laser Tag/Meetings/UseCases/Use Cases.md"
   ]
 }
