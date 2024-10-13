@@ -65,33 +65,33 @@ end
 # Results
 stats = 2×1 struct
 
-| Fields | Centroid            | BoundingBox                 |
-| ------ | ------------------- | --------------------------- |
-| 1      | [122.7566,295.1915] | [56.5000,229.5000,133,134]  |
-| 2      | [456.2718,448.3806] | [363.5000,365.5000,201,177] |
+|Fields|Centroid|BoundingBox|
+|---|---|---|
+|1|[121.6175,295.6192]|[56.5000,229.5000,133,134]|
+|2|[452.1122,450.3538]|[367.5000,365.5000,174,177]|
 
-![](file:////tmp/ConnectorClipboard2144547546204127338/image17285016955430.png)
+![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020320.png)
 
-stats = 3×1 struct
+stats = 9×1 struct
 
 |Fields|Centroid|BoundingBox|
 |---|---|---|
-|1|[255.9848,392.6754]|[0.5000,0.5000,443,797]|
-|2|[590.7769,277.1784]|[490.5000,177.5000,202,150]|
-|3|[767.0601,451.1535]|[738.5000,354.5000,53,189]|
+|1|[38.0948,5.2599]|[0.5000,0.5000,103,14]|
+|2|[3.0913,640.0782]|[0.5000,412.5000,10,385]|
+|3|[87.7016,423.3643]|[15.5000,360.5000,147,136]|
+|4|[109.6354,479.5635]|[101.5000,472.5000,16,15]|
+|5|[128.5962,2.6442]|[116.5000,0.5000,31,5]|
+|6|[291.8070,393.8673]|[179.5000,0.5000,264,797]|
+|7|[590.3688,280.6616]|[490.5000,233.5000,202,93]|
+|8|[621.8158,199.2632]|[615.5000,195.5000,11,7]|
+|9|[766.9234,455.8050]|[738.5000,354.5000,53,189]|
 
-![](file:////tmp/ConnectorClipboard2144547546204127338/image17285016955581.png)
+![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020361.png)
 
 stats = struct with fields:
+       Centroid: [203.3797 193.3496]
+    BoundingBox: [138.5000 119.5000 136 146]
 
-| Fields | Centroid            | BoundingBox                 |
-| ------ | ------------------- | --------------------------- |
-| 1      | [203.2070 193.0048] | [138.5000 119.5000 136 146] |
-
-
-![](file:////tmp/ConnectorClipboard2144547546204127338/image17285016955682.png)
-
+![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020372.png)
 # Conclusion 
-This lab was a good first introduction into color recognition but the task gets a bit more difficult when we have images with both large and small red objects. By setting a static structuring element size, we may be overlooking or under filtering red objects. Also, as is clear from the `book.png` photo, its interesting to note that the bounding box combined adjacent red portions of the image (in the Japanese text) with the red book. I played with the `strel` size and got varying results to bound the red images (our bookshelf is red so the sliver on the left side is that being picked up): 
-
-![](file:////tmp/ConnectorClipboard2144547546204127338/image17285020636750.png)
+This lab was a good first introduction into color recognition but the task gets a bit more difficult when we have images with both large and small red objects. By setting a static structuring element size, we may be overlooking or under filtering red objects. Also, as is clear from the `book.png` photo, its interesting to note that the bounding box combined adjacent red portions of the image (in the Japanese text) with the red book. I played with the `strel` size and got varying results to bound the red images .
