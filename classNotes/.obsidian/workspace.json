@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
+                "file": "(457) Graphics/Chapter 3 - 3D.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
+                "file": "(457) Graphics/Chapter 3 - 3D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md",
+                "file": "(457) Graphics/Chapter 3 - 3D.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(497) Computer Vision/week_5/lab4/Lab 4.md"
+                "file": "(457) Graphics/Chapter 3 - 3D.md"
               }
             }
           }
@@ -151,43 +151,44 @@
   },
   "active": "2d824f32224bbdec",
   "lastOpenFiles": [
-    "(497) Computer Vision/week_5/Color Tracking.md",
-    "Attachments/Screen Shot 2024-01-30 at 12.35.01 PM.png",
-    "Attachments/Screen Shot 2024-02-07 at 10.44.13 AM.png",
-    "Attachments/Screen Shot 2024-02-09 at 10.29.01 AM.png",
-    "Attachments/Screen Shot 2024-02-14 at 10.17.55 AM.png",
-    "Attachments/Screen Shot 2024-02-16 at 10.45.27 AM.png",
-    "Attachments/Screen Shot 2024-02-19 at 10.27.47 AM.png",
-    "Attachments/Screen Shot 2024-02-24 at 6.01.03 PM.png",
-    "Attachments/Screen Shot 2024-02-27 at 1.02.24 PM.png",
-    "Attachments/Screen Shot 2024-03-11 at 2.12.35 PM.png",
-    "Attachments/Screen Shot 2024-03-20 at 10.24.37 AM.png",
+    "Research/reads/TimeLLM/Janghoon Questions.md",
+    "(457) Graphics/Chapter 3 - 3D.md",
+    "Research/Janghoon Questions.pdf",
+    "Attachments/Pasted image 20241009152238.png",
+    "Attachments/Pasted image 20241009105705.png",
+    "Attachments/Pasted image 20241009105635.png",
     "(497) Computer Vision/week_5/lab4/Lab 4.md",
     "(497) Computer Vision/week_5/lab3/lab - 3.md",
     "(497) Computer Vision/week_5/lab4",
     "(497) Computer Vision/week_5/lab3",
-    "(488) Robot Laser Tag/PartsList.md",
+    "(497) Computer Vision/week_5/Color Tracking.md",
     "(497) Computer Vision/week_5",
-    "(488) Robot Laser Tag/workFlowDiagram.pdf",
-    "(488) Robot Laser Tag/StyleGuide.drawio.pdf",
-    "Research/reads/TimeLLM/Janghoon Questions.md",
     "(497) Computer Vision/week_4/HW - 3 (Hough Circles).pdf",
     "(497) Computer Vision/week_4/HW - 3 (Hough Circles).md",
+    "(488) Robot Laser Tag/workFlowDiagram.pdf",
+    "(488) Robot Laser Tag/StyleGuide.drawio.pdf",
     "(488) Robot Laser Tag/M5 Stack.md",
     "(488) Robot Laser Tag/Overview.md",
     "Research/reads/TimeLLM/TimeLLmPaper.pdf",
     "LATEX.md",
+    "Attachments/Pasted image 20241001225039.png",
     "Research/Janghoon Research Topics.md",
     "Research/Meetings.md",
     "Research/Meeting 2.md",
     "Research/reads/TimeLLM/Notes - TimeLLM.md",
     "Research/reads/Fundamentals.md",
     "Research/reads/TimeLLM/Notes.md",
+    "Attachments/right.png",
+    "Attachments/right.jpg",
+    "Attachments/left.png",
+    "Attachments/left.jpg",
+    "Attachments/hardright.jpg",
+    "Attachments/hardleft.jpg",
     "(497) Computer Vision/week_4/Lab 2.pdf",
     "(497) Computer Vision/week_4/Lab 2.md",
     "Research/reads/TimeLLM",
-    "Research/reads/Empowering Time Series Analysis/Empowering Time Series Analysis with Large Language Models - A Survey.pdf",
     "Research/reads/Empowering Time Series Analysis/Notes.md",
+    "(488) Robot Laser Tag/PartsList.md",
     "(497) Computer Vision/week_3/Lab 3 - Imopen() & Imclose().md",
     "(497) Computer Vision/week_3/Lecture Notes.md",
     "(497) Computer Vision/week_2/Lab 1a - Detecting Round Objects.md",
