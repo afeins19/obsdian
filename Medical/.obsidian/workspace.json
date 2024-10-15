@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Don't Relapse.md",
+                "file": "psychiatrist/Meetings/meeeting_10-15-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Don't Relapse.md",
+                "file": "psychiatrist/Meetings/meeeting_10-15-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Don't Relapse.md",
+                "file": "psychiatrist/Meetings/meeeting_10-15-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Don't Relapse.md"
+                "file": "psychiatrist/Meetings/meeeting_10-15-24.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1419cd08b4feefbb",
+  "active": "3de473a4ab0f2624",
   "lastOpenFiles": [
+    "Don't Relapse.md",
+    "psychiatrist/Meetings/meeeting_10-15-24.md",
     "Attachments/CBT.md",
     "psychiatrist/Meetings/meeting_3-8_13_24.md",
     "psychiatrist/Meetings/meeting_2-3_19_2024.md",
@@ -155,7 +157,6 @@
     "Therapy/Porn.md",
     "Psychiatrists & Psychologists.md",
     "Recomendations/Social Anxiety.md",
-    "Don't Relapse.md",
     "Recomendations",
     "Therapy/My Brother.md",
     "Therapy/How to Handle Anxiety.md",
