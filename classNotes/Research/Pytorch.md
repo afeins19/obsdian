@@ -799,20 +799,14 @@ global_step = epoch + 1)
   
 
 # Visualize prediction and add figure to TensorBoard
-
 # Since matplotlib figures can be slow in rendering, we only do it every 10th epoch
 
 if (epoch + 1) % 10 == 0:
-
 	fig = visualize_classification(model, val_dataset.data, val_dataset.label)
-	
 	writer.add_figure('predictions',
-	
 	fig,
-	
 	global_step = epoch + 1)
 
   
-
 writer.close()
 ```
