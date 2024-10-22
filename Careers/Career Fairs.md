@@ -29,7 +29,8 @@ https://careers-garmin.icims.com/jobs/13969/c%23-software-engineer---yarmouth%2c
 
 # FAST enterprises
 https://careers-fastenterprises.icims.com/jobs/dashboard?hashed=-600034441
-
+- resume and transcript sent 
+- waiting on response from recruiter (julie)
 # BMS
 https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/userHome
 
@@ -45,3 +46,4 @@ https://careers.datadoghq.com/detail/6182685/?gh_jid=6182685&gh_src=8363eca61
 
 # IBM 
 https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5016&jobid=760114&codes=SN_LinkedIn#Applypage
+- coding test completed 
