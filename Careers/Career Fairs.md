@@ -8,7 +8,7 @@
 - [ ] Fast Enterprises - government software consultant 
 - [ ] Hughes (Echostar) - satellite communication 
 
-### M&T Bank 
+# M&T Bank 
 - https://mtb.wd5.myworkdayjobs.com/en-US/Campus/userHome
 
 # Career Fair 2 - HUB (IST Fair)
@@ -47,3 +47,9 @@ https://careers.datadoghq.com/detail/6182685/?gh_jid=6182685&gh_src=8363eca61
 # IBM 
 https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5016&jobid=760114&codes=SN_LinkedIn#Applypage
 - coding test completed 
+- denied
+- re-applied for other position 
+
+# CTDI
+- applied to 2 positions - developer (general) & .NET developer 
+
