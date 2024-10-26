@@ -25,12 +25,9 @@ r_{2}\theta_{1} \; r_{2}\theta_{2}\; \; \; \ddots
 \end{bmatrix}$$
 
 Since these $(r, \theta)$ values represent lines, points that are co linear will vote on the same values values of $r$ and $\theta$ that correspond to their line in Hough Space. 
-
-
 ### Canny Edge Detection  
 
 We first apply Canny Edge Detection to find the edges in the given image. This follows an algorithm of blurring the image slightly and detecting areas with relatively high changes in their intensity gradients (a key property of edges). We can then sort these into real edges, potential edges, and non-edges. We then look at adjacent points on potential edges to see if they are similar.
-
 # Code 
 I implemented the the code to perform the above theory. the `detectLines()` function takes in the path to some image and then performs the hough lines detection. I had to tweak the sensitivity parameter of the  `cv.HoughLines()` function for each image due to the distance each photo was taken from the road. 
 
@@ -104,16 +101,27 @@ if __name__ == "__main__":
     IMG_LOC = '/home/aaron/Projects/classWork/CMPSC497/learn_opencv/hw_labs/hough_line_detection/test/highway.jpg'
     detectLines(IMG_LOC, sensitivity=440)
 ```
-# Testing
-testing took quite a bit of tweaking of the sensitivity parameter.
+# Images
 
 ### Original Image
 
 ![[Pasted image 20241025111600.png]]
 
-### Grayscale
+### Gray Scale Image 
 
 ![[Pasted image 20241025111632.png]]
 
 ### Canny Filtered and Lines Overlayed
 ![[Pasted image 20241025111636.png]]
+
+### Original Image 
+![[Pasted image 20241025192840.png]]
+
+### Gray scale Image
+![[Pasted image 20241025192911.png]]
+
+### Canny Filtered and Lines Overlayed
+![[Pasted image 20241025222226.png]]
+
+# Conclusion
+Some issues I could note for using this for real road detection is the fact that the lines continue beyond the bounds of the road. I think this may be solved by cutting the frame at a certain height value -- meaning we'd only observe the road forward for a certain distance ahead. Another issue was the size of the road within the frame. For this application, a camera in a fixed position on a vehicle, this shouldn't be a problem. All in all, with some minor filtering and possibly applying some Gaussian blur this algorithm will serve this problem well. 
