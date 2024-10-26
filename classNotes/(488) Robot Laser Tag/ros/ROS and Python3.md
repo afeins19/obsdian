@@ -1,5 +1,4 @@
-so we got a problem. By default, ROS melodic only supports python2.7. If we want to use python 3 with well need to do some additional setup (note that im not sure if this actually works and this isjust bbased on information i gathered online). 
-
+so we got a problem. By default, ROS melodic only supports python2.7. If we want to use python 3 with well need to do some additional setup (note that im not sure if this actually works and this is just based on information i gathered online). 
 ### Possible Solution: Github user 
 - Resource:  https://gist.github.com/azidanit/9950aa5408acdbe25f0ec431654da8d6
 
