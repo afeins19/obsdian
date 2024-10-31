@@ -1,0 +1,7 @@
+# 1. Summarize (10 to 15 sentences) one example of an vision-based application (robotics,  computer vision, medical, etc., but not AI language models) of Deep Learning using CNNS.
+
+Video Resource: https://www.youtube.com/watch?v=tqOAs6WwcSM
+- CommaAI Site: https://comma.ai/openpilot
+- OpenPilot (the actual cv software for controlling cars): https://github.com/commaai/openpilot 
+
+A company called Comma AI has developed a device to augment normal non-self driving cars with some self driving capabilities. The unit claims to perform better than the adaptive cruise control systems that come standard with many of today's cars. It claims that it can brake automatically for other cars, accelerate and steer to follow the road and lane. I believe this is possible for cars with an electronic assist for the steering assembly. Instead of just amplifying the inputs the driver makes on the wheel, the Comma actually sends its own inputs based on what its built-in computer vision system (called Open Pilot) commands. Based on the review video linked above, the reviewer claims that it handles certain situations better than the normal ACC systems that come with standard cars. For example, instead of trying to continuously remain exactly in the center, the OpenPilot system instead drives in a smoother more human way. Some new things that the company is working on handling separation between other vehicles instead of just relying on the cars automatic ability to do so. 
