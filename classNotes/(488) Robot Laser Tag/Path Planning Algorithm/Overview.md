@@ -2,7 +2,6 @@ The robot will be guided by an implementation of the A* algorithm. We need to de
 - what the nodes represent 
 - what the edges represent 
 - some possible heuristic functions 
-
 # Space representation
 to begin, we will define the observable portion of the course by a grid. To make things a bit simpler, we will make the following assumptions
 1. The grid is spaced evenly (each point on the grid is equidistant from its neighboring points) 
