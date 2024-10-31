@@ -23,4 +23,25 @@ Along with this, the heuristic will also take into account the following informa
 - the amount that the our new field of view at this new position will contain parts of the space that we've already seen (to optimize for unexplored paths and to avoid back tracking as much as possible)
 - accuracy of the best sensor being used at the moment 
 
+# Field of View 
+the robot's field of view will be defined (at least in the simplest case) by a set of forward facing sensors that are assumed to be over the same point on the robot. In order for this algorithm to work, we'd need the following 
+- to be able to gauge depth information from some sensor on the robot.
+- boundary walls for the robot to recognize as such 
+- a somewhat reliable sense of where it has traveled to previously 
+
 # Example Scenarios
+
+### Small Step Size 
+in instances where the robot's view is obstructed by many obstacles, we should consider moves that allow the robot to peer around obstacles that may block its path in case the target is potentially there
+![[Pasted image 20241031061732.png]]
+
+this may be calculated by considering the field of view as a whole and dividing into the following parts:
+- those that contain obstacles (the area of which will be defined by bounding boxes to start) 
+- areas which are open space 
+
+One possible approach may be to bias towards smaller step sizes when more of the robot's field of view is obscured (more obstacles are in the FOV)
+# Large Step Size
+
+in instances where the robots FOV is not so obstructed, then it should have as much freedom as possible to bring unexplored portions of the space into its FOV as possible. 
+
+![[Pasted image 20241031062202.png]]
