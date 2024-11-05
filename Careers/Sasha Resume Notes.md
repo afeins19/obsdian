@@ -11,4 +11,5 @@
 # Academic Projects & Research
 highlight **your specific contributions to the project**
 - list subject then tools as you did in summary of qualitifcations 
+- condense all bullet points in this section to a single bullet point
 
