@@ -11,3 +11,12 @@ for websites/companies with large domains (lots of data). A cool commercial serv
 
 # Output to the platform 
 a vector store custom made for them to use 
+
+# Next Steps
+- [ ] Build a document store for data on the PSU website 
+	- [ ] use web querying to collect every psu page that you want 
+	- [ ] setup data structures to organize documents that well be using 
+	- [ ] create your own data preprocessing pipeline 
+		- [ ] remove common words from text (psu, student, etc.) to remove unecessary clutter 
+		- [ ] Analyze some sample pages that passed through your algorithms to make sure that data was collected properly 
+- [ ] potentially use caching to minimize querying the model
