@@ -1,9 +1,10 @@
+**The first 15-20 minutes of your interview are the most important. This time must be filled with intensive and detailed information about yourself**
+
 This is the most important part of the interview. 
 - Up to 4 minutes long 
 - Practice this in its entirety out loud 
 - Enunciate well and speak clearly 
 - If time permits, list your achievements 
-
 #  Introduction
 
 ### List your areas of expertise 
