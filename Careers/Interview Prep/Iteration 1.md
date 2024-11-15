@@ -1,0 +1,7 @@
+"I'm a software developer and data scientist with a strong foundation in full-stack development, database design, and neural networks. Over the years, I've developed scalable, user-centric applications and worked extensively with data analysis, optimization, and automation. My proficiency spans across Python, including Django, PyTorch, and OpenCV, as well as C# for .NET applications, SQL, and various other object-oriented languages.
+
+Recently, during my internship at Universal Health Services, I led the transition of their internal reporting platform to Power BI, which transformed static reports into dynamic, user-defined visualizations and real-time analytics. I also automated critical ETL processes with complex SQL queries and SSIS packages, significantly improving data access and reporting capabilities. Additionally, I created a .NET application that automated personalized mass email notifications, enhancing communication efficiency.
+
+Previously, I interned at PFNonwovens, where I developed dynamic .NET applications to optimize start-up processes for seven nonwoven product assembly lines. I collaborated closely with engineers and operators to ensure these solutions were adaptable and met operational needs, further honing my skills in process optimization and cross-functional teamwork.
+
+Overall, I'm passionate about using data and technology to create impactful solutions and thrive in roles that challenge me to innovate, optimize, and deliver value."

@@ -18,8 +18,14 @@ I have extensive/practical experience in... (tailored this portion to include th
 List what you have done **but leave room for the interviewer to ask you some questions about it**. Basically tease the interviewer with things that they would be interested in learning more about from you. 
 
 - what projects have you worked on at your internships (DO NOT MENTION THAT THEY ARE INTERNSHIPS)
+### List an aggregated summary of projects 
+**in particular, i was involved in...** 
+- just list these projects briefly and well return to them later 
+
 ### Tools
 These should be tailored to the job requirement.
+
+**My major tools are...**
 
 My major tools that I work with:
 - **Python** **&** **Machine Learning Libraries**
@@ -38,5 +44,13 @@ My major tools that I work with:
 	- Mongo 
 	- SQL Server
 	- Stored Procedures
-
-
+### Closing 
+Focus on your most illustrative projects to give a slightly more in depth view of your contributions and work in these projects
+- mention you were the team lead in your capstone project 
+- explain what you did and how you improved and managed the team
+- mention that you were on a team effort as well (FRUGL) and we achieved the following 
+	- list things you did/achieved for this project 
+# Considerations
+- you may be interrupted:
+	- asked for clarification
+	- ask to expand upon what you mention -> must be OK with changing the flow to explain what the interviewer is interested in 
