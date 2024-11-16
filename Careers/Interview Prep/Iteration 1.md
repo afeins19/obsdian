@@ -1,7 +1,26 @@
-"I'm a software developer and data scientist with a strong foundation in full-stack development, database design, and neural networks. Over the years, I've developed scalable, user-centric applications and worked extensively with data analysis, optimization, and automation. My proficiency spans across Python, including Django, PyTorch, and OpenCV, as well as C# for .NET applications, SQL, and various other object-oriented languages.
 
-Recently, during my internship at Universal Health Services, I led the transition of their internal reporting platform to Power BI, which transformed static reports into dynamic, user-defined visualizations and real-time analytics. I also automated critical ETL processes with complex SQL queries and SSIS packages, significantly improving data access and reporting capabilities. Additionally, I created a .NET application that automated personalized mass email notifications, enhancing communication efficiency.
+# Introduction 
+~30 seconds 
 
-Previously, I interned at PFNonwovens, where I developed dynamic .NET applications to optimize start-up processes for seven nonwoven product assembly lines. I collaborated closely with engineers and operators to ensure these solutions were adaptable and met operational needs, further honing my skills in process optimization and cross-functional teamwork.
+I have extensive experience with full stack development, database architecture, and machine learning. In particular, I have extensive experience:
 
-Overall, I'm passionate about using data and technology to create impactful solutions and thrive in roles that challenge me to innovate, optimize, and deliver value."
+- developing applications for both enterprises and consumers using a variety of web, form, and application frameworks. 
+- Designing and optimizing databases with a focus on the ETL process and data integration workflows 
+- Applying machine learning methodologies to solve real-world problems using
+	- neural networks
+	- search algorithms 
+	- Large Language Models (LLMs)
+# Describe areas of Expertise 
+
+### UHS (Most Recent Experience)
+~1 minute, 30 seconds 
+
+I contributed to various impactful projects in my recent roles. For example, during my time at UHS, I led a project to modernize our internal reporting platform. Our old reporting platform was a static pdf based program with minimal user interactivity. I recreated those static reports in PowerBI and, along with the nominal paginated reports, I created highly interactive and flexible data visualization tools that let users' query data for any number of facilities going back any number of report cycles. The visualizations I created made it easy to quickly gather trends and we're designed to look clean and modern for use in presentations. To do this I had to reverse-engineer the reports from the old software internal filtering specification, and write complex SQL stored procedures to process this data automatically at intervals so it would be accessible instantaneously and in its entirety.  
+
+Another area of my responsibility at this role was creating and debugging SSIS packages. Our clients would approach me with project requests and I was responsible for designing and implementing these ETL processes. This was crucial in providing all business metrics to our executives and investors. I also had the opportunity to apply my knowledge of **C#** and the **.NET** framework - which I have been working with since my first programming class and had practical experience developing with it at my experience at **PFNonwovens**,
+
+### PFNonwovens (Oldest Work Experience) 
+~ 1 minute 
+
+PFNonwovens specializes in creating nonwoven materials for use in surgical gowns, diapers, and sanitary pads. The manufacturing process required a careful and methodical startup of machinery through the many product lines and I with a co-developer on creating a program which would monitor the start up process in real time and instruct the operators in each step of the sequence as well as notifying them when parameters were set incorrectly. The programs were designed to be open for future extension and flexible to be quickly encompass new products with different startup and treatment procedures. I also worked on optimizing the programs for **golden runs** using historical sensor data and regression analysis. 
+
