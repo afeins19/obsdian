@@ -22,5 +22,44 @@ Another area of my responsibility at this role was creating and debugging SSIS p
 ### PFNonwovens (Oldest Work Experience) 
 ~ 1 minute 
 
-PFNonwovens specializes in creating nonwoven materials for use in surgical gowns, diapers, and sanitary pads. The manufacturing process required a careful and methodical startup of machinery through the many product lines and I with a co-developer on creating a program which would monitor the start up process in real time and instruct the operators in each step of the sequence as well as notifying them when parameters were set incorrectly. The programs were designed to be open for future extension and flexible to be quickly encompass new products with different startup and treatment procedures. I also worked on optimizing the programs for **golden runs** using historical sensor data and regression analysis. 
+PFNonwovens specializes in creating nonwoven materials for use in surgical gowns, diapers, and sanitary pads. The manufacturing process required a careful and methodical startup of machinery through the many product lines and I with a co-developer on creating a program which would monitor the start up process in real time and instruct the operators in each step of the sequence as well as notifying them when parameters were set incorrectly. The programs were designed to be open for future extension and flexible to be quickly encompass new products with different startup and treatment procedures. I also worked on optimizing the programs for **golden runs** using histo
+rical sensor data and regression analysis. 
+
+# Tools 
+~ 30 seconds 
+
+**My major tools include** 
+
+Python, with a focus on
+- Django
+- Machine Learning Tools:
+	- PyTorch
+	- OpenCV 
+	- Numpy
+	- Scikitlearn 
+	- Seaborn 
+
+Microsoft technologies such as:
+- C#
+- VBA
+- .NET framework
+- Power Platform
+	- Power BI 
+	- Power Automate
+
+with regards to databases, i have worked with:
+- SQL & SQL Server
+- Azure 
+- MongoDB
+- Developing Stored Procedures
+
+# Closing 
+~30 seconds 
+
+I have also amassed experience both as a team member and project leader. 
+
+**For example**
+- I led my school capstone team in developing a fully autonomous robot. I delegated work to my team mates and developed the path planning algorithm the robot used. 
+
+- I also helped develop an android application to help users find cheap and nearby grocery items optimizing for cost and proximity.  
 
