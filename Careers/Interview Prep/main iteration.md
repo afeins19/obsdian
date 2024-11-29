@@ -1,7 +1,7 @@
 # Introduction
 ~30 seconds
 Major areas of expertise include full-stack development, database architecture, and machine learning. This encompasses:
-- Developing enterprise and user applications using a range of web, form, and application frameworks.
+- Developing enterprise and user applications using a range of web, form, and mobile frameworks.
 - Designing and optimizing databases, with a focus on ETL processes and data integration workflows.
 - Applying machine learning techniques to real-world problems, using: 
 	- neural networks
