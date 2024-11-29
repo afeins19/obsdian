@@ -1,7 +1,7 @@
 # Introduction
 ~30 seconds
 Major areas of expertise include full-stack development, database architecture, and machine learning. This encompasses:
-- Developing enterprise and consumer applications using a range of web, form, and application frameworks.
+- Developing enterprise and user applications using a range of web, form, and application frameworks.
 - Designing and optimizing databases, with a focus on ETL processes and data integration workflows.
 - Applying machine learning techniques to real-world problems, using: 
 	- neural networks
@@ -9,14 +9,17 @@ Major areas of expertise include full-stack development, database architecture, 
 	- Large Language Models (LLMs)
 
 ###  Include From Job Description
-- I was very happy to see that your team is using process automation and scripting to perform tasks. This is something i have experience with using (python, bash/zsh, docker, yaml)
+- I was very happy to see that your team is using process automation and scripting to perform tasks. This is something i have experience with using 
+    - (python, bash/zsh, docker, yaml)
 
 # UHS (Most Recent Experience)
 ~1 minute, 30 seconds
+
 ### My experience at UHS
-- great team
-	- learned a lot from them
-	- great work ethic 
+this experience was incredible and I am happy to be interviewing here.
+ - great team (Automation and Integration) 
+	- learned a lot from them (each had their own niche)
+	- colleagues have a great work ethic 
 	- take great care in their work 
 
 During my time at UHS, I led a project to modernize the internal revenue cycle reporting platform to develop interactive PowerBI reports. The reports  flexible data visualization for querying multiple facilities across various reporting cycles. This project involved reverse- engineering legacy reports and creating SQL stored procedures to automate data processing for instant access to all historical data.
