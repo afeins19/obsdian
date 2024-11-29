@@ -22,8 +22,12 @@ this experience was incredible and I am happy to be interviewing here.
 	- colleagues have a great work ethic 
 	- take great care in their work 
 
-During my time at UHS, I led a project to modernize the internal revenue cycle reporting platform to develop interactive PowerBI reports. The reports  flexible data visualization for querying multiple facilities across various reporting cycles. This project involved reverse- engineering legacy reports and creating SQL stored procedures to automate data processing for instant access to all historical data.
+During my time at UHS, I led a project to modernize the internal revenue cycle reporting platform to develop interactive PowerBI reports. The reports gained 
+- flexible data visualization for querying multiple facilities across various reporting cycles. 
+
+This project involved reverse- engineering legacy reports and creating SQL stored procedures to automate data processing for instant access to all historical data.
 Another key responsibility involved creating and debugging SSIS packages to support critical ETL processes, ensuring accurate delivery of business metrics to executives, financial analysts, and investors. Additionally, I utilized C# and the .NET framework to develop tailored client applications. Specifically, creating utility tools designed to streamline specific tasks and improve operational efficiency.
+end users
 
 # PFNonwovens
 ~ 1 minute
