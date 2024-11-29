@@ -9,7 +9,8 @@ Major areas of expertise include full-stack development, database architecture, 
 	- Large Language Models (LLMs)
 
 ###  Include From Job Description
-- I was very happy to see that your team is using process automation and scripting to perform tasks. This is something i have experience with using 
+- I was very happy to see that your team is creating 
+scripts to automate tasks. This is something i have experience with doing 
     - (python, bash/zsh, docker, yaml)
 
 # UHS (Most Recent Experience)
