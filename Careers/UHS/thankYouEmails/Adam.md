@@ -1,11 +1,11 @@
 
 Dear Adam,
 
- I wanted to take a moment to thank you for your time and the opportunity to meet. It was a pleasure to meet you and gain insight into the important work your team is doing at UHS.
+Thank you for taking the time to meet with  me yesterday. It was a pleasure learning more about the various functions your team is responsible for, and I appreciate the opportunity to discuss how my skills and experiences could contribute to your team’s success.
 
-I’m particularly excited about the prospect of contributing my skills in report building, database management, and machine learning to support your team’s mission. I believe that my skills could be useful for extracting data they need and extract meaningful insights to drive informed decisions. 
+I look forward to hearing from you. Please don’t hesitate to reach out if you need any additional information from my side.
 
-Thank you again for considering my application. I look forward to the possibility of joining your team and contributing to its success. Please feel free to reach out if you need any further information.
+I sincerely appreciate your time and consideration.
 
 Warmly,
 
