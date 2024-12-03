@@ -6,7 +6,9 @@ Major areas of expertise include full-stack development, database architecture, 
 - Designing and optimizing databases, with a focus on ETL processes and data integration workflows.
 - Applying data science techniques to real-world problems using: 
 	- neural networks
-	- data aggregation tools 
+	- data aggregation  & analysis tools 
+		- excel
+		- python libraries (pandas, numpy, matplotlib, seaborn) 
 
 ###  Include From Job Description
 - I was also very happy to see that your team is creating scripts for automating processes. This is something i have experience with and I love doing:
@@ -42,32 +44,17 @@ Methodology: Collaborated with domain experts (my boss, process engineers, etc.)
 # Tools
 ~ 30 seconds
 
-My major tools include
-- Python
-	- Django
-	- Machine Learning Tools:
-	- PyTorch 
-	- OpenCV
-	- Numpy 
-	- Scikitlearn 
-	- Seaborn
+### **Tools**
 
-Microsoft technologies such as:
-- C#
-- VBA
-- .NET framework 
-- Visio
-- SSIS
+- Highlight tools directly relevant to the job description.
+- Group tools by job-relevant categories rather than listing everything.
 
-Power Platform
-- Power BI
-- Power Automate
-
-with regards to databases, i have worked with:
-- SQL & SQL Server 
-- Azure
-- MongoDB
-- Developing Stored Procedures
+**Revised Version:**
+My toolkit includes:
+- **Automation and Workflow Tools:** Power Automate, Visio, Python (with libraries like Pandas and Numpy)
+ - **Data Analysis and Reporting:** SQL, Power BI, Excel
+- **Application Development:** C#, .NET Framework, VBA
+- **ETL and Data Integration:** SSIS, SQL Server, Azure
 
 # Closing
 ~30 seconds
@@ -79,4 +66,5 @@ with regards to databases, i have worked with:
 # Questions 
 - What are some tools and platforms that your team uses on a day to day basis? 
 - Can you elaborate a bit on what kind of tasks your team is looking to automate using scripts and what the preferred scripting language is?  
+- What are some challenges you’ve faced integrating processes with external vendors, and how has your team approached solving them?
 
