@@ -1,4 +1,4 @@
-In this lab, the goal was to implement a color tracking algorithm to distinguish between red and non red objects on the screen. The alogrithm will place a centroid in each red object the screen as well as a bounding box around the object 
+In this lab, the goal was to implement a color tracking algorithm to distinguish between red and non red objects on the screen. The algorithm will place a centroid in each red object the screen as well as a bounding box around the object 
 
 # Algorithm 
 the algorithm works in the following way: first we separate the image into color intensity matrices for each pixel value color. This lets us compare color intensities for each pixel color (Red, Green, Blue) for each pixel in the original image. We then apply the following heuristic:  
@@ -63,35 +63,52 @@ end
 
 
 # Results
-stats = 2×1 struct
 
-|Fields|Centroid|BoundingBox|
-|---|---|---|
-|1|[121.6175,295.6192]|[56.5000,229.5000,133,134]|
-|2|[452.1122,450.3538]|[367.5000,365.5000,174,177]|
+### Initial Testing for Recognition of Red Objects
 
-![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020320.png)
+![[Pasted image 20241206091610.png]]
 
-stats = 9×1 struct
 
-|Fields|Centroid|BoundingBox|
-|---|---|---|
-|1|[38.0948,5.2599]|[0.5000,0.5000,103,14]|
-|2|[3.0913,640.0782]|[0.5000,412.5000,10,385]|
-|3|[87.7016,423.3643]|[15.5000,360.5000,147,136]|
-|4|[109.6354,479.5635]|[101.5000,472.5000,16,15]|
-|5|[128.5962,2.6442]|[116.5000,0.5000,31,5]|
-|6|[291.8070,393.8673]|[179.5000,0.5000,264,797]|
-|7|[590.3688,280.6616]|[490.5000,233.5000,202,93]|
-|8|[621.8158,199.2632]|[615.5000,195.5000,11,7]|
-|9|[766.9234,455.8050]|[738.5000,354.5000,53,189]|
+![[Pasted image 20241206092413.png]]
 
-![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020361.png)
+### Testing with Blue Object in frame 
+```stats = struct with fields:
+       Centroid: [1.2762e+03 227.7381]
+    BoundingBox: [1.1755e+03 103.5000 201 253]
+```
+![[Pasted image 20241206091754.png]]
 
-stats = struct with fields:
+![[Pasted image 20241206093011.png]]
+
+### Max Size Red Object Identification
+`stats = 3×1 struct`
+
+| Fields | Centroid              | BoundingBox                   |
+| ------ | --------------------- | ----------------------------- |
+| 1      | [637.7427,261.0458]   | [498.5000,94.5000,262,316]    |
+| 2      | [895.3445,940.8040]   | [846.5000,812.5000,82,238]    |
+| 3      | [1.0668e+03,312.3210] | [1.0145e+03,237.5000,111,126] |
+![[Pasted image 20241206091117.png]]
+
+`stats = 4×1 struct`
+
+| Fields | Centroid              | BoundingBox                   |
+| ------ | --------------------- | ----------------------------- |
+| 1      | [956.2740,228.5847]   | [776.5000,7.5000,369,439]     |
+| 2      | [1.2713e+03,638.5724] | [1.1815e+03,542.5000,184,186] |
+| 3      | [1.2836e+03,48.7600]  | [1.2025e+03,1.5000,175,91]    |
+| 4      | [1.4014e+03,191.1850] | [1.3555e+03,104.5000,91,174]  |
+![[Pasted image 20241206091322.png]]
+```stats = struct with fields:
        Centroid: [203.3797 193.3496]
     BoundingBox: [138.5000 119.5000 136 146]
+```
 
-![](file:////tmp/ConnectorClipboard3168028562240341022/image17287741020372.png)
+### Unsuccessful or Faulty Recognition 
+![](file:////tmp/ConnectorClipboard973424819504329071/image17334952236310.png)
+*improper bounding boxes*
+
+![[Pasted image 20241206092817.png]]
+*no red objects detected*
 # Conclusion 
 This lab was a good first introduction into color recognition but the task gets a bit more difficult when we have images with both large and small red objects. By setting a static structuring element size, we may be overlooking or under filtering red objects. Also, as is clear from the `book.png` photo, its interesting to note that the bounding box combined adjacent red portions of the image (in the Japanese text) with the red book. I played with the `strel` size and got varying results to bound the red images .
