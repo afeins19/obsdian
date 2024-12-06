@@ -7,6 +7,7 @@ For a initial implementation our model should be able to answer the following qu
 - "I am majoring in supply chain, I am in my sophomore year and I have taken <course_1, course_2,...,course_n>. What are courses I should take next semester?"
 
 - "What are the basic pre-requisite courses required to take a 400-level class in supply chain?"
+	- *answering questions like this will just require traversing a graph database (tree) and collecting all pre-reqs (Neo4j is a langchain integrated db)*. For now, stick to the initial version and apply this only if the current approach doesnt work. 
 
 - "What classes will set me up for the current supply chain market given industry trends?"
 
