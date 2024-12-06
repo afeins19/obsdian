@@ -18,4 +18,3 @@ $$\delta^{(l)} = \left( W^{(l+1)} \right)^T \delta^{(l+1)} \cdot \sigma'(z^{(l)}
 $$\frac{\partial L}{\partial W^{(l)}} = \delta^{(l)} \cdot \left( a^{(l-1)} \right)^T$$
 
 
-# 
