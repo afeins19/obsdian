@@ -46,6 +46,13 @@ Microsoft technologies such as:
 	- Power BI 
 	- Power Automate
 
+Front End:
+- HTML
+- CSS
+- Javascript
+  - Node.js
+  - React.js 
+
 with regards to databases, i have worked with:
 - SQL & SQL Server
 - Azure 
