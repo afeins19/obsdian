@@ -3,7 +3,7 @@
 
 I have extensive experience with both front-end and backend development, database architecture, and machine learning. In particular, I have extensive experience:
 
-- developing applications for both enterprises and consumers using a variety of web, form, and application frameworks. 
+- developing applications for both enterprises and consumers using a variety of web, desktop, and mobile frameworks. 
 - Designing and optimizing databases with a focus on the ETL process and data integration workflows 
 - Applying machine learning methodologies to solve real-world problems using
 	- neural networks
