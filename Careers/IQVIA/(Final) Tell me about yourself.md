@@ -22,7 +22,8 @@ Another responsibility was creating and debugging SSIS packages to support ETL p
 
  I collaborated with a team of engineers to develop a Visual Basic program that implemented their process optimizations for assembly line startups. 
 
-From reading over the job description, **I was very glad to see that your firm values modern tools** I use on a regular basis...
+From reading over the job description, **I was very glad to see that your firm values modern tools** I use on a regular basis. I have experience with.
+
 
 Microsoft Tools such as:
 - **C#** 
@@ -40,12 +41,13 @@ Front-End Tools:
 - some experience with **Javascript** (with frameworks such as...)
 	- Webgl (a graphics library)
 
-
 with regards to databases tools, i have worked with:
 - **SQL & SQL Server**
 
 # Additional 
-- Java (and some other object oriented programming languages)
+- Other Object Oriented Languages such as:
+	- Java
+	- Kotlin
 - Azure Certified - Azure Fundementals 
 
 # Conclusion
