@@ -8,7 +8,7 @@
 
 ### Current State of  Project Description 
 ![[Pasted image 20240908213353.png]]
-# Notes
+![[Pasted image 20240908213353.png]]# Notes
 
 ### Battlefield 
 - Course will have a **Central Lidar Tower**
