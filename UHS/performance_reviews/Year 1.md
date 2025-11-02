@@ -29,7 +29,7 @@ with the workflow that i developed here, i have built up a solid base of utility
 
 ### CBO Productivity & Quality Dashboard
 Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics
-- **Time to run report**: 10-15 minutes for manually processing excel file + 1 minute to run automated report
+- **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report
 - **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
 - **Notable Features**:
 	- productivity trending over time for teams and pools
