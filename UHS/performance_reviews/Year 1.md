@@ -9,14 +9,20 @@
 Successfully automated the following reports. These run without any (or with minimal) human intervention:
 
 ### FWIP Dashboard
-Project lead on this dashboard. Fully automated report used by C-Suite management, executives, and CBO managers.  Shows statistics as well as raw data about how the billing teams are working through their pools of accounts that are past follow up date
+My Role: Lead Developer
+
+The FWIP dashboard was the first fully automated report in our department, setting a new standard for how operational data is delivered to leadership. It eliminated the need for manual compilation of follow-up metrics and replaced static Excel reporting with a dynamic, self-updating analytics tool. This initiative not only streamlined access to key performance data but also demonstrated the feasibility and value of full data pipeline automation within our team. Additionally, this dashboard allows us to have a more frequent reporting cadence in the future if we wish.
+
 - **Total Time to Run Report**: 10 minutes 
-- **Time savings**: unknown as this report was built from the ground up to be automated but would likely take 1-2 hours to manually report out all of the metrics captured
+
 - **Notable Features**:
-	- intuitive graphics that allow users to quickly understand team performance
-	- ability to quickly drill into specific accounts that should be prioritized
+	- **Organizational Impact:** Provided C-Suite executives, CBO managers, and team leads with daily, automated visibility into account follow-up activity
+	- **Technical Achievement**: Designed and implemented a fully automated data pipeline using Python and SQL, handling data ingestion, cleaning, transformation, and visualization end-to-end
+	- **Proof of Concept**: Our deparment's first foray into automation, which has since served as the model for many downstream reporting initiatives
 
 ### CBO Productivity & Quality Dashboard
+Role: Lead Developer
+
 Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics
 - **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report
 - **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
@@ -26,6 +32,7 @@ Automated roughly 90% of the data for this dashboard. Tracks and calculates the 
 	- displays time partitions of employee off time 
 	- shows time adjustments per team as a percentage of total time 
 ### Patient Access Processing and Dashboard (Experian)
+Role: Lead Developer
 Automated the ingestion and processing of an excel file pulled from Experian. Uses python to process and generate calculated columns as well as summary views on ingested data. Automatically commits data to our reporting database
 
 ### Report Users
