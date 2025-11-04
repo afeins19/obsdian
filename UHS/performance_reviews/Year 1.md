@@ -1,3 +1,7 @@
+# Structure
+1. name and goal of project (my role in this project: tech lead, manager, etc.)
+2. what did this project achieve (time savings, new features, etc.)
+3. End users of this project
 
 # Portfolio of accomplishments 
 
@@ -5,16 +9,27 @@
 Successfully automated the following reports. These run without any (or with minimal) human intervention:
 
 ### FWIP Dashboard
-fully automated report that shows statistics as well as raw data about how the billing teams are working through their pools of accounts that are past follow up date
-- **Total Time to Run Report**: 10 minutes
+Project lead on this dashboard. Fully automated report used by C-Suite management, executives, and CBO managers.  Shows statistics as well as raw data about how the billing teams are working through their pools of accounts that are past follow up date
+- **Total Time to Run Report**: 10 minutes 
 - **Time savings**: unknown as this report was built from the ground up to be automated but would likely take 1-2 hours to manually report out all of the metrics captured
 - **Notable Features**:
-	- used by C-Suite management, executives, and CBO managers
 	- intuitive graphics that allow users to quickly understand team performance
 	- ability to quickly drill into specific accounts that should be prioritized
 
+### CBO Productivity & Quality Dashboard
+Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics
+- **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report
+- **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
+- **Notable Features**:
+	- productivity trending over time for teams and pools
+	- automatically pulls the 2 most recent QR scores for each employee
+	- displays time partitions of employee off time 
+	- shows time adjustments per team as a percentage of total time 
 ### Patient Access Processing and Dashboard (Experian)
 Automated the ingestion and processing of an excel file pulled from Experian. Uses python to process and generate calculated columns as well as summary views on ingested data. Automatically commits data to our reporting database
+
+### Report Users
+- Patient Access Team
 
 #### Fully Automated the following Metrics
 - Pre service collections
@@ -27,15 +42,7 @@ Automated the ingestion and processing of an excel file pulled from Experian. Us
 ### Futher Improvements
 with the workflow that i developed here, i have built up a solid base of utility functions for processing data out of healthe and experian. this will speed up the process of creating more report automations like this in the future
 
-### CBO Productivity & Quality Dashboard
-Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics
-- **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report
-- **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
-- **Notable Features**:
-	- productivity trending over time for teams and pools
-	- automatically pulls the 2 most recent QR scores for each employee
-	- displays time partitions of employee off time 
-	- shows time adjustments per team as a percentage of total time 
+
 	
 
 ### Rep Code Dashboard
@@ -78,6 +85,9 @@ our current reporting workflow is inefficient and relies on excel sheets, variou
 ### Manual Data Entry Reporting Platform 
 (tentative name RADAR) - Revenue-cycle Analytics Data-entry And Reporting platform 
 - custom made website for creating manual report entry sachems and managing user permissions to edit reports.
+
+# Goals
+- I want to learn deeper about our business so i can better forsee and tailor the reports for our end users to make them more productive
 
 
 
