@@ -23,8 +23,8 @@ The FWIP dashboard was the first fully automated report in our department, setti
 ### CBO Productivity & Quality Dashboard
 Role: Lead Developer
 
-Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics
-- **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report
+Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics. Will look to fully automate in the future allowing us to potentially refresh the data on a daily cadence. 
+- **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report 
 - **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
 - **Notable Features**:
 	- productivity trending over time for teams and pools
@@ -69,6 +69,13 @@ Fully automated report on AR and credits data specifically for the Manatee diagn
 **Time to run**: 0  minutes (fully automated)
 **Noteable Features**:
 - Utilized by the department director himself
+
+### Other Dashboard Projects/Enhancements
+- Initial Denials
+- Final denials
+- Insurance Resequencing Dashboard
+- Credits Dashboard
+- CBO Dashboard
 
 # Current Initiatives
 
