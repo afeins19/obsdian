@@ -8,4 +8,6 @@ across our report output, data reliability, and development consistency. This mo
 adhoc requests to be adressed much quicker through reusable models and data marts. Additionally, 
 we this approach will enable our reports to self-audit and proactively identify anomolies and alert us. 
 
-### 
+Beyond improving our output quality, this initiative will transition our department from manual reporting
+to a fully automated analytics framework. This will free our analysts to focus on interpretation, 
+finding insights, and stretegic decision making rather than dashboard upkeep
