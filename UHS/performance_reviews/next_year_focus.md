@@ -11,3 +11,4 @@ this approach will enable our reports to self-audit and proactively identify ano
 Beyond improving our output quality, this initiative will shift our department from manual reporting
 to a fully automated and sustainable analytics framework. This will free our analysts to focus on interpretation, 
 finding insights, and stretegic decision making rather than maintaining dashboards.
+
