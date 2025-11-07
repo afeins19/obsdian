@@ -1,8 +1,3 @@
-# Structure
-1. name and goal of project (my role in this project: tech lead, manager, etc.)
-2. what did this project achieve (time savings, new features, etc.)
-3. End users of this project
-
 # Portfolio of accomplishments 
 
 ## Dashboard/Report Automation
@@ -23,20 +18,25 @@ The FWIP dashboard was the first fully automated report in our department, setti
 ### CBO Productivity & Quality Dashboard
 Role: Lead Developer
 
-Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics. Will look to fully automate in the future allowing us to potentially refresh the data on a daily cadence. 
+Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics. 
+Will look to fully automate in the future allowing us to potentially refresh the data on a daily cadence. 
 - **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report 
 - **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
 - **Notable Features**:
 	- productivity trending over time for teams and pools
 	- automatically pulls the 2 most recent QR scores for each employee
 	- displays time partitions of employee off time 
-	- shows time adjustments per team as a percentage of total time 
+	- shows time adjustments per team as a percentage of total time
+ 
 ### Patient Access Processing and Dashboard (Experian)
 Role: Lead Developer
-Automated the ingestion and processing of an excel file pulled from Experian. Uses python to process and generate calculated columns as well as summary views on ingested data. Automatically commits data to our reporting database
+Automated the ingestion and processing of an excel file pulled from Experian. 
+Uses python to process and generate calculated columns as well as summary views on ingested data. Automatically commits data to our reporting database
 
 ### Report Users
 - Patient Access Team
+- Management
+- Facility CFOs
 
 #### Fully Automated the following Metrics
 - Pre service collections
@@ -47,17 +47,16 @@ Automated the ingestion and processing of an excel file pulled from Experian. Us
 - **Time Savings**: roughly 2-3 hours 
 
 ### Futher Improvements
-with the workflow that i developed here, i have built up a solid base of utility functions for processing data out of healthe and experian. this will speed up the process of creating more report automations like this in the future
-
+With the workflow that i developed here, i have built up a solid base of utility functions for processing data out of healthe and experian. 
+This will speed up the process of creating more report automations like this in the future
 
 	
-
 ### Rep Code Dashboard
 Fully automated the trending of data on the performance of our 3rd party vendors in handling claims.
 - **Time Savings**: query takes 35-45 minutes to run manually and compile into excel 
 
 ### Unposted Cash Report
-fully automated report that displays daily data about aggregated cash that has not been posted to an account yet. 
+A fully automated report that displays daily data about aggregated cash that has not been posted to an account yet. 
 - **Time to Run Report**:  0 minutes
 - **Notable Features**: 
 	- automatically generates a PDF report for emailing 
@@ -68,7 +67,7 @@ fully automated report that displays daily data about aggregated cash that has n
 Fully automated report on AR and credits data specifically for the Manatee diagnostic center.
 **Time to run**: 0  minutes (fully automated)
 **Noteable Features**:
-- Utilized by the department director himself
+- Utilized by Mark Cannon 
 
 ### Other Dashboard Projects/Enhancements
 - Initial Denials
@@ -98,10 +97,13 @@ our current reporting workflow is inefficient and relies on excel sheets, variou
 
 ### Manual Data Entry Reporting Platform 
 (tentative name RADAR) - Revenue-cycle Analytics Data-entry And Reporting platform 
+This will automate the collection of data for reports that require any form of manual entry from our end users 
+such as the CBO Productivity Report and the FWIP report. Users of this site will be able to directly edit/create
+entries or modify existing and historic entries. Once a change has been made, it may automatically trigger
+a refresh with no manual intervention required.
 - custom made website for creating manual report entry sachems and managing user permissions to edit reports.
+- ChatGPT made a sick logo for it
 
-# Goals
-- I want to learn deeper about our business so i can better forsee and tailor the reports for our end users to make them more productive
 
 
 
