@@ -1,9 +1,6 @@
-# Portfolio of accomplishments 
+# Accomplishments 
 
-## Dashboard/Report Automation
-Successfully automated the following reports. These run without any (or with minimal) human intervention:
-
-### FWIP Dashboard
+## FWIP Dashboard
 My Role: Lead Developer
 
 The FWIP dashboard was the first fully automated report in our department, setting a new standard for how operational data is delivered to leadership. It eliminated the need for manual compilation of follow-up metrics and replaced static Excel reporting with a dynamic, self-updating analytics tool. This initiative not only streamlined access to key performance data but also demonstrated the feasibility and value of full data pipeline automation within our team. Additionally, this dashboard allows us to have a more frequent reporting cadence in the future if we wish.
@@ -15,7 +12,7 @@ The FWIP dashboard was the first fully automated report in our department, setti
 	- **Technical Achievement**: Designed and implemented a fully automated data pipeline using Python and SQL, handling data ingestion, cleaning, transformation, and visualization end-to-end
 	- **Proof of Concept**: Our deparment's first foray into automation, which has since served as the model for many downstream reporting initiatives
 
-### CBO Productivity & Quality Dashboard
+## CBO Productivity & Quality Dashboard
 Role: Lead Developer
 
 Automated roughly 90% of the data for this dashboard. Tracks and calculates the productivity and quality scores for CBO employees and displays aggregate statistics. 
@@ -28,10 +25,12 @@ Will look to fully automate in the future allowing us to potentially refresh the
 	- displays time partitions of employee off time 
 	- shows time adjustments per team as a percentage of total time
  
-### Patient Access Processing and Dashboard (Experian)
+## Patient Access Processing and Dashboard (Experian)
 Role: Lead Developer
-Automated the ingestion and processing of an excel file pulled from Experian. 
-Uses python to process and generate calculated columns as well as summary views on ingested data. Automatically commits data to our reporting database
+I developed a custom Python-based solution to automate the ingestion and processing of Excel files pulled from Experian, 
+eliminating the need for third-party data loading services and saving the company approximately $80,000 annually. 
+The system includes modular, extensible code that simplifies future expansion to additional metrics. 
+It processes raw Excel data, generates calculated columns and summary views, and automatically commits the results to our reporting database
 
 ### Report Users
 - Patient Access Team
@@ -50,12 +49,13 @@ Uses python to process and generate calculated columns as well as summary views 
 With the workflow that i developed here, i have built up a solid base of utility functions for processing data out of healthe and experian. 
 This will speed up the process of creating more report automations like this in the future
 
-	
-### Rep Code Dashboard
+## Additional Dashboards
+
+## Rep Code Dashboard
 Fully automated the trending of data on the performance of our 3rd party vendors in handling claims.
 - **Time Savings**: query takes 35-45 minutes to run manually and compile into excel 
 
-### Unposted Cash Report
+## Unposted Cash Report
 A fully automated report that displays daily data about aggregated cash that has not been posted to an account yet. 
 - **Time to Run Report**:  0 minutes
 - **Notable Features**: 
@@ -63,22 +63,27 @@ A fully automated report that displays daily data about aggregated cash that has
 	- displays daily data as opposed to weekly (previous)
 	- Displays a trend over time of the signposted cash 
 
-### MDC Report
-Fully automated report on AR and credits data specifically for the Manatee diagnostic center.
-**Time to run**: 0  minutes (fully automated)
-**Noteable Features**:
-- Utilized by Mark Cannon 
+## MDC Report
+Fully automated report that shows detailed trends on weekly and monthly AR data for the Manatee Diagnostic Center. 
 
-### Other Dashboard Projects/Enhancements
+**Time to run**: 1 minute (automated) 
+**Noteable Features**:
+- Utilized by Mark Cannon
+- context aware graphs 
+
+## Other Projects, Enhancements, and Tasks
+- Daily Cash Report (QA and Analysis)
+- Quick Adhoc Reporting in SQL
 - Initial Denials
 - Final denials
 - Insurance Resequencing Dashboard
 - Credits Dashboard
 - CBO Dashboard
+- CFO Dashboard
 
 # Current Initiatives
 
-### RCM Data Architecture Initiative
+## RCM Data Architecture Initiative
 working to apply modern db/software engineering practices to create a platform for building our data pipelines. This includes 
 - Integrating modern tools such as
 	- Airflow
@@ -95,7 +100,7 @@ our current reporting workflow is inefficient and relies on excel sheets, variou
 - Be able to back-fill and change report granularity with ease
 - join reports that populate at different time frames/cadences
 
-### Manual Data Entry Reporting Platform 
+## Manual Data Entry Reporting Platform 
 (tentative name RADAR) - Revenue-cycle Analytics Data-entry And Reporting platform 
 This will automate the collection of data for reports that require any form of manual entry from our end users 
 such as the CBO Productivity Report and the FWIP report. Users of this site will be able to directly edit/create
