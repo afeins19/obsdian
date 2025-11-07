@@ -8,6 +8,9 @@ With an increased knowledge base, I will be able to better triage new requests a
 pushback when a request may not align with our priorities.
 
 ### Expanding QA Practices
+I plan to apply more rigorous testing to new report requests and fixes, recognizing that our work directly impacts end users. 
+I will always set aside time to thoroughly review reports from the user’s perspective putting them into production.
+
 In addition to the improvements in consistency and accuracy gained through automation, I plan to further strengthen the reliability of our data pipelines by incorporating modern testing frameworks and tooling. 
 By explicitly defining test cases for our pipelines, we’ll be able to identify potential issues earlier in the development cycle—before deployment. 
 This will lead to more dependable data outputs and reduce the number of iterations required to deliver final products.
