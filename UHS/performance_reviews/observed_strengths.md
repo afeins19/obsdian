@@ -1,4 +1,4 @@
-# Observed Strenghts
+# Observed Strengths
 
 ### System Design
 I’ve developed a strong capability for designing efficient, scalable systems that reduce development time and enable future automation of key metrics.
@@ -11,8 +11,8 @@ continuously incorporating state-of-the-art frameworks, tools, and methodologies
 ### Business-Technical Bridge
 I effectively and quicklky translate business requirements into clear and actionable technical specifications.
 I work closely with end users and leadership to ensure our reports are intuitive, relevant, and effectively communicate the story behind the data. 
-I proactively engage with users to resolve issues and implement new features, 
-enabling our reporting tools to evolve in step with the department’s changing needs.
+In addition, I proactively engage with users to resolve issues and implement new features, 
+enabling our reporting tools to evolve in step with the department’s needs.
 
 
 ### Project Ownership
