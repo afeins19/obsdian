@@ -20,10 +20,10 @@ Will look to fully automate in the future allowing us to potentially refresh the
 - **Time to run report**: 10-15 it minutes for manually processing excel file + 1 minute to run automated report 
 - **Time Savings**: automated dashboard displays many different kinds of metrics based on collected data from CBO managers. Estimated time savings ~1-2 hours
 - **Notable Features**:
-	- productivity trending over time for teams and pools
-	- automatically pulls the 2 most recent QR scores for each employee
-	- displays time partitions of employee off time 
-	- shows time adjustments per team as a percentage of total time
+	- Productivity trends over time for teams and pools
+	- auto-pulls the 2 most recent QR scores for each employee
+	- Dispalys time partitions of employee off time 
+	- Shhow time adjustments per team as a percentage of total time
  
 ## Patient Access Processing and Dashboard (Experian)
 Role: Lead Developer
@@ -37,7 +37,7 @@ It processes raw Excel data, generates calculated columns and summary views, and
 - Management
 - Facility CFOs
 
-#### Fully Automated the following Metrics
+### Fully Automated the following Metrics
 - Pre service collections
 - Date of Service Collections
 - Total PAS Collections
@@ -69,7 +69,7 @@ Fully automated report that shows detailed trends on weekly and monthly AR data 
 **Time to run**: 1 minute (automated) 
 **Noteable Features**:
 - Utilized by Mark Cannon
-- context aware graphs 
+- Features detailed AR Breakdowns over financial classes, payers, and time spans 
 
 ## Other Projects, Enhancements, and Tasks
 - Daily Cash Report (QA and Analysis)
@@ -101,6 +101,8 @@ our current reporting workflow is inefficient and relies on excel sheets, variou
 - join reports that populate at different time frames/cadences
 
 ## Manual Data Entry Reporting Platform 
+
+### Purpose
 (tentative name RADAR) - Revenue-cycle Analytics Data-entry And Reporting platform 
 This will automate the collection of data for reports that require any form of manual entry from our end users 
 such as the CBO Productivity Report and the FWIP report. Users of this site will be able to directly edit/create
