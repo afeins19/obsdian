@@ -16,6 +16,6 @@ For the front end, I plan to apply more rigorous testing to new report requests 
 I will always set aside time to thoroughly review reports from the user’s perspective putting them into production.
 
 ### Strategic Prioritization 
-I’m focused on setting clear weekly priorities and regularly evaluating progress to stay on track and improve delivery timelines. 
+I will continue to set clear weekly priorities and regularly evaluate my progress to stay on track and improve delivery timelines. 
 While I remain flexible to handle urgent or high-impact requests, I’m committed to maintaining momentum on existing projects. 
 This balance between adaptability and structured planning helps reduce context-switching, improve consistency, and ensure alignment with team goals and long-term value.
