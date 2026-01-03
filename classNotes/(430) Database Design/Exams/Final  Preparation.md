@@ -1,2 +1,0 @@
-- ER Diagrams from descriptions
-- normalize unnormalized tablles 

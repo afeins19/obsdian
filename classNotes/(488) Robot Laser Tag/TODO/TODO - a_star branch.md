@@ -1,2 +1,0 @@
-- [x] add metrics to a_star function to see how much new space is discovered as the robot moves over each cell
-- [ ] plot and visualize all visible cells as the robot traverses the course and calculate end of path traversal statistics 

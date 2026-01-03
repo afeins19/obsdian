@@ -1,3 +1,0 @@
-- `rosnode list` - list all currently running nodes 
-- `rosnode info node_name` - display info about a node
-- `rodnode ping` - ping node to check if alive 

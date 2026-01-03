@@ -1,4 +1,0 @@
-- [ ] Modularize the Kinect get frame code so we can import it into the april tag detector 
-- [ ] Test april tag detection 
-- [ ] Test april tag orientation direction 
-	- [ ] do we need to calibrate the camera?

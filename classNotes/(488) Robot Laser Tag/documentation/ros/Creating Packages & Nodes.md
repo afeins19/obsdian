@@ -1,1 +1,0 @@
-under the hood, the ROS communication framework consists of multiple executables called nodes that are running in an environment and communicating with each other. We can create a package that contains these nodes  
