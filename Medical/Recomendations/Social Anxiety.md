@@ -1,2 +1,0 @@
-- [ ] Antony & Swinston 
-- [ ] Heinberg & Hobe 
